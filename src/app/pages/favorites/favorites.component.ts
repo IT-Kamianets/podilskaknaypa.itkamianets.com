@@ -3,19 +3,33 @@ import { FavoritesService } from '../../feature/menu/favorites.service';
 import { MenuGroup, MenuItem, MenuSection, menuGroups } from '../../feature/menu/menu.data';
 
 @Component({
-	templateUrl: './landing.component.html',
-	styleUrl: './landing.component.scss',
+	templateUrl: './favorites.component.html',
+	styleUrl: './favorites.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class LandingComponent {
+export class FavoritesComponent {
 	private readonly _favoritesService = inject(FavoritesService);
 
-	protected readonly groups = menuGroups;
 	protected readonly selectedGroupId = signal(menuGroups[0]?.id ?? '');
+	protected readonly groups = computed(() =>
+		menuGroups
+			.map((group) => ({
+				...group,
+				sections: group.sections
+					.map((section) => ({
+						...section,
+						items: section.items.filter((item) => this.isFavorite(item.id)),
+					}))
+					.filter((section) => section.items.length > 0),
+			}))
+			.filter((group) => group.sections.length > 0),
+	);
 	protected readonly activeGroup = computed(
-		() => this.groups.find((group) => group.id === this.selectedGroupId()) ?? this.groups[0],
+		() =>
+			this.groups().find((group) => group.id === this.selectedGroupId()) ?? this.groups()[0] ?? null,
 	);
 	protected readonly activeSections = computed(() => this.activeGroup()?.sections ?? []);
+	protected readonly hasFavorites = computed(() => this.groups().length > 0);
 
 	protected setGroup(groupId: string) {
 		this.selectedGroupId.set(groupId);

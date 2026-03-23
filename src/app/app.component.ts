@@ -52,7 +52,7 @@ export class App {
 		{ label: 'Nav', icon: 'navigation', route: '/navigation', exact: true },
 		{ label: 'Quests', icon: 'groups', route: '/quests', exact: true },
 		{ label: 'Socials', icon: 'share', route: '/socials', exact: true },
-		{ label: 'Favorite', icon: 'favorite' },
+		{ label: 'Favorite', icon: 'favorite', route: '/favorites', exact: true },
 		{ label: 'Menu', icon: 'restaurant_menu', route: '/', exact: true },
 	];
 }
