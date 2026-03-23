@@ -3,3 +3,11 @@
 	background: var(--c-bg-primary);
 	color: var(--c-text-primary);
 }
+
+.no-scrollbar {
+	scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+	display: none;
+}
