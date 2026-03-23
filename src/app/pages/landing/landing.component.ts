@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, signal } from '@angular/core';
 import menuData from '../../../data/menu.json';
 
 interface RawMenuItem {
@@ -32,7 +32,13 @@ interface MenuSection {
 	items: MenuItem[];
 }
 
-const MENU_SECTIONS = (menuData as RawMenuSection[]).map((section) => ({
+interface MenuGroup {
+	id: string;
+	name: string;
+	sections: MenuSection[];
+}
+
+const MENU_SECTIONS: MenuSection[] = (menuData as RawMenuSection[]).map((section) => ({
 	id: createId(section.name),
 	name: section.name,
 	description: cleanText(section.description),
@@ -40,30 +46,26 @@ const MENU_SECTIONS = (menuData as RawMenuSection[]).map((section) => ({
 		...item,
 		id: `${createId(section.name)}-${createId(item.url)}`,
 		description: cleanText(item.description),
-		displayPrice: item.price === null ? 'Ціну уточнюйте' : `${item.price} грн`,
+		displayPrice: item.price === null ? 'Ціну уточнюйте' : `${item.price} ₴`,
 	})),
 }));
 
-const MENU_ITEMS = MENU_SECTIONS.flatMap((section) =>
-	section.items.map((item) => ({
-		...item,
-		sectionName: section.name,
-		sectionId: section.id,
-	})),
-);
-
-const FEATURED_ITEMS = [...MENU_ITEMS]
-	.filter((item) => !item.soldOut)
-	.sort((left, right) => right.likes - left.likes)
-	.slice(0, 6);
-
-const MENU_STATS = [
-	{ value: `${MENU_SECTIONS.length}`, label: 'категорій' },
-	{ value: `${MENU_ITEMS.length}`, label: 'позиція в меню' },
-	{
-		value: `${Math.round(MENU_ITEMS.filter((item) => !item.soldOut).length / MENU_SECTIONS.length)}`,
-		label: 'страв у середньому на розділ',
-	},
+const MENU_GROUPS: MenuGroup[] = [
+	createGroup('Закуски', [
+		'До нашого пінного',
+		'Холодні закуски',
+		'Салати',
+		'Гарячі закуски',
+	]),
+	createGroup('Основне', [
+		'Супи',
+		'Основні страви',
+		'Тісто',
+		'Бургери',
+		'Піч',
+		'Гарніри',
+	]),
+	createGroup('Солодке', ['Десерти', 'Хліб усьому голова']),
 ];
 
 @Component({
@@ -72,9 +74,20 @@ const MENU_STATS = [
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LandingComponent {
-	protected readonly sections = MENU_SECTIONS;
-	protected readonly featuredItems = FEATURED_ITEMS;
-	protected readonly stats = MENU_STATS;
+	protected readonly groups = MENU_GROUPS;
+	protected readonly selectedGroupId = signal(MENU_GROUPS[0]?.id ?? '');
+	protected readonly activeGroup = computed(
+		() => this.groups.find((group) => group.id === this.selectedGroupId()) ?? this.groups[0],
+	);
+	protected readonly activeSections = computed(() => this.activeGroup()?.sections ?? []);
+
+	protected setGroup(groupId: string) {
+		this.selectedGroupId.set(groupId);
+	}
+
+	protected trackByGroup(_: number, group: MenuGroup) {
+		return group.id;
+	}
 
 	protected trackBySection(_: number, section: MenuSection) {
 		return section.id;
@@ -104,4 +117,14 @@ function createId(value: string) {
 		.replace(/[\u0300-\u036f]/g, '')
 		.replace(/[^a-zа-яіїєґ0-9]+/gi, '-')
 		.replace(/^-+|-+$/g, '');
+}
+
+function createGroup(name: string, sectionNames: string[]) {
+	return {
+		id: createId(name),
+		name,
+		sections: sectionNames
+			.map((sectionName) => MENU_SECTIONS.find((section) => section.name === sectionName))
+			.filter((section): section is MenuSection => Boolean(section)),
+	};
 }
