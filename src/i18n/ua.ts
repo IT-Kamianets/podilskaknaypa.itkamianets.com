@@ -31,6 +31,17 @@ export const ua = {
 	'The gallery is currently empty': 'Галерея зараз порожня',
 	'Check back later to see photos from Podilska Knaipa.':
 		'Завітайте пізніше, щоб побачити фото з Подільської Кнайпи.',
+	Navigation: 'Навігація',
+	'Quick links': 'Швидкі посилання',
+	'Open the main sections of the website from one place.':
+		'Відкрийте основні розділи сайту з одного місця.',
+	Sales: 'Акції',
+	Articles: 'Статті',
+	Reviews: 'Відгуки',
+	Events: 'Події',
+	Jobs: 'Вакансії',
+	'This page is currently empty': 'Ця сторінка наразі порожня',
+	'Check back later for updates.': 'Завітайте пізніше, щоб побачити оновлення.',
 } as const;
 
 export type UkrainianTranslationKey = keyof typeof ua;

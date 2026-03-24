@@ -30,6 +30,17 @@ export const lv = {
 	'The gallery is currently empty': 'The gallery is currently empty',
 	'Check back later to see photos from Podilska Knaipa.':
 		'Check back later to see photos from Podilska Knaipa.',
+	Navigation: 'Navigation',
+	'Quick links': 'Quick links',
+	'Open the main sections of the website from one place.':
+		'Open the main sections of the website from one place.',
+	Sales: 'Sales',
+	Articles: 'Articles',
+	Reviews: 'Reviews',
+	Events: 'Events',
+	Jobs: 'Jobs',
+	'This page is currently empty': 'This page is currently empty',
+	'Check back later for updates.': 'Check back later for updates.',
 } as const;
 
 export type LvTranslationKey = keyof typeof lv;

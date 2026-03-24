@@ -17,6 +17,28 @@ export const routes: Routes = [
 			import('./pages/gallery/gallery.component').then((m) => m.GalleryComponent),
 	},
 	{
+		path: 'sales',
+		loadComponent: () => import('./pages/sales/sales.component').then((m) => m.SalesComponent),
+	},
+	{
+		path: 'articles',
+		loadComponent: () =>
+			import('./pages/articles/articles.component').then((m) => m.ArticlesComponent),
+	},
+	{
+		path: 'reviews',
+		loadComponent: () =>
+			import('./pages/reviews/reviews.component').then((m) => m.ReviewsComponent),
+	},
+	{
+		path: 'events',
+		loadComponent: () => import('./pages/events/events.component').then((m) => m.EventsComponent),
+	},
+	{
+		path: 'jobs',
+		loadComponent: () => import('./pages/jobs/jobs.component').then((m) => m.JobsComponent),
+	},
+	{
 		path: 'socials',
 		loadComponent: () =>
 			import('./pages/socials/socials.component').then((m) => m.SocialsComponent),
