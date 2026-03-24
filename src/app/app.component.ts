@@ -50,7 +50,7 @@ import { TopbarComponent } from './layouts/topbar/topbar.component';
 export class App {
 	protected readonly navItems = [
 		{ label: 'Nav', icon: 'navigation', route: '/navigation', exact: true },
-		{ label: 'Quests', icon: 'groups', route: '/quests', exact: true },
+		{ label: 'Gallery', icon: 'photo_library', route: '/gallery', exact: true },
 		{ label: 'Socials', icon: 'share', route: '/socials', exact: true },
 		{ label: 'Favorite', icon: 'favorite', route: '/favorites', exact: true },
 		{ label: 'Menu', icon: 'restaurant_menu', route: '/', exact: true },

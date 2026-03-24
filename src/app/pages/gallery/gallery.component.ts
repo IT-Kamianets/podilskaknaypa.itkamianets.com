@@ -3,8 +3,8 @@ import { TranslateDirective } from 'wacom';
 
 @Component({
 	imports: [TranslateDirective],
-	templateUrl: './quests.component.html',
-	styleUrl: './quests.component.scss',
+	templateUrl: './gallery.component.html',
+	styleUrl: './gallery.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class QuestsComponent {}
+export class GalleryComponent {}

@@ -12,8 +12,9 @@ export const routes: Routes = [
 			import('./pages/navigation/navigation.component').then((m) => m.NavigationComponent),
 	},
 	{
-		path: 'quests',
-		loadComponent: () => import('./pages/quests/quests.component').then((m) => m.QuestsComponent),
+		path: 'gallery',
+		loadComponent: () =>
+			import('./pages/gallery/gallery.component').then((m) => m.GalleryComponent),
 	},
 	{
 		path: 'socials',
