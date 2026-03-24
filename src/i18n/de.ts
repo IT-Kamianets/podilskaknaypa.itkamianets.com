@@ -37,7 +37,7 @@ export const de = {
 	Sales: 'Angebote',
 	Articles: 'Artikel',
 	Reviews: 'Bewertungen',
-	Events: 'Events',
+	Events: 'Veranstaltungen',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Diese Seite ist derzeit leer',
 	'Check back later for updates.': 'Schauen Sie später wieder für Updates vorbei.',
