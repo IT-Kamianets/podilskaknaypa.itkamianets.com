@@ -1,24 +1,34 @@
 <main class="mx-auto max-w-[var(--container)] px-3 pb-8 pt-3 sm:px-4 sm:pb-10">
 	<section
-		class="rounded-[1.2rem] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center sm:px-6 sm:py-14"
+		class="overflow-hidden rounded-[1.2rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] shadow-[var(--shadow-sm)]"
 	>
 		<div
-			class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-secondary)]"
+			class="border-b border-[var(--c-border)] bg-[linear-gradient(135deg,rgba(197,61,61,0.14),rgba(217,168,88,0.08))] px-4 py-5 sm:px-5"
 		>
-			<span class="material-symbols-outlined text-[28px]" aria-hidden="true">photo_library</span>
+			<p
+				class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+				translate
+			>
+				Gallery
+			</p>
+			<h1 class="mt-2 text-[1.6rem] font-semibold leading-8 text-[var(--c-text-secondary)]">
+				Podilska Knaipa
+			</h1>
 		</div>
 
-		<p
-			class="mt-4 text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
-			translate
-		>
-			Gallery
-		</p>
-		<h1 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
-			The gallery is currently empty
-		</h1>
-		<p class="mx-auto mt-2 max-w-[28rem] text-sm leading-6 text-[var(--c-text-muted)]" translate>
-			Check back later to see photos from Podilska Knaipa.
-		</p>
+		<div class="grid gap-3 p-3 sm:grid-cols-2 sm:p-4 lg:grid-cols-3">
+			@for (photo of photos; track photo.src) {
+				<figure
+					class="overflow-hidden rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)]"
+				>
+					<img
+						class="gallery-photo h-72 w-full object-cover sm:h-80"
+						[attr.alt]="photo.alt"
+						[src]="photo.src"
+						loading="lazy"
+					/>
+				</figure>
+			}
+		</div>
 	</section>
 </main>
