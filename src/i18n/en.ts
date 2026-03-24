@@ -41,6 +41,13 @@ export const en = {
 	Jobs: 'Jobs',
 	'This page is currently empty': 'This page is currently empty',
 	'Check back later for updates.': 'Check back later for updates.',
+	Favorites: 'Favorites',
+	'No saved dishes': 'No saved dishes',
+	'Add items from the menu to favorites, and they will appear here.':
+		'Add items from the menu to favorites, and they will appear here.',
+	'Remove from favorites': 'Remove from favorites',
+	'Add to favorites': 'Add to favorites',
+	Unavailable: 'Unavailable',
 } as const;
 
 export type EnglishTranslationKey = keyof typeof en;

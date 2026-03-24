@@ -1,8 +1,10 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { FavoritesService } from '../../feature/menu/favorites.service';
 import { MenuGroup, MenuItem, MenuSection, menuGroups } from '../../feature/menu/menu.data';
+import { TranslateDirective, TranslatePipe } from 'wacom';
 
 @Component({
+	imports: [TranslateDirective, TranslatePipe],
 	templateUrl: './favorites.component.html',
 	styleUrl: './favorites.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,

@@ -69,15 +69,16 @@
 											@if (item.soldOut) {
 												<span
 													class="mt-1 inline-flex rounded-full bg-[color:rgba(197,61,61,0.1)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.08em] text-[var(--c-secondary)]"
+													translate
 												>
-													Немає
+													Unavailable
 												</span>
 											}
 										</div>
 
 										<button
 											class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-text-muted)] transition-colors duration-200 hover:text-[var(--c-secondary)]"
-											[attr.aria-label]="isFavorite(item.id) ? 'Remove from favorites' : 'Add to favorites'"
+											[attr.aria-label]="isFavorite(item.id) ? ('Remove from favorites' | translate) : ('Add to favorites' | translate)"
 											(click)="toggleFavorite(item.id)"
 											type="button"
 										>
@@ -130,14 +131,17 @@
 		<section
 			class="rounded-[1.2rem] border border-dashed border-[var(--c-border)] bg-[var(--c-bg-secondary)] px-4 py-10 text-center"
 		>
-			<p class="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+			<p
+				class="text-sm font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
+				translate
+			>
 				Favorites
 			</p>
-			<h1 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]">
-				Немає збережених страв
+			<h1 class="mt-2 text-xl font-semibold text-[var(--c-text-secondary)]" translate>
+				No saved dishes
 			</h1>
-			<p class="mt-2 text-sm text-[var(--c-text-muted)]">
-				Додавайте позиції з меню в обране, і вони з’являться тут.
+			<p class="mt-2 text-sm text-[var(--c-text-muted)]" translate>
+				Add items from the menu to favorites, and they will appear here.
 			</p>
 		</section>
 	}

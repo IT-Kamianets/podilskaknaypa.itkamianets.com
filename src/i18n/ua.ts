@@ -42,6 +42,13 @@ export const ua = {
 	Jobs: 'Вакансії',
 	'This page is currently empty': 'Ця сторінка наразі порожня',
 	'Check back later for updates.': 'Завітайте пізніше, щоб побачити оновлення.',
+	Favorites: 'Обране',
+	'No saved dishes': 'Немає збережених страв',
+	'Add items from the menu to favorites, and they will appear here.':
+		'Додавайте позиції з меню в обране, і вони з’являться тут.',
+	'Remove from favorites': 'Видалити з обраного',
+	'Add to favorites': 'Додати в обране',
+	Unavailable: 'Немає',
 } as const;
 
 export type UkrainianTranslationKey = keyof typeof ua;
