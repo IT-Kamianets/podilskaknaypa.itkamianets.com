@@ -36,7 +36,7 @@ export const da = {
 		'Åbn webstedets vigtigste sektioner fra ét sted.',
 	Sales: 'Tilbud',
 	Articles: 'Artikler',
-	Reviews: 'Reviews',
+	Reviews: 'Anmeldelser',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Denne side er tom lige nu',

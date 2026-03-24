@@ -36,7 +36,7 @@ export const es = {
 		'Abre las secciones principales del sitio web desde un solo lugar.',
 	Sales: 'Ofertas',
 	Articles: 'Artículos',
-	Reviews: 'Reviews',
+	Reviews: 'Reseñas',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Esta página está vacía por ahora',

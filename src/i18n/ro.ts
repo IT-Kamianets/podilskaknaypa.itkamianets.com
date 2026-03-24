@@ -36,7 +36,7 @@ export const ro = {
 		'Deschideți principalele secțiuni ale site-ului dintr-un singur loc.',
 	Sales: 'Promoții',
 	Articles: 'Articole',
-	Reviews: 'Reviews',
+	Reviews: 'Recenzii',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Această pagină este momentan goală',

@@ -36,7 +36,7 @@ export const nl = {
 		'Open de belangrijkste onderdelen van de website vanaf één plek.',
 	Sales: 'Aanbiedingen',
 	Articles: 'Artikelen',
-	Reviews: 'Reviews',
+	Reviews: 'Beoordelingen',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Deze pagina is momenteel leeg',

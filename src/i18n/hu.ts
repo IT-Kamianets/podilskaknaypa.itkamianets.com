@@ -36,7 +36,7 @@ export const hu = {
 		'Nyissa meg a weboldal fő részeit egy helyről.',
 	Sales: 'Akciók',
 	Articles: 'Cikkek',
-	Reviews: 'Reviews',
+	Reviews: 'Vélemények',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Ez az oldal jelenleg üres',

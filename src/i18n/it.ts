@@ -36,7 +36,7 @@ export const it = {
 		'Apri le sezioni principali del sito da un unico punto.',
 	Sales: 'Offerte',
 	Articles: 'Articoli',
-	Reviews: 'Reviews',
+	Reviews: 'Recensioni',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Questa pagina è attualmente vuota',

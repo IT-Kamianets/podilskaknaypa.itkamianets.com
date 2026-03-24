@@ -36,7 +36,7 @@ export const hr = {
 		'Otvorite glavne sekcije web stranice s jednog mjesta.',
 	Sales: 'Akcije',
 	Articles: 'Članci',
-	Reviews: 'Reviews',
+	Reviews: 'Recenzije',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Ova stranica je trenutno prazna',

@@ -36,7 +36,7 @@ export const fi = {
 		'Avaa sivuston pääosiot yhdestä paikasta.',
 	Sales: 'Tarjoukset',
 	Articles: 'Artikkelit',
-	Reviews: 'Reviews',
+	Reviews: 'Arvostelut',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Tämä sivu on tällä hetkellä tyhjä',

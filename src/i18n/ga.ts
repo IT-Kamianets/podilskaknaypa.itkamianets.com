@@ -36,7 +36,7 @@ export const ga = {
 		'Oscail príomhranna an tsuímh ghréasáin ó aon áit amháin.',
 	Sales: 'Tairiscintí',
 	Articles: 'Ailt',
-	Reviews: 'Reviews',
+	Reviews: 'Léirmheasanna',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Tá an leathanach seo folamh faoi láthair',

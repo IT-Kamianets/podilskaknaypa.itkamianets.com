@@ -36,7 +36,7 @@ export const cs = {
 		'Otevřete hlavní sekce webu z jednoho místa.',
 	Sales: 'Akce',
 	Articles: 'Články',
-	Reviews: 'Reviews',
+	Reviews: 'Recenze',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Tato stránka je momentálně prázdná',

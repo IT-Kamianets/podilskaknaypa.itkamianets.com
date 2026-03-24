@@ -36,7 +36,7 @@ export const sk = {
 		'Otvorte hlavné sekcie webu z jedného miesta.',
 	Sales: 'Akcie',
 	Articles: 'Články',
-	Reviews: 'Reviews',
+	Reviews: 'Recenzie',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Táto stránka je momentálne prázdna',

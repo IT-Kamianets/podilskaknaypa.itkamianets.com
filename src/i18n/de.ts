@@ -36,7 +36,7 @@ export const de = {
 		'Öffnen Sie die wichtigsten Bereiche der Website von einem Ort aus.',
 	Sales: 'Angebote',
 	Articles: 'Artikel',
-	Reviews: 'Reviews',
+	Reviews: 'Bewertungen',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Diese Seite ist derzeit leer',

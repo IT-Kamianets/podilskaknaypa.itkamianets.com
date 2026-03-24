@@ -36,7 +36,7 @@ export const fr = {
 		'Ouvrez les principales sections du site depuis un seul endroit.',
 	Sales: 'Promotions',
 	Articles: 'Articles',
-	Reviews: 'Reviews',
+	Reviews: 'Avis',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Cette page est actuellement vide',

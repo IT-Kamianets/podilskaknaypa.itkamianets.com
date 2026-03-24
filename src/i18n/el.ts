@@ -36,7 +36,7 @@ export const el = {
 		'Ανοίξτε τις βασικές ενότητες του ιστότοπου από ένα σημείο.',
 	Sales: 'Προσφορές',
 	Articles: 'Άρθρα',
-	Reviews: 'Reviews',
+	Reviews: 'Κριτικές',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Αυτή η σελίδα είναι προς το παρόν κενή',

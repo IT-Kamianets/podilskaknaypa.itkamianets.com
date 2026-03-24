@@ -36,7 +36,7 @@ export const lt = {
 		'Atidarykite pagrindines svetainės skiltis iš vienos vietos.',
 	Sales: 'Akcijos',
 	Articles: 'Straipsniai',
-	Reviews: 'Reviews',
+	Reviews: 'Atsiliepimai',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Šis puslapis šiuo metu tuščias',

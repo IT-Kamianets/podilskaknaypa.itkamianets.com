@@ -36,7 +36,7 @@ export const sl = {
 		'Odprite glavne dele spletnega mesta z enega mesta.',
 	Sales: 'Akcije',
 	Articles: 'Članki',
-	Reviews: 'Reviews',
+	Reviews: 'Ocene',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Ta stran je trenutno prazna',

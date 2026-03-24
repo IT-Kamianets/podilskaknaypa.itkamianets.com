@@ -36,7 +36,7 @@ export const bg = {
 		'Отворете основните секции на уебсайта от едно място.',
 	Sales: 'Промоции',
 	Articles: 'Статии',
-	Reviews: 'Reviews',
+	Reviews: 'Отзиви',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Тази страница в момента е празна',

@@ -36,7 +36,7 @@ export const et = {
 		'Ava veebisaidi põhiosad ühest kohast.',
 	Sales: 'Pakkumised',
 	Articles: 'Artiklid',
-	Reviews: 'Reviews',
+	Reviews: 'Arvustused',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'See leht on praegu tühi',

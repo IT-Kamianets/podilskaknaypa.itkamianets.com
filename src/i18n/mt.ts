@@ -36,7 +36,7 @@ export const mt = {
 		'Iftaħ it-taqsimiet ewlenin tas-sit minn post wieħed.',
 	Sales: 'Offerti',
 	Articles: 'Artikli',
-	Reviews: 'Reviews',
+	Reviews: 'Reviżjonijiet',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Din il-paġna bħalissa vojta',

@@ -36,7 +36,7 @@ export const lv = {
 		'Atveriet galvenās vietnes sadaļas no vienas vietas.',
 	Sales: 'Piedāvājumi',
 	Articles: 'Raksti',
-	Reviews: 'Reviews',
+	Reviews: 'Atsauksmes',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Šī lapa pašlaik ir tukša',

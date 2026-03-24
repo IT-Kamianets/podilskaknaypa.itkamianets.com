@@ -36,7 +36,7 @@ export const sv = {
 		'Öppna webbplatsens huvudsektioner från ett ställe.',
 	Sales: 'Erbjudanden',
 	Articles: 'Artiklar',
-	Reviews: 'Reviews',
+	Reviews: 'Recensioner',
 	Events: 'Events',
 	Jobs: 'Jobs',
 	'This page is currently empty': 'Den här sidan är tom just nu',
