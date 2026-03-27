@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import menuData from '../../../data/menu.json';
+import menuData from '../../../menu.json';
 import { RawMenuItem, RawMenuSection } from '../../feature/menu/menu.data';
 
 interface DishFact {

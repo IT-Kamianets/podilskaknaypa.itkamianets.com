@@ -1,4 +1,4 @@
-import menuData from '../../../data/menu.json';
+import menuData from '../../../menu.json';
 import type { LanguageCode } from '../language/language.type';
 
 export type LocalizedValue = Partial<Record<LanguageCode, string | null>>;
