@@ -53,73 +53,8 @@
 				}
 
 				<div class="rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)]">
-					@for (item of section.items; track trackByItem($index, item)) {
-						<article
-							class="grid grid-cols-[minmax(0,1fr)_7.25rem] gap-3 px-3 py-3 not-last:border-b not-last:border-[var(--c-border)] sm:grid-cols-[minmax(0,1fr)_10rem]"
-						>
-							<div class="min-w-0">
-								<div class="flex items-start justify-between gap-3">
-									<div class="min-w-0">
-										<h3
-											class="line-clamp-2 text-[1.05rem] font-semibold leading-5 text-[var(--c-text-secondary)]"
-										>
-											{{ item.title }}
-										</h3>
-										@if (item.soldOut) {
-											<span
-												class="mt-1 inline-flex rounded-full bg-[color:rgba(197,61,61,0.1)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.08em] text-[var(--c-secondary)]"
-											>
-												{{ unavailableLabel() }}
-											</span>
-										}
-									</div>
-
-									<button
-										class="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] text-[var(--c-text-muted)] transition-colors duration-200 hover:text-[var(--c-secondary)]"
-										[attr.aria-label]="getFavoriteLabel(item.id)"
-										(click)="toggleFavorite(item.id)"
-										type="button"
-									>
-										<span
-											class="material-symbols-outlined text-[18px] text-[var(--c-text-muted)]"
-											[class.text-[var(--c-secondary)]]="isFavorite(item.id)"
-											aria-hidden="true"
-										>
-											{{ isFavorite(item.id) ? 'favorite' : 'favorite_border' }}
-										</span>
-									</button>
-								</div>
-
-								<p class="mt-2 text-[1.2rem] font-semibold leading-none text-[var(--c-secondary)]">
-									{{ item.displayPrice }}
-								</p>
-
-								@if (item.description) {
-									<p class="mt-2 line-clamp-3 text-[14px] leading-5 text-[var(--c-text-primary)]">
-										{{ item.description }}
-									</p>
-								}
-
-								@if (item.labels.length) {
-									<div
-										class="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[12px] leading-4 text-[var(--c-text-muted)]"
-									>
-										@for (label of item.labels.slice(0, 3); track label) {
-											<span>{{ label }}</span>
-										}
-									</div>
-								}
-							</div>
-
-							<div class="relative self-start">
-								<img
-									class="h-[5.9rem] w-full rounded-[0.75rem] object-cover sm:h-[7.25rem]"
-									[attr.alt]="item.imageAlt"
-									[src]="item.image"
-									loading="lazy"
-								/>
-							</div>
-						</article>
+					@for (item of section.items; track item.id) {
+						<app-menu-item [item]="item" />
 					}
 				</div>
 			</section>

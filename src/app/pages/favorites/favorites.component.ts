@@ -1,10 +1,11 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
+import { MenuItemComponent } from '../../components/menu-item/menu-item.component';
 import { FavoritesService } from '../../feature/menu/favorites.service';
-import { MenuGroup, MenuItem, MenuSection, menuGroups } from '../../feature/menu/menu.data';
-import { TranslateDirective, TranslatePipe } from 'wacom';
+import { MenuGroup, MenuSection, menuGroups } from '../../feature/menu/menu.data';
+import { TranslateDirective } from 'wacom';
 
 @Component({
-	imports: [TranslateDirective, TranslatePipe],
+	imports: [MenuItemComponent, TranslateDirective],
 	templateUrl: './favorites.component.html',
 	styleUrl: './favorites.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
@@ -45,15 +46,7 @@ export class FavoritesComponent {
 		return section.id;
 	}
 
-	protected trackByItem(_: number, item: MenuItem) {
-		return item.id;
-	}
-
 	protected isFavorite(itemId: string) {
 		return this._favoritesService.isFavorite(itemId);
-	}
-
-	protected toggleFavorite(itemId: string) {
-		this._favoritesService.toggleFavorite(itemId);
 	}
 }
