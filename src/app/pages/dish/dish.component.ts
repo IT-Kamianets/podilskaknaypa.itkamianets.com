@@ -12,17 +12,15 @@ interface DishSuggestion {
 	title: string;
 	description: string | null;
 	price: string;
-	image: string;
-	imageAlt: string;
+	slug: string;
 }
 
 interface StaticDishViewModel {
+	slug: string;
 	sectionName: string;
 	title: string;
 	description: string | null;
 	price: string;
-	image: string;
-	imageAlt: string;
 	labels: string[];
 	facts: DishFact[];
 	suggestions: DishSuggestion[];
@@ -62,12 +60,11 @@ export class DishComponent {
 
 function _buildDishViewModel(section: RawMenuSection, item: RawMenuItem): StaticDishViewModel {
 	return {
+		slug: item.slug,
 		sectionName: _translate(section.name) ?? 'Меню',
 		title: _translate(item.title) ?? 'Страва дня',
 		description: _cleanText(_translate(item.description)),
 		price: item.price === null ? 'Ціну уточнюйте' : `${item.price} ₴`,
-		image: item.image,
-		imageAlt: _translate(item.title) ?? 'Подільська Кнайпа',
 		labels: item.labels.map((label) => _translate(label)).filter((label): label is string => Boolean(label)),
 		facts: _buildFacts(section, item),
 		suggestions: _buildSuggestions(section, item),
@@ -109,8 +106,7 @@ function _buildSuggestions(section: RawMenuSection, currentItem: RawMenuItem) {
 			title: _translate(item.title) ?? 'Страва дня',
 			description: _cleanText(_translate(item.description)),
 			price: item.price === null ? 'Ціну уточнюйте' : `${item.price} ₴`,
-			image: item.image,
-			imageAlt: _translate(item.title) ?? 'Подільська Кнайпа',
+			slug: item.slug,
 		}));
 }
 

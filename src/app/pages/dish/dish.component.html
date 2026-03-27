@@ -58,8 +58,8 @@
 				<div class="hero-glow absolute inset-0 rounded-[1.4rem]"></div>
 				<img
 					class="relative z-[1] h-[20rem] w-full rounded-[1.4rem] object-cover shadow-[var(--shadow-md)] sm:h-[26rem]"
-					[attr.alt]="dish.imageAlt"
-					[src]="dish.image"
+					[src]="'/item/' + dish.slug + '.webp'"
+					[attr.alt]="dish.slug"
 				/>
 			</div>
 		</div>
@@ -116,8 +116,8 @@
 						<div class="flex gap-3">
 							<img
 								class="h-20 w-20 shrink-0 rounded-[0.9rem] object-cover"
-								[attr.alt]="suggestion.imageAlt"
-								[src]="suggestion.image"
+								[src]="'/item/' + suggestion.slug + '.webp'"
+								[attr.alt]="suggestion.slug"
 								loading="lazy"
 							/>
 
