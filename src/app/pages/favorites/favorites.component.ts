@@ -1,8 +1,9 @@
 import { ViewportScroller } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { MenuItemComponent } from '../../components/menu-item/menu-item.component';
+import { LanguageService } from '../../feature/language/language.service';
 import { FavoritesService } from '../../feature/menu/favorites.service';
-import { MenuGroup, MenuSection, menuGroups } from '../../feature/menu/menu.data';
+import { buildMenuGroups, MenuGroup, MenuSection } from '../../feature/menu/menu.data';
 import { TranslateDirective } from 'wacom';
 
 @Component({
@@ -12,12 +13,13 @@ import { TranslateDirective } from 'wacom';
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FavoritesComponent {
+	private readonly _languageService = inject(LanguageService);
 	private readonly _favoritesService = inject(FavoritesService);
 	private readonly _viewportScroller = inject(ViewportScroller);
 
-	protected readonly selectedGroupId = signal(menuGroups[0]?.id ?? '');
+	protected readonly selectedGroupId = signal('appetizers');
 	protected readonly groups = computed(() =>
-		menuGroups
+		buildMenuGroups(this._languageService.language())
 			.map((group) => ({
 				...group,
 				sections: group.sections

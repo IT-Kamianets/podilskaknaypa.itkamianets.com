@@ -29,20 +29,20 @@ interface StaticDishViewModel {
 }
 
 const _fallbackItem: RawMenuItem = {
-	url: 'static/fallback-dish',
-	title: 'Страва дня',
+	slug: 'static-fallback-dish',
+	title: { ua: 'Страва дня', en: 'Dish of the Day' },
 	price: null,
-	description: 'Опис страви тимчасово недоступний.',
+	description: {
+		ua: 'Опис страви тимчасово недоступний.',
+		en: 'Dish description is temporarily unavailable.',
+	},
 	labels: [],
-	likes: 0,
 	image: 'https://podilskaknaypa.itkamianets.com/logo.png',
-	imageAlt: 'Подільська Кнайпа',
-	soldOut: false,
 };
 
 const _fallbackSection: RawMenuSection = {
-	name: 'Меню',
-	description: null,
+	name: { ua: 'Меню', en: 'Menu' },
+	description: {},
 	items: [_fallbackItem],
 };
 
@@ -62,13 +62,13 @@ export class DishComponent {
 
 function _buildDishViewModel(section: RawMenuSection, item: RawMenuItem): StaticDishViewModel {
 	return {
-		sectionName: section.name,
-		title: item.title,
-		description: _cleanText(item.description),
+		sectionName: _translate(section.name) ?? 'Меню',
+		title: _translate(item.title) ?? 'Страва дня',
+		description: _cleanText(_translate(item.description)),
 		price: item.price === null ? 'Ціну уточнюйте' : `${item.price} ₴`,
 		image: item.image,
-		imageAlt: item.imageAlt,
-		labels: item.labels,
+		imageAlt: _translate(item.title) ?? 'Подільська Кнайпа',
+		labels: item.labels.map((label) => _translate(label)).filter((label): label is string => Boolean(label)),
 		facts: _buildFacts(section, item),
 		suggestions: _buildSuggestions(section, item),
 	};
@@ -78,15 +78,15 @@ function _buildFacts(section: RawMenuSection, item: RawMenuItem) {
 	const facts: DishFact[] = [
 		{
 			label: 'Розділ меню',
-			value: section.name,
+			value: _translate(section.name) ?? 'Меню',
 		},
 		{
 			label: 'Формат подачі',
-			value: item.labels[0] ?? 'Порцію уточнюйте у команді ресторану',
+			value: _translate(item.labels[0]) ?? 'Порцію уточнюйте у команді ресторану',
 		},
 		{
 			label: 'Особливість',
-			value: item.labels[1] ?? 'Авторська інтерпретація локальної подачі',
+			value: _translate(item.labels[1]) ?? 'Авторська інтерпретація локальної подачі',
 		},
 		{
 			label: 'Час приготування',
@@ -103,15 +103,23 @@ function _buildFacts(section: RawMenuSection, item: RawMenuItem) {
 
 function _buildSuggestions(section: RawMenuSection, currentItem: RawMenuItem) {
 	return section.items
-		.filter((item) => item.url !== currentItem.url)
+		.filter((item) => item.slug !== currentItem.slug)
 		.slice(0, 3)
 		.map((item) => ({
-			title: item.title,
-			description: _cleanText(item.description),
+			title: _translate(item.title) ?? 'Страва дня',
+			description: _cleanText(_translate(item.description)),
 			price: item.price === null ? 'Ціну уточнюйте' : `${item.price} ₴`,
 			image: item.image,
-			imageAlt: item.imageAlt,
+			imageAlt: _translate(item.title) ?? 'Подільська Кнайпа',
 		}));
+}
+
+function _translate(value: RawMenuSection['name'] | RawMenuItem['title'] | RawMenuItem['description'] | RawMenuItem['labels'][number] | undefined) {
+	if (!value) {
+		return null;
+	}
+
+	return value.ua ?? value.en ?? Object.values(value).find((entry): entry is string => Boolean(entry)) ?? null;
 }
 
 function _cleanText(value: string | null) {
