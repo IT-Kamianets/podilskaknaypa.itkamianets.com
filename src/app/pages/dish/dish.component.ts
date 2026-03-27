@@ -25,8 +25,6 @@ interface StaticDishViewModel {
 	image: string;
 	imageAlt: string;
 	labels: string[];
-	likes: string;
-	status: string;
 	facts: DishFact[];
 	suggestions: DishSuggestion[];
 }
@@ -73,8 +71,6 @@ function _buildDishViewModel(section: RawMenuSection, item: RawMenuItem): Static
 		image: item.image,
 		imageAlt: item.imageAlt,
 		labels: item.labels,
-		likes: `${item.likes}+ вподобань гостей`,
-		status: item.soldOut ? 'Тимчасово недоступно' : 'Готуємо зараз',
 		facts: _buildFacts(section, item),
 		suggestions: _buildSuggestions(section, item),
 	};
