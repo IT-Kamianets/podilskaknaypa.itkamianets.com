@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { MenuItemComponent } from '../../components/menu-item/menu-item.component';
 import { FavoritesService } from '../../feature/menu/favorites.service';
@@ -12,6 +13,7 @@ import { TranslateDirective } from 'wacom';
 })
 export class FavoritesComponent {
 	private readonly _favoritesService = inject(FavoritesService);
+	private readonly _viewportScroller = inject(ViewportScroller);
 
 	protected readonly selectedGroupId = signal(menuGroups[0]?.id ?? '');
 	protected readonly groups = computed(() =>
@@ -35,7 +37,12 @@ export class FavoritesComponent {
 	protected readonly hasFavorites = computed(() => this.groups().length > 0);
 
 	protected setGroup(groupId: string) {
+		if (this.selectedGroupId() === groupId) {
+			return;
+		}
+
 		this.selectedGroupId.set(groupId);
+		this._viewportScroller.scrollToPosition([0, 0]);
 	}
 
 	protected trackByGroup(_: number, group: MenuGroup) {

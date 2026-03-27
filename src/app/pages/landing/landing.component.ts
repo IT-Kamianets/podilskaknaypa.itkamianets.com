@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { MenuItemComponent } from '../../components/menu-item/menu-item.component';
 import { LanguageService } from '../../feature/language/language.service';
@@ -12,6 +13,7 @@ import { MenuGroup, MenuSection } from '../../feature/menu/menu.data';
 })
 export class LandingComponent {
 	private readonly _languageService = inject(LanguageService);
+	private readonly _viewportScroller = inject(ViewportScroller);
 
 	protected readonly groups = computed(() => buildMenuGroups(this._languageService.language()));
 	protected readonly selectedGroupId = signal('appetizers');
@@ -21,7 +23,12 @@ export class LandingComponent {
 	protected readonly activeSections = computed(() => this.activeGroup()?.sections ?? []);
 
 	protected setGroup(groupId: string) {
+		if (this.selectedGroupId() === groupId) {
+			return;
+		}
+
 		this.selectedGroupId.set(groupId);
+		this._viewportScroller.scrollToPosition([0, 0]);
 	}
 
 	protected trackByGroup(_: number, group: MenuGroup) {
