@@ -89,8 +89,12 @@ function _buildFacts(section: RawMenuSection, item: RawMenuItem) {
 			value: item.labels[1] ?? 'Авторська інтерпретація локальної подачі',
 		},
 		{
-			label: 'Статус',
-			value: item.soldOut ? 'Недоступно' : 'Доступно до замовлення',
+			label: 'Час приготування',
+			value: '10-15 хвилин',
+		},
+		{
+			label: 'Середня калорійність',
+			value: '320 ккал',
 		},
 	];
 
