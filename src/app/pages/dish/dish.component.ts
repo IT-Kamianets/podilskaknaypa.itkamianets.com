@@ -18,7 +18,6 @@ interface DishSuggestion {
 
 interface StaticDishViewModel {
 	sectionName: string;
-	sectionDescription: string | null;
 	title: string;
 	description: string | null;
 	price: string;
@@ -64,7 +63,6 @@ export class DishComponent {
 function _buildDishViewModel(section: RawMenuSection, item: RawMenuItem): StaticDishViewModel {
 	return {
 		sectionName: section.name,
-		sectionDescription: _cleanText(section.description),
 		title: item.title,
 		description: _cleanText(item.description),
 		price: item.price === null ? 'Ціну уточнюйте' : `${item.price} ₴`,
