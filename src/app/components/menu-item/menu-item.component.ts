@@ -1,10 +1,12 @@
 import { ChangeDetectionStrategy, Component, computed, inject, input } from '@angular/core';
+import { RouterLink } from '@angular/router';
 import { FavoritesService } from '../../feature/menu/favorites.service';
 import { MenuItem } from '../../feature/menu/menu.data';
 import { TranslateService } from 'wacom';
 
 @Component({
 	selector: 'app-menu-item',
+	imports: [RouterLink],
 	templateUrl: './menu-item.component.html',
 	styleUrl: './menu-item.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,

@@ -1,4 +1,4 @@
-[
+﻿[
 	{
 		"slug": "cured-meat-bowl",
 		"document": "item",
@@ -112,7 +112,16 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "An exquisite selection of meat delicacies for beer: cured pork neck, sujuk, makhan, and basturma. A great choice for sharing with drinks and tasting several flavors at the table."
+			},
+			"portion": {
+				"en": "160 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -228,7 +237,16 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Thinly sliced marinated meat with the aroma of paprika and garlic. A great choice for sharing with drinks and tasting several flavors at the table."
+			},
+			"portion": {
+				"en": "40 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -344,7 +362,16 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Tender, juicy, and full of spicy notes. A great choice for sharing with drinks and tasting several flavors at the table."
+			},
+			"portion": {
+				"en": "40 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -460,7 +487,16 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A Hutsul delicacy. A great choice for sharing with drinks and tasting several flavors at the table."
+			},
+			"portion": {
+				"en": "60 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -576,7 +612,16 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A piquant sausage with a rich aroma of spices. A great choice for sharing with drinks and tasting several flavors at the table."
+			},
+			"portion": {
+				"en": "40 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -746,7 +791,18 @@
 					"ga": "New",
 					"mt": "New"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Tender Matias herring with baked potatoes and fresh dill in a classic Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers. Served as a flavorful starter with a focus on local ingredients and regional character."
+			},
+			"portion": {
+				"en": "280 g"
+			},
+			"allergens": {
+				"en": [
+					"fish"
+				]
+			}
 		}
 	},
 	{
@@ -889,7 +945,16 @@
 					"ga": "New",
 					"mt": "New"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Tender Podilian cured beef tenderloin, matured and seasoned with traditional spices. Ten percent of the proceeds from this dish go to support army fundraisers. Served as a flavorful starter with a focus on local ingredients and regional character."
+			},
+			"portion": {
+				"en": "150 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -1059,7 +1124,18 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Selected fresh fish from the Dniester, lightly cured according to a traditional recipe. We finish it with fragrant oil and serve it with pickled onion. May contain bones. Served as a flavorful starter with a focus on local ingredients and regional character."
+			},
+			"portion": {
+				"en": "150 g"
+			},
+			"allergens": {
+				"en": [
+					"fish"
+				]
+			}
 		}
 	},
 	{
@@ -1229,7 +1305,18 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A traditional meat assortment from the heart of Podillia: Zinkiv sausage, smoked pork loin, and shponder. Served with fragrant mustard. Served as a flavorful starter with a focus on local ingredients and regional character."
+			},
+			"portion": {
+				"en": "340 g"
+			},
+			"allergens": {
+				"en": [
+					"mustard"
+				]
+			}
 		}
 	},
 	{
@@ -1372,7 +1459,19 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Tender, aromatic lard cured in a traditional marinade that reveals the full flavor of Podilian cuisine. Served with a piquant sauce and homemade bread. Served as a flavorful starter with a focus on local ingredients and regional character."
+			},
+			"portion": {
+				"en": "300 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat"
+				]
+			}
 		}
 	},
 	{
@@ -1542,7 +1641,16 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A homemade spread of aromatic lard in two flavors: dill and garlic for a gentle, lightly piquant homemade taste, and paprika for a brighter, sharper profile with a pronounced spicy accent. Perfect with crusty bread or alongside a shot. Served as a flavorful starter with a focus on local ingredients and regional character."
+			},
+			"portion": {
+				"en": "200 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -1658,7 +1766,21 @@
 					"ga": "1, 1a, 4, 7",
 					"mt": "1, 1a, 4, 7"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Thinly sliced beef inspired by classic vitello tonnato, served with a velvety sauce based on tuna, capers, and anchovies. Tender elderberry capers add a delicate tang and aroma. Served as a flavorful starter with a focus on local ingredients and regional character."
+			},
+			"portion": {
+				"en": "250 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"fish",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -1801,7 +1923,23 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A set of crisp bruschettas with local delicacies: Zinkiv sausage cured by a traditional recipe, red caviar on creamy cream cheese, classic Jewish herring forshmak with apples and egg, and cured pork neck with herbs. Served as a flavorful starter with a focus on local ingredients and regional character."
+			},
+			"portion": {
+				"en": "250 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"eggs",
+					"fish",
+					"milk",
+					"mustard"
+				]
+			}
 		}
 	},
 	{
@@ -1917,7 +2055,18 @@
 					"ga": "7",
 					"mt": "7"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Priced by weight, with the price shown per 100 g. If you would like it to go, we vacuum-pack the bryndza in portioned pieces weighing 200 to 300 g. Genuine Podilian sheep bryndza made in the village of Chabanivka, natural, lightly salty, with a pronounced milky flavor and a soft texture. Served as a flavorful starter with a focus on local ingredients and regional character."
+			},
+			"portion": {
+				"en": "100 g"
+			},
+			"allergens": {
+				"en": [
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -2087,7 +2236,22 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Sweet bell peppers roasted over live fire to a lightly charred crust, dressed with olive oil and delicate feta. Finished with a bright citrus sauce, soaked cranberries, hazelnut crumble, fresh dill, and a pinch of sumac. Served as a flavorful starter with a focus on local ingredients and regional character."
+			},
+			"portion": {
+				"en": "270 g"
+			},
+			"allergens": {
+				"en": [
+					"peanuts",
+					"milk",
+					"tree nuts",
+					"hazelnuts",
+					"ask staff about allergen code 16"
+				]
+			}
 		}
 	},
 	{
@@ -2311,7 +2475,16 @@
 					"ga": "Vegan",
 					"mt": "Vegan"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A plate of assorted pickled vegetables. Please ask your server about today's selection. Served as a flavorful starter with a focus on local ingredients and regional character."
+			},
+			"portion": {
+				"en": "220 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -2481,7 +2654,20 @@
 					"ga": "Medium spicy",
 					"mt": "Medium spicy"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A juicy salad mix with cured pork neck, roasted bell pepper, fresh cucumber, and tomato. A gentle accent comes from canned peach, which pairs beautifully with a piquant honey-mustard dressing and shaved Parmesan. Balanced in texture and freshness, it works well as a lighter main course or a starter to share."
+			},
+			"portion": {
+				"en": "290 g"
+			},
+			"allergens": {
+				"en": [
+					"milk",
+					"mustard",
+					"ask staff about allergen code 15"
+				]
+			}
 		}
 	},
 	{
@@ -2624,7 +2810,21 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A genre classic in our Podilian interpretation. A mix of crisp greens, sweet cherry tomatoes, quail eggs, and crunchy bacon. Chicken fillet cooked sous-vide until tender is coated with anchovy sauce and finished with a light Parmesan espuma. A familiar flavor in a refined new reading. Balanced in texture and freshness, it works well as a lighter main course or a starter to share."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"eggs",
+					"fish",
+					"milk",
+					"mustard"
+				]
+			}
 		}
 	},
 	{
@@ -2767,7 +2967,23 @@
 					"ga": "Medium spicy",
 					"mt": "Medium spicy"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Tender slow-cooked beef served on a mix of greens. We add fresh cucumbers, sweet cherry tomatoes, and a light mustard sauce made with homemade mustard. A mint custard cream adds an unexpectedly refreshing note inspired by Podilian herbs. Balanced in texture and freshness, it works well as a lighter main course or a starter to share."
+			},
+			"portion": {
+				"en": "190 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"eggs",
+					"milk",
+					"mustard",
+					"ask staff about allergen code 15"
+				]
+			}
 		}
 	},
 	{
@@ -2964,7 +3180,19 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Crunchy duck liver paired with caramelized pear creates an elegant sweet-and-savory accent. We add fresh cucumber, tomatoes, bell pepper, and mixed greens. Balanced in texture and freshness, it works well as a lighter main course or a starter to share."
+			},
+			"portion": {
+				"en": "450 g"
+			},
+			"allergens": {
+				"en": [
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -3107,7 +3335,19 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A light salad mix with cucumber, tomatoes, and creamy avocado, dressed with a delicate yogurt dressing. We finish it with juicy shrimp and aged sheep's Parmino cheese from the village of Chabanivka, a true Podilian delicacy with character. Balanced in texture and freshness, it works well as a lighter main course or a starter to share."
+			},
+			"portion": {
+				"en": "400 g"
+			},
+			"allergens": {
+				"en": [
+					"crustaceans",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -3277,7 +3517,18 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Juicy Podilian cucumbers, tomatoes, and bell pepper, fresh, crisp, and straight from the garden. We dress them with fragrant homemade oil and a light sour cream espuma that adds tenderness to the familiar flavor. Balanced in texture and freshness, it works well as a lighter main course or a starter to share."
+			},
+			"portion": {
+				"en": "330 g"
+			},
+			"allergens": {
+				"en": [
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -3420,7 +3671,18 @@
 					"ga": "Vegetarian",
 					"mt": "Vegetarian"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Juicy tomatoes, spinach, and red onion are tossed with fragrant homemade oil. We finish the dish with a generous portion of farm-made sheep bryndza from the village of Chabanivka, spicy, delicate, and authentic. A salad focused on local produce and simple but expressive Podilian gastronomy. Balanced in texture and freshness, it works well as a lighter main course or a starter to share."
+			},
+			"portion": {
+				"en": "300 g"
+			},
+			"allergens": {
+				"en": [
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -3563,7 +3825,22 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Fried calamari rings in crisp batter, fried mozzarella, nuggets, cheddar habanero, cheddar sweet chili, French fries, and golden potato balls make the perfect set for an evening in good company. Served with three sauces of your choice: homemade adjika, tomato ketchup, and a delicate ryazhanka sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient."
+			},
+			"portion": {
+				"en": "1 serving"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"crustaceans",
+					"milk",
+					"molluscs"
+				]
+			}
 		}
 	},
 	{
@@ -3679,7 +3956,16 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Chicken hearts stewed in a piquant sauce. We cook them until tender so every bite melts in your mouth. They are well seasoned and properly spicy. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient."
+			},
+			"portion": {
+				"en": "1 serving"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -3795,7 +4081,22 @@
 					"ga": "1, 1a, 4, 7, 10",
 					"mt": "1, 1a, 4, 7, 10"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Served with barbecue sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient."
+			},
+			"portion": {
+				"en": "250 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"fish",
+					"milk",
+					"mustard"
+				]
+			}
 		}
 	},
 	{
@@ -3911,7 +4212,19 @@
 					"ga": "1, 1a",
 					"mt": "1, 1a"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Homemade dumplings filled with juicy pork and fried until golden brown. Served with piquant Podilian adjika for a fuller flavor. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient."
+			},
+			"portion": {
+				"en": "190 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat"
+				]
+			}
 		}
 	},
 	{
@@ -4081,7 +4394,21 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Juicy shrimp in crisp batter made with our own craft beer. Served with a piquant anchovy sauce that highlights the seafood flavor and adds depth to every bite. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient."
+			},
+			"portion": {
+				"en": "200 g"
+			},
+			"allergens": {
+				"en": [
+					"crustaceans",
+					"fish",
+					"milk",
+					"mustard"
+				]
+			}
 		}
 	},
 	{
@@ -4197,7 +4524,20 @@
 					"ga": "1, 7, 14",
 					"mt": "1, 7, 14"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Tender calamari rings fried until crisp and served with a creamy ryazhanka-based sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient."
+			},
+			"portion": {
+				"en": "200 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"milk",
+					"molluscs"
+				]
+			}
 		}
 	},
 	{
@@ -4313,7 +4653,21 @@
 					"ga": "1, 1a, 3, 7",
 					"mt": "1, 1a, 3, 7"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Golden balls made from selected Ukrainian cheeses, fried until crisp on the outside and melty within. Served with our signature ryazhanka-based sauce flavored with herbs and spices. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient."
+			},
+			"portion": {
+				"en": "150 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -4456,7 +4810,22 @@
 					"ga": "Vegetarian",
 					"mt": "Vegetarian"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Crunchy sweet onion rings in batter, fried until golden brown. Served with our signature ryazhanka-based sauce with aromatic spices and herbs. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient."
+			},
+			"portion": {
+				"en": "190 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"fish",
+					"milk",
+					"mustard"
+				]
+			}
 		}
 	},
 	{
@@ -4572,7 +4941,22 @@
 					"ga": "1, 1a, 4, 7, 10",
 					"mt": "1, 1a, 4, 7, 10"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Golden potato puree balls fried until crisp. Served with garlic sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient."
+			},
+			"portion": {
+				"en": "190 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"fish",
+					"milk",
+					"mustard"
+				]
+			}
 		}
 	},
 	{
@@ -4715,7 +5099,21 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Our signature Podilian borscht is simmered over fire for more than four hours together with smoked Hungarian-style sausage, which gives the dish a deep smoky aroma. Served in a fragrant bread bowl and finished with a spoonful of sour cream, fresh green onion, and a piece of our house-made roasted shponder. A hearty, aromatic, soulful dish and a true taste of Podillia. Comforting, aromatic, and deeply rooted in local home-style cooking traditions."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"milk",
+					"ask staff about allergen code 16"
+				]
+			}
 		}
 	},
 	{
@@ -4885,7 +5283,16 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "An authentic soup-goulash from the Carpathians prepared according to a traditional 1978 recipe. Cooked on rich pork broth with plenty of bell pepper and the hot Hungarian seasoning Eros Pista. Rich, spicy, and full of true Carpathian character. An ideal remedy for a rough morning after. A dish for the bold with heat level 🌶️🌶️🌶️. Comforting, aromatic, and deeply rooted in local home-style cooking traditions."
+			},
+			"portion": {
+				"en": "300 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -5028,7 +5435,20 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A clear, духмяний бульйон, зварений із домашнього півня за традиційним рецептом. Подається з ніжними галушками, шматочками курячого м’яса, вареним перепелиним яйцем та солодкою морквою. Страва з дитинства — щира, поживна й лікувальна, як у бабусі на селі. Comforting, aromatic, and deeply rooted in local home-style cooking traditions."
+			},
+			"portion": {
+				"en": "300 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"eggs"
+				]
+			}
 		}
 	},
 	{
@@ -5171,7 +5591,18 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Golden hand-grated potato pancakes just like grandma made in the village. Served with a thick creamy forest mushroom sauce. A dish that warms the soul, simple, sincere, and comfortingly homemade. A hearty main dish designed to showcase Podilian flavors in a more complete plate."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -5341,7 +5772,19 @@
 					"ga": "New",
 					"mt": "New"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Potato деруни під грибним соусом, із соковитою щокою в соусі деміглас. 10% виторгу з цієї страви буде йти на підтримку зборів для війська. A hearty main dish designed to showcase Podilian flavors in a more complete plate."
+			},
+			"portion": {
+				"en": "400 g"
+			},
+			"allergens": {
+				"en": [
+					"wheat",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -5511,7 +5954,20 @@
 					"ga": "New",
 					"mt": "New"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Golden deruny with delicate feta mousse and caviar in Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers. A hearty main dish designed to showcase Podilian flavors in a more complete plate."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"wheat",
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -5681,7 +6137,19 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Справжня візитівка Поділля — чорна зіньківська ковбаса, виготовлена за старовинною технологією з добірного м’яса та крові, зі спеціями та димом, як готували ще наші прадіди. Подається з ніжним трюфельним пюре, моченою журавлиною та глибоким соусом демігляс. Страва з характером — для тих, хто цінує автентичність і сміливий смак. A hearty main dish designed to showcase Podilian flavors in a more complete plate."
+			},
+			"portion": {
+				"en": "300 g"
+			},
+			"allergens": {
+				"en": [
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -5878,7 +6346,18 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Запечені в печі голубці з начинкою з гречки та соковитого свинного фаршу — страва, в якій поєднуються ситність і House-madeй затишок. Подаються з густим грибним соусом на вершках і моченою журавлиною, що додає легку кислинку та баланс смаків. Подільська класика з акцентом на глибину і тепло родинної кухні. A hearty main dish designed to showcase Podilian flavors in a more complete plate."
+			},
+			"portion": {
+				"en": "380 g"
+			},
+			"allergens": {
+				"en": [
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -6021,7 +6500,19 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A tender rabbit cutlet prepared from a homemade recipe. Served with velvety carrot puree and classic demi-glace sauce that highlights the delicate flavor of the meat. A hearty main dish designed to showcase Podilian flavors in a more complete plate."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -6164,7 +6655,18 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Tender beef cheek slowly braised until soft in a deep demi-glace made from meat broth, vegetables, and fragrant herbs. Served with fluffy mashed potatoes seasoned with butter. A dish that combines rustic simplicity with refined technique, a modern classic in a Podilian style. A hearty main dish designed to showcase Podilian flavors in a more complete plate."
+			},
+			"portion": {
+				"en": "330 g"
+			},
+			"allergens": {
+				"en": [
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -6334,7 +6836,20 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Tender catfish fillet fried to a golden crust and served with millet cooked in cream to a silky consistency. Finished with a deep fish demi-glace. A hearty main dish designed to showcase Podilian flavors in a more complete plate."
+			},
+			"portion": {
+				"en": "320 g"
+			},
+			"allergens": {
+				"en": [
+					"fish",
+					"milk",
+					"ask staff about allergen code 16"
+				]
+			}
 		}
 	},
 	{
@@ -6477,7 +6992,22 @@
 					"ga": "New",
 					"mt": "New"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "We salt and pepper the crucian carp generously, coat them in flour, and fry them in a very hot pan to a deep reddish crispness. Served with lemon. Perfect with beer or our barley moonshine. A hearty main dish designed to showcase Podilian flavors in a more complete plate."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"fish",
+					"milk",
+					"ask staff about allergen code 16"
+				]
+			}
 		}
 	},
 	{
@@ -6647,7 +7177,18 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Traditional Hutsul banush made with sour cream, creamy, rich, and fragrant. Served with mushroom sauce and a generous portion of young bryndza that melts delicately over the hot corn porridge. A dish with Carpathian character that suits a Podilian table perfectly. A hearty main dish designed to showcase Podilian flavors in a more complete plate."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -6763,7 +7304,19 @@
 					"ga": "3, 7",
 					"mt": "3, 7"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Традиційні подільські лежні — пиріжечки з кукурудзяної крупи, сметани та картоплі, ніжні всередині й рум’яні ззовні. Начиняємо їх вареним яйцем, зеленою цибулею та духмяною овечою бринзою з села Чабанівка. Подаємо зі сметанкою. A hearty main dish designed to showcase Podilian flavors in a more complete plate."
+			},
+			"portion": {
+				"en": "400 g"
+			},
+			"allergens": {
+				"en": [
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -6933,7 +7486,19 @@
 					"ga": "New",
 					"mt": "New"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Традиційні подільські вареники з картоплею, ніжною копченою скумбрією та рибною підливою. 10% виторгу з цієї страви буде йти на підтримку зборів для війська. Freshly prepared dough and generous filling make it especially comforting and satisfying."
+			},
+			"portion": {
+				"en": "450 g"
+			},
+			"allergens": {
+				"en": [
+					"wheat",
+					"fish"
+				]
+			}
 		}
 	},
 	{
@@ -7103,7 +7668,19 @@
 					"ga": "New",
 					"mt": "New"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Traditional Podilian varenyky with a delicate filling of braised cabbage and caramelized onion. Ten percent of the proceeds from this dish go to support army fundraisers. Freshly prepared dough and generous filling make it especially comforting and satisfying."
+			},
+			"portion": {
+				"en": "450 g"
+			},
+			"allergens": {
+				"en": [
+					"wheat",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -7273,7 +7850,20 @@
 					"ga": "New",
 					"mt": "New"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Homemade Podilian varenyky with a filling of salted farmer's cheese and bryndza, served with sour cream. Ten percent of the proceeds from this dish go to support army fundraisers. Freshly prepared dough and generous filling make it especially comforting and satisfying."
+			},
+			"portion": {
+				"en": "400 g"
+			},
+			"allergens": {
+				"en": [
+					"wheat",
+					"eggs",
+					"ask staff about allergen code 15"
+				]
+			}
 		}
 	},
 	{
@@ -7362,7 +7952,20 @@
 					"ga": "1, 1a, 7",
 					"mt": "1, 1a, 7"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Homemade little varenyky with delicate minced meat, hand-shaped just like grandma made them. Served with fresh herbs and a generous spoonful of sour cream. A Podilian classic that needs no extra words. Freshly prepared dough and generous filling make it especially comforting and satisfying."
+			},
+			"portion": {
+				"en": "1 plate"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -7451,7 +8054,20 @@
 					"ga": "1, 1a, 7",
 					"mt": "1, 1a, 7"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Homemade varenyky with fluffy dough and a potato filling, served with golden fried onion, crispy cracklings, and elderflower capers that add a gentle tang. Finished with a generous spoonful of sour cream. A Podilian classic with an unexpected touch, a familiar flavor in a new sound. Freshly prepared dough and generous filling make it especially comforting and satisfying."
+			},
+			"portion": {
+				"en": "1 plate"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -7594,7 +8210,21 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "House-made varenyky with juicy cherry, tender dough, a generous filling, and a real summer mood. Served with an aromatic sauce based on condensed milk, sour cream, and cinnamon. Sprinkled with crushed hazelnuts and fresh mint. A light sweet dish that especially delights children. May contain pits. Freshly prepared dough and generous filling make it especially comforting and satisfying."
+			},
+			"portion": {
+				"en": "210 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -7710,7 +8340,21 @@
 					"ga": "1, 1a, 3, 7",
 					"mt": "1, 1a, 3, 7"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Tender галушки власного виробництва — м’які, пухкі й справжні, як у дитинстві. Подаються з обсмаженим беконом та вершковим соусом на основі пармезану і яєць, що огортає страву шовковистою текстурою. Посипаємо свіжотертим пармезаном. Подільська інтерпретація класики — смачно, ситно й по-домашньому тепло. Freshly prepared dough and generous filling make it especially comforting and satisfying."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -7853,7 +8497,21 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "House-made галушки власного виробництва подаємо з соковитою куркою та шампіньйонами. Поливаємо ніжним вершковим соусом із пармезаном. Завершуємо страву цибулькою та тертим пармезаном. Затишна й водночас елегантна подільська страва з сучасним акцентом. Freshly prepared dough and generous filling make it especially comforting and satisfying."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -8023,7 +8681,24 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Tender sweet galushky with cherry, covered with a sauce of cream, sour cream, and condensed milk, gentle and creamy like childhood. Sprinkled with cocoa crumble and crushed hazelnuts for balance of flavor and texture. A favorite dessert for children and not only. Cherry pits may occur. Freshly prepared dough and generous filling make it especially comforting and satisfying."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"eggs",
+					"peanuts",
+					"milk",
+					"tree nuts",
+					"hazelnuts"
+				]
+			}
 		}
 	},
 	{
@@ -8166,7 +8841,19 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Two juicy chebureky made with thin dough and filled with minced pork, fragrant onion, and a touch of barberry for balance and character. Served with homemade adjika, fresh herbs, and pickled red onion. Freshly prepared dough and generous filling make it especially comforting and satisfying."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat"
+				]
+			}
 		}
 	},
 	{
@@ -8309,7 +8996,20 @@
 					"ga": "Vegetarian",
 					"mt": "Vegetarian"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Two crisp chebureky with a delicate filling of stretchy suluguni, piquant sheep bryndza, and fresh wild garlic greens. Aromatic greens add a springlike note and balance the saltiness of the cheeses. Served with homemade adjika, herbs, and pickled red onion. Freshly prepared dough and generous filling make it especially comforting and satisfying."
+			},
+			"portion": {
+				"en": "350 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -8452,7 +9152,21 @@
 					"ga": "Spicy",
 					"mt": "Spicy"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Яловича котлета, мікс салату, квашений огірок, томати, сир чеддер, трюфельний соус, гостий соус на основі Ерош Пішти, булочка бріош власного виробництва. Подається з картопляними діпами і аджикою. A substantial plate with a rich flavor profile and a familiar format elevated by house details."
+			},
+			"portion": {
+				"en": "400 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -8595,7 +9309,21 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Яловича котлета, мікс салату, квашений огірок, томати, сир чеддер, трюфельний соус, булочка бріош власного виробництва. Подається з картопляними діпами і аджикою. A substantial plate with a rich flavor profile and a familiar format elevated by house details."
+			},
+			"portion": {
+				"en": "400 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -8738,7 +9466,21 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Куряча котлета, мікс салату, свіжий огірок, томати, сир чеддер, соус анчоусний, соус з діжонською гірчицею , булочка бріош власного виробництва. Подається з картопляними діпами і аджикою. A substantial plate with a rich flavor profile and a familiar format elevated by house details."
+			},
+			"portion": {
+				"en": "400 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -8908,7 +9650,21 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A generous meat assortment from the oven: juicy pork shashlik, tender chicken shashlik, fragrant pork rib, and Podilian house-made sausage. Served with cabbage salad in a vinegar-mustard dressing, two freshly baked flatbreads, homemade adjika, a ryazhanka-based sauce, pickled onion, and herbs. A dish for sharing, generous, aromatic, and truly Podilian. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish."
+			},
+			"portion": {
+				"en": "1.1 kg"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"milk",
+					"mustard"
+				]
+			}
 		}
 	},
 	{
@@ -9078,7 +9834,21 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A generous meat assortment from the oven: juicy pork shashlik, tender chicken shashlik, beef kebab, fragrant pork rib, and Podilian house-made sausage. Served with cabbage salad in a vinegar-mustard dressing, two freshly baked flatbreads, homemade adjika, a ryazhanka-based sauce, pickled onion, and herbs. A dish for sharing, generous, aromatic, and truly Podilian. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish."
+			},
+			"portion": {
+				"en": "1.4 kg"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"milk",
+					"mustard"
+				]
+			}
 		}
 	},
 	{
@@ -9221,7 +9991,22 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Duck leg slowly cooked at low temperature to ideal tenderness, with a crisp golden skin. Served with delicate carrot puree and a spicy mixed-pepper sauce that highlights the rich flavor of the meat. An elegant dish with Podilian charm and a modern presentation. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish."
+			},
+			"portion": {
+				"en": "270 g"
+			},
+			"allergens": {
+				"en": [
+					"peanuts",
+					"milk",
+					"tree nuts",
+					"hazelnuts",
+					"mustard"
+				]
+			}
 		}
 	},
 	{
@@ -9364,7 +10149,19 @@
 					"ga": "Medium spicy",
 					"mt": "Medium spicy"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Juicy beef kebab roasted over charcoal, with a rich aroma of smoke and spices. Served on freshly baked rye flatbread with our own homemade adjika and pickled red onion. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish."
+			},
+			"portion": {
+				"en": "200 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat"
+				]
+			}
 		}
 	},
 	{
@@ -9453,7 +10250,19 @@
 					"ga": "1, 1a",
 					"mt": "1, 1a"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Priced by weight, with the price shown per 100 g. House-made sausage baked in the oven until browned and richly aromatic. Served on freshly baked rye flatbread with homemade adjika, fragrant herbs, and pickled onion. A hearty, flavorful dish with true Podilian character. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish."
+			},
+			"portion": {
+				"en": "1 plate"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat"
+				]
+			}
 		}
 	},
 	{
@@ -9569,7 +10378,19 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Priced by weight, with the price shown per 100 g. Juicy pork ribs slowly braised in the oven until tender, then generously glazed with aromatic barbecue sauce for a rich sweet-and-spicy flavor. Served with homemade adjika, fresh herbs, and freshly baked rye flatbread. A dish for true meat lovers. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish."
+			},
+			"portion": {
+				"en": "1 plate"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat"
+				]
+			}
 		}
 	},
 	{
@@ -9712,7 +10533,20 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Juicy chicken thigh meat marinated in spices and roasted over charcoal to a golden crust and a light smoky aroma. Served with soft wheat flatbread, a delicate ryazhanka-based sauce, and fresh herbs. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish."
+			},
+			"portion": {
+				"en": "300 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -9855,7 +10689,19 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Juicy pork neck roasted over charcoal to a browned crust and tender center. Served on freshly baked rye flatbread with homemade adjika, fragrant herbs, and pickled onion. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish."
+			},
+			"portion": {
+				"en": "300 g"
+			},
+			"allergens": {
+				"en": [
+					"cereals containing gluten",
+					"wheat"
+				]
+			}
 		}
 	},
 	{
@@ -9998,7 +10844,18 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Juicy pork neck roasted over charcoal to a golden crust and a rich smoky aroma. Served with delicate Anna potatoes baked in buttery layers and pickled onion. Finished with an elegant smoked plum sauce that adds a sweet-and-sour accent and highlights the flavor of the meat. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish."
+			},
+			"portion": {
+				"en": "210 g"
+			},
+			"allergens": {
+				"en": [
+					"ask staff about allergen code 16"
+				]
+			}
 		}
 	},
 	{
@@ -10168,7 +11025,18 @@
 					"ga": "New",
 					"mt": "New"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Rainbow trout baked with local spices in a Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish."
+			},
+			"portion": {
+				"en": "300 g"
+			},
+			"allergens": {
+				"en": [
+					"fish"
+				]
+			}
 		}
 	},
 	{
@@ -10311,7 +11179,16 @@
 					"ga": "Vegan",
 					"mt": "Vegan"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A signature french fries 🌱🌱🌱 prepared in our kitchen. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties."
+			},
+			"portion": {
+				"en": "1 serving"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -10481,7 +11358,18 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Potato puree, butter, milk. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties."
+			},
+			"portion": {
+				"en": "220 g"
+			},
+			"allergens": {
+				"en": [
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -10651,7 +11539,16 @@
 					"ga": "Vegan",
 					"mt": "Vegan"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Eggplant, zucchini, champignons, bell pepper, and red onion baked in the oven until tender and naturally sweet. Served hot and sprinkled with fresh chives. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties."
+			},
+			"portion": {
+				"en": "220 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -10848,7 +11745,18 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Baked potatoes generously dressed with fragrant garlic oil and fresh dill. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties."
+			},
+			"portion": {
+				"en": "370 g"
+			},
+			"allergens": {
+				"en": [
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -11045,7 +11953,16 @@
 					"ga": "Vegan",
 					"mt": "Vegan"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Golden fried potatoes with mushrooms and onion cooked to a golden crust. A true Podilian classic, simple, generous, and aromatic. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties."
+			},
+			"portion": {
+				"en": "220 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	},
 	{
@@ -11188,7 +12105,19 @@
 					"ga": "New",
 					"mt": "New"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Sweet prunes stuffed with toasted walnuts under a delicate vanilla sour cream. A classic Ukrainian dessert with a homemade character. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation."
+			},
+			"portion": {
+				"en": "1 dessert"
+			},
+			"allergens": {
+				"en": [
+					"milk",
+					"walnuts"
+				]
+			}
 		}
 	},
 	{
@@ -11304,7 +12233,21 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "Homemade crepes with a delicate cheese and poppy seed filling, baked in the charcoal oven until golden. Served with a scoop of cream ice cream and aromatic strawberry jam. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation."
+			},
+			"portion": {
+				"en": "1 dessert"
+			},
+			"allergens": {
+				"en": [
+					"wheat",
+					"eggs",
+					"peanuts",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -11447,7 +12390,22 @@
 					"ga": "Recommended",
 					"mt": "Recommended"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A delicate Basque-style cheesecake with a lightly caramelized crust, baked to a golden burnt finish. Served with strawberry jam and crisp dessert crumble. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation."
+			},
+			"portion": {
+				"en": "120 g"
+			},
+			"allergens": {
+				"en": [
+					"wheat",
+					"peanuts",
+					"milk",
+					"almonds",
+					"ask staff about allergen code 16"
+				]
+			}
 		}
 	},
 	{
@@ -11590,7 +12548,19 @@
 					"ga": "Gluten free",
 					"mt": "Gluten free"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A delicate dark chocolate mousse paired with chewy brownie and bright raspberry confit. A harmony of deep chocolate and refreshing raspberry acidity in every spoonful. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation."
+			},
+			"portion": {
+				"en": "1 dessert"
+			},
+			"allergens": {
+				"en": [
+					"eggs",
+					"milk"
+				]
+			}
 		}
 	},
 	{
@@ -11706,7 +12676,18 @@
 					"ga": "1a",
 					"mt": "1a"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A signature bowl of homemade bread prepared in our kitchen. Freshly baked in-house, it is ideal for sharing and pairing with the rest of the menu."
+			},
+			"portion": {
+				"en": "200 g"
+			},
+			"allergens": {
+				"en": [
+					"wheat"
+				]
+			}
 		}
 	},
 	{
@@ -11795,7 +12776,16 @@
 					"ga": "300 g",
 					"mt": "300 g"
 				}
-			]
+			],
+			"fullDescription": {
+				"en": "A signature bowl of baked flatbreads prepared in our kitchen. Freshly baked in-house, it is ideal for sharing and pairing with the rest of the menu."
+			},
+			"portion": {
+				"en": "300 g"
+			},
+			"allergens": {
+				"en": []
+			}
 		}
 	}
 ]

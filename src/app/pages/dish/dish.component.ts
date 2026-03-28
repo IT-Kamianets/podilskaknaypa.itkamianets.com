@@ -1,6 +1,16 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
-import { RawMenuItem, RawMenuSection, cleanText, rawMenuSections } from '../../feature/menu/menu.data';
+import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
+import { toSignal } from '@angular/core/rxjs-interop';
+import { ActivatedRoute, RouterLink } from '@angular/router';
+import { TranslatePipe, TranslateService } from 'wacom';
+import { LanguageService } from '../../feature/language/language.service';
+import {
+	type RawMenuItem,
+	type RawMenuSection,
+	cleanText,
+	findRawMenuItemBySlug,
+	rawMenuSections,
+	translateMenuValue,
+} from '../../feature/menu/menu.data';
 
 interface DishFact {
 	label: string;
@@ -8,129 +18,165 @@ interface DishFact {
 }
 
 interface DishSuggestion {
+	slug: string;
 	title: string;
 	description: string | null;
 	price: string;
-	slug: string;
+	imageAlt: string;
 }
 
-interface StaticDishViewModel {
+interface DishViewModel {
 	slug: string;
 	sectionName: string;
 	title: string;
 	description: string | null;
+	fullDescription: string | null;
 	price: string;
 	labels: string[];
+	imageAlt: string;
 	facts: DishFact[];
 	suggestions: DishSuggestion[];
 }
 
-const _fallbackItem: RawMenuItem = {
-	slug: 'static-fallback-dish',
-	title: { ua: 'Страва дня', en: 'Dish of the Day' },
-	price: null,
-	description: {
-		ua: 'Опис страви тимчасово недоступний.',
-		en: 'Dish description is temporarily unavailable.',
-	},
-	labels: [],
-	image: '/logo.png',
-	fullDescription: {
-		ua: 'Опис страви тимчасово недоступний.',
-		en: 'Dish description is temporarily unavailable.',
-	},
-	suggested: [],
-	cookTimeMinutes: null,
-	caloriesKcal: null,
-	portion: null,
-	allergens: [],
-};
-
-const _fallbackSection: RawMenuSection = {
-	name: { ua: 'Меню', en: 'Menu' },
-	description: {},
-	items: [_fallbackItem],
-	slug: 'menu',
-	section: 'Main',
-};
-
-const _section = rawMenuSections[0] ?? _fallbackSection;
-const _item = _section.items[0] ?? _fallbackItem;
+const _fallbackEntry = _resolveFallbackEntry();
 
 @Component({
-	imports: [RouterLink],
+	imports: [RouterLink, TranslatePipe],
 	templateUrl: './dish.component.html',
 	styleUrl: './dish.component.scss',
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class DishComponent {
-	protected readonly dish = _buildDishViewModel(_section, _item);
+	private readonly _route = inject(ActivatedRoute);
+	private readonly _languageService = inject(LanguageService);
+	private readonly _translateService = inject(TranslateService);
+	private readonly _slug = toSignal(this._route.paramMap, {
+		initialValue: this._route.snapshot.paramMap,
+	});
+
+	protected readonly dish = computed(() => {
+		const language = this._languageService.language();
+		const slug = this._slug().get('slug');
+		const entry = slug ? findRawMenuItemBySlug(slug) ?? _fallbackEntry : _fallbackEntry;
+
+		return _buildDishViewModel(
+			entry.section,
+			entry.item,
+			language,
+			this._translateService,
+		);
+	});
 }
 
-function _buildDishViewModel(section: RawMenuSection, item: RawMenuItem): StaticDishViewModel {
+function _buildDishViewModel(
+	section: RawMenuSection,
+	item: RawMenuItem,
+	language: ReturnType<LanguageService['language']>,
+	translateService: TranslateService,
+) {
 	return {
 		slug: item.slug,
-		sectionName: _translate(section.name) ?? 'Меню',
-		title: _translate(item.title) ?? 'Страва дня',
-		description: cleanText(_translate(item.description)),
-		price: item.price === null ? 'Ціну уточнюйте' : `${item.price} ₴`,
-		labels: item.labels.map((label) => _translate(label)).filter((label): label is string => Boolean(label)),
-		facts: _buildFacts(section, item),
-		suggestions: _buildSuggestions(section, item),
+		sectionName: translateMenuValue(section.name, language) ?? item.slug,
+		title: translateMenuValue(item.title, language) ?? item.slug,
+		description: cleanText(translateMenuValue(item.description, language)),
+		fullDescription: cleanText(translateMenuValue(item.fullDescription, language)),
+		price: _formatPrice(item.price, language, translateService),
+		labels: item.labels
+			.map((label) => cleanText(translateMenuValue(label, language)))
+			.filter((label): label is string => Boolean(label)),
+		imageAlt: translateMenuValue(item.title, language) ?? item.slug,
+		facts: _buildFacts(section, item, language, translateService),
+		suggestions: _buildSuggestions(section, item, language, translateService),
 	};
 }
 
-function _buildFacts(section: RawMenuSection, item: RawMenuItem) {
+function _buildFacts(
+	section: RawMenuSection,
+	item: RawMenuItem,
+	language: ReturnType<LanguageService['language']>,
+	translateService: TranslateService,
+) {
 	return [
 		{
-			label: 'Розділ меню',
-			value: _translate(section.name) ?? 'Меню',
+			label: translateService.translate('Menu section')(),
+			value: translateMenuValue(section.name, language) ?? section.slug,
 		},
 		{
-			label: 'Формат подачі',
-			value: _translate(item.labels[0]) ?? item.portion ?? 'Порцію уточнюйте у команди ресторану',
+			label: translateService.translate('Portion')(),
+			value:
+				item.portion ??
+				translateService.translate('Ask restaurant staff for portion details')(),
 		},
 		{
-			label: 'Особливість',
-			value: _translate(item.labels[1]) ?? 'Авторська інтерпретація локальної подачі',
+			label: translateService.translate('Cooking time')(),
+			value:
+				item.cookTimeMinutes === null
+					? translateService.translate('Ask restaurant staff')()
+					: `${item.cookTimeMinutes} min`,
 		},
 		{
-			label: 'Час приготування',
-			value: item.cookTimeMinutes === null ? 'Уточнюйте в команди' : `${item.cookTimeMinutes} хвилин`,
+			label: translateService.translate('Calories')(),
+			value:
+				item.caloriesKcal === null
+					? translateService.translate('Ask restaurant staff')()
+					: `${item.caloriesKcal} kcal`,
 		},
 		{
-			label: 'Середня калорійність',
-			value: item.caloriesKcal === null ? 'Уточнюйте в команди' : `${item.caloriesKcal} ккал`,
+			label: translateService.translate('Allergens')(),
+			value:
+				item.allergens.length > 0
+					? item.allergens.join(', ')
+					: translateService.translate('No allergen information available')(),
 		},
 	];
 }
 
-function _buildSuggestions(section: RawMenuSection, currentItem: RawMenuItem) {
+function _buildSuggestions(
+	section: RawMenuSection,
+	currentItem: RawMenuItem,
+	language: ReturnType<LanguageService['language']>,
+	translateService: TranslateService,
+) {
 	const suggestedItems = currentItem.suggested
 		.map((slug) => section.items.find((item) => item.slug === slug))
 		.filter((item): item is RawMenuItem => Boolean(item));
 
-	return (suggestedItems.length ? suggestedItems : section.items.filter((item) => item.slug !== currentItem.slug))
+	return (suggestedItems.length
+		? suggestedItems
+		: section.items.filter((item) => item.slug !== currentItem.slug)
+	)
 		.slice(0, 3)
 		.map((item) => ({
-			title: _translate(item.title) ?? 'Страва дня',
-			description: cleanText(_translate(item.description)),
-			price: item.price === null ? 'Ціну уточнюйте' : `${item.price} ₴`,
 			slug: item.slug,
+			title: translateMenuValue(item.title, language) ?? item.slug,
+			description: cleanText(translateMenuValue(item.description, language)),
+			price: _formatPrice(item.price, language, translateService),
+			imageAlt: translateMenuValue(item.title, language) ?? item.slug,
 		}));
 }
 
-function _translate(
-	value:
-		| RawMenuSection['name']
-		| RawMenuItem['title']
-		| RawMenuItem['description']
-		| RawMenuItem['labels'][number]
-		| undefined,
+function _formatPrice(
+	price: number | null,
+	language: ReturnType<LanguageService['language']>,
+	translateService: TranslateService,
 ) {
-	if (!value) {
-		return null;
+	if (price === null) {
+		return language === 'ua'
+			? 'Ціну уточнюйте'
+			: translateService.translate('Ask for price')();
 	}
 
-	return value.ua ?? value.en ?? Object.values(value).find((entry): entry is string => Boolean(entry)) ?? null;
+	return `${price} €`;
+}
+
+function _resolveFallbackEntry() {
+	for (const section of rawMenuSections) {
+		const item = section.items[0];
+
+		if (item) {
+			return { section, item };
+		}
+	}
+
+	throw new Error('No dishes available in menu data.');
 }

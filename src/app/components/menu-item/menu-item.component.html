@@ -53,12 +53,16 @@
 		}
 	</div>
 
-	<div class="relative self-start">
+	<a
+		class="relative self-start overflow-hidden rounded-[0.75rem]"
+		[routerLink]="['/dish', item().slug]"
+		[attr.aria-label]="item().title"
+	>
 		<img
-			class="h-[5.9rem] w-full rounded-[0.75rem] object-cover sm:h-[7.25rem]"
+			class="h-[5.9rem] w-full rounded-[0.75rem] object-cover transition-transform duration-200 hover:scale-[1.03] sm:h-[7.25rem]"
 			[src]="'/item/' + item().slug + '.webp'"
-			[attr.alt]="item().slug"
+			[attr.alt]="item().imageAlt"
 			loading="lazy"
 		/>
-	</div>
+	</a>
 </article>

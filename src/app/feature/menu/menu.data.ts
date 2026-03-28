@@ -180,6 +180,7 @@ const _priceFallbackByLanguage: Record<LanguageCode, string> = {
 };
 
 export const rawMenuSections = _menuSections;
+export const dishSlugs = _menuSections.flatMap((section) => section.items.map((item) => item.slug));
 
 export const menuSections = buildMenuSections('ua');
 
@@ -202,6 +203,18 @@ export function buildMenuGroups(language: LanguageCode) {
 			.map((sectionId) => sectionById.get(sectionId))
 			.filter((section): section is MenuSection => Boolean(section)),
 	}));
+}
+
+export function findRawMenuItemBySlug(slug: string) {
+	for (const section of _menuSections) {
+		const item = section.items.find((entry) => entry.slug === slug);
+
+		if (item) {
+			return { section, item };
+		}
+	}
+
+	return null;
 }
 
 function _toRawMenuSection(category: RawCategory): RawMenuSection {
@@ -317,6 +330,13 @@ function _translateValue(value: LocalizedValue | null | undefined, language: Lan
 	}
 
 	return Object.values(value).find((entry): entry is string => Boolean(entry)) ?? null;
+}
+
+export function translateMenuValue(
+	value: LocalizedValue | null | undefined,
+	language: LanguageCode,
+) {
+	return _translateValue(value, language);
 }
 
 export function cleanText(value: string | null) {

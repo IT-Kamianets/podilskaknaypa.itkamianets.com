@@ -17,7 +17,7 @@ export const routes: Routes = [
 			import('./pages/gallery/gallery.component').then((m) => m.GalleryComponent),
 	},
 	{
-		path: 'dish',
+		path: 'dish/:slug',
 		loadComponent: () => import('./pages/dish/dish.component').then((m) => m.DishComponent),
 	},
 	{

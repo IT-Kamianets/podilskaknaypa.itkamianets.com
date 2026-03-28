@@ -7,28 +7,30 @@
 				<p
 					class="inline-flex rounded-full bg-[color:rgba(197,61,61,0.12)] px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]"
 				>
-					{{ dish.sectionName }}
+					{{ dish().sectionName }}
 				</p>
 
 				<div class="space-y-3">
 					<h1 class="max-w-[14ch] text-3xl font-semibold leading-tight text-[var(--c-text-secondary)] sm:text-5xl">
-						{{ dish.title }}
+						{{ dish().title }}
 					</h1>
 
-					<p class="max-w-2xl text-sm leading-6 text-[var(--c-text-primary)] sm:text-[15px]">
-						{{ dish.description }}
-					</p>
+					@if (dish().description) {
+						<p class="max-w-2xl text-sm leading-6 text-[var(--c-text-primary)] sm:text-[15px]">
+							{{ dish().description }}
+						</p>
+					}
 				</div>
 
 				<div class="flex flex-wrap items-center gap-3">
 					<p class="text-3xl font-semibold leading-none text-[var(--c-secondary)]">
-						{{ dish.price }}
+						{{ dish().price }}
 					</p>
 				</div>
 
-				@if (dish.labels.length) {
+				@if (dish().labels.length) {
 					<div class="flex flex-wrap gap-2">
-						@for (label of dish.labels; track label) {
+						@for (label of dish().labels; track label) {
 							<span
 								class="rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-3 py-1 text-xs font-medium text-[var(--c-text-primary)]"
 							>
@@ -43,13 +45,13 @@
 						class="inline-flex items-center justify-center rounded-full bg-[var(--c-secondary)] px-5 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-[var(--c-secondary-hover)]"
 						routerLink="/"
 					>
-						Переглянути все меню
+						{{ 'Browse full menu' | translate }}
 					</a>
 					<a
 						class="inline-flex items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-5 py-3 text-sm font-semibold text-[var(--c-text-secondary)] transition-colors duration-200 hover:bg-[var(--c-bg-tertiary)]"
 						routerLink="/favorites"
 					>
-						Зберегти для замовлення
+						{{ 'Save to favorites' | translate }}
 					</a>
 				</div>
 			</div>
@@ -58,8 +60,8 @@
 				<div class="hero-glow absolute inset-0 rounded-[1.4rem]"></div>
 				<img
 					class="relative z-[1] h-[20rem] w-full rounded-[1.4rem] object-cover shadow-[var(--shadow-md)] sm:h-[26rem]"
-					[src]="'/item/' + dish.slug + '.webp'"
-					[attr.alt]="dish.slug"
+					[src]="'/item/' + dish().slug + '.webp'"
+					[attr.alt]="dish().imageAlt"
 				/>
 			</div>
 		</div>
@@ -67,28 +69,31 @@
 
 	<section class="mt-4 grid gap-4 lg:grid-cols-[minmax(0,1fr)_22rem]">
 		<div class="space-y-4">
-			<article class="rounded-[1.3rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] p-4 sm:p-5">
-				<div class="flex items-center gap-3">
-					<div class="h-px flex-1 border-t border-dashed border-[var(--c-border)]"></div>
-					<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
-						Про страву
-					</p>
-					<div class="h-px flex-1 border-t border-dashed border-[var(--c-border)]"></div>
-				</div>
+			@if (dish().fullDescription) {
+				<article class="rounded-[1.3rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] p-4 sm:p-5">
+					<div class="flex items-center gap-3">
+						<div class="h-px flex-1 border-t border-dashed border-[var(--c-border)]"></div>
+						<p class="text-[12px] font-semibold uppercase tracking-[0.18em] text-[var(--c-secondary)]">
+							{{ 'About dish' | translate }}
+						</p>
+						<div class="h-px flex-1 border-t border-dashed border-[var(--c-border)]"></div>
+					</div>
 
-				<p class="mt-4 text-[15px] leading-7 text-[var(--c-text-primary)]">
-					Ця сторінка статично представляє першу позицію меню. Вона підходить для окремого SEO-лендінгу страви:
-					тут є короткий опис, базові деталі подачі та рекомендації, що варто спробувати поруч.
-				</p>
-			</article>
+					<p class="mt-4 text-[15px] leading-7 text-[var(--c-text-primary)]">
+						{{ dish().fullDescription }}
+					</p>
+				</article>
+			}
 
 			<article class="rounded-[1.3rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] p-4 sm:p-5">
 				<div class="flex items-center justify-between gap-3">
-					<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">Деталі страви</h2>
+					<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">
+						{{ 'Dish details' | translate }}
+					</h2>
 				</div>
 
 				<div class="mt-4 grid gap-3 sm:grid-cols-2">
-					@for (fact of dish.facts; track fact.label) {
+					@for (fact of dish().facts; track fact.label) {
 						<div class="rounded-[1rem] bg-[var(--c-bg-primary)] p-4">
 							<p class="text-xs font-semibold uppercase tracking-[0.14em] text-[var(--c-text-muted)]">
 								{{ fact.label }}
@@ -104,20 +109,25 @@
 
 		<aside class="rounded-[1.3rem] border border-[var(--c-border)] bg-[var(--c-bg-secondary)] p-4 sm:p-5">
 			<div class="flex items-center justify-between gap-3">
-				<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">До цієї страви пасує</h2>
+				<h2 class="text-xl font-semibold text-[var(--c-text-secondary)]">
+					{{ 'Pairs well with' | translate }}
+				</h2>
 				<span class="text-xs uppercase tracking-[0.16em] text-[var(--c-text-muted)]">
-					Поради шефа
+					{{ 'Chef picks' | translate }}
 				</span>
 			</div>
 
 			<div class="mt-4 space-y-3">
-				@for (suggestion of dish.suggestions; track suggestion.title) {
-					<article class="rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-3">
+				@for (suggestion of dish().suggestions; track suggestion.slug) {
+					<a
+						class="block rounded-[1rem] border border-[var(--c-border)] bg-[var(--c-bg-primary)] p-3 transition-transform duration-200 hover:-translate-y-0.5"
+						[routerLink]="['/dish', suggestion.slug]"
+					>
 						<div class="flex gap-3">
 							<img
 								class="h-20 w-20 shrink-0 rounded-[0.9rem] object-cover"
 								[src]="'/item/' + suggestion.slug + '.webp'"
-								[attr.alt]="suggestion.slug"
+								[attr.alt]="suggestion.imageAlt"
 								loading="lazy"
 							/>
 
@@ -135,7 +145,7 @@
 								}
 							</div>
 						</div>
-					</article>
+					</a>
 				}
 			</div>
 		</aside>
