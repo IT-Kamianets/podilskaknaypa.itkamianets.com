@@ -47,12 +47,14 @@
 					>
 						{{ 'Browse full menu' | translate }}
 					</a>
-					<a
+					<button
 						class="inline-flex items-center justify-center rounded-full border border-[var(--c-border)] bg-[var(--c-bg-primary)] px-5 py-3 text-sm font-semibold text-[var(--c-text-secondary)] transition-colors duration-200 hover:bg-[var(--c-bg-tertiary)]"
-						routerLink="/favorites"
+						[attr.aria-label]="favoriteLabel()"
+						(click)="toggleFavorite()"
+						type="button"
 					>
-						{{ 'Save to favorites' | translate }}
-					</a>
+						{{ favoriteLabel() }}
+					</button>
 				</div>
 			</div>
 

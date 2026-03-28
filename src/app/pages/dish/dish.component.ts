@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/c
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { TranslatePipe, TranslateService } from 'wacom';
+import { FavoritesService } from '../../feature/menu/favorites.service';
 import { LanguageService } from '../../feature/language/language.service';
 import {
 	type RawMenuItem,
@@ -26,6 +27,7 @@ interface DishSuggestion {
 }
 
 interface DishViewModel {
+	id: string;
 	slug: string;
 	sectionName: string;
 	title: string;
@@ -48,6 +50,7 @@ const _fallbackEntry = _resolveFallbackEntry();
 })
 export class DishComponent {
 	private readonly _route = inject(ActivatedRoute);
+	private readonly _favoritesService = inject(FavoritesService);
 	private readonly _languageService = inject(LanguageService);
 	private readonly _translateService = inject(TranslateService);
 	private readonly _slug = toSignal(this._route.paramMap, {
@@ -66,6 +69,18 @@ export class DishComponent {
 			this._translateService,
 		);
 	});
+	protected readonly isFavorite = computed(() =>
+		this._favoritesService.isFavorite(this.dish().id),
+	);
+	protected readonly favoriteLabel = computed(() =>
+		this._translateService.translate(
+			this.isFavorite() ? 'Remove from favorites' : 'Add to favorites',
+		)(),
+	);
+
+	protected toggleFavorite() {
+		this._favoritesService.toggleFavorite(this.dish().id);
+	}
 }
 
 function _buildDishViewModel(
@@ -75,6 +90,7 @@ function _buildDishViewModel(
 	translateService: TranslateService,
 ) {
 	return {
+		id: `${section.slug}-${item.slug}`,
 		slug: item.slug,
 		sectionName: translateMenuValue(section.name, language) ?? item.slug,
 		title: translateMenuValue(item.title, language) ?? item.slug,
