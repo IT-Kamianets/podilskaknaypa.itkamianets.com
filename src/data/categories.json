@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Beer Pairings",
+    "description": "Quick snacks to go with our beer.",
+    "section": "Appetizers",
+    "slug": "beer-pairings"
+  },
+  {
+    "name": "Cold Appetizers",
+    "description": "Traditional cold starters, cured meats, fish, and regional delicacies.",
+    "section": "Appetizers",
+    "slug": "cold-appetizers"
+  },
+  {
+    "name": "Salads",
+    "description": "Fresh salads made with seasonal ingredients and balanced flavors.",
+    "section": "Appetizers",
+    "slug": "salads"
+  },
+  {
+    "name": "Hot Appetizers",
+    "description": "Warm starters and shareable dishes served fresh from the kitchen.",
+    "section": "Appetizers",
+    "slug": "hot-appetizers"
+  },
+  {
+    "name": "Soups",
+    "description": "Comforting soups inspired by local recipes and homemade cooking.",
+    "section": "Main",
+    "slug": "soups"
+  },
+  {
+    "name": "Main Courses",
+    "description": "Hearty main dishes featuring meat, fish, and traditional regional flavors.",
+    "section": "Main",
+    "slug": "main-courses"
+  },
+  {
+    "name": "Dough Dishes",
+    "description": "Homestyle dough-based dishes prepared with traditional recipes.",
+    "section": "Main",
+    "slug": "dough-dishes"
+  },
+  {
+    "name": "Burgers",
+    "description": "Juicy burgers with flavorful fillings and freshly baked buns.",
+    "section": "Main",
+    "slug": "burgers"
+  },
+  {
+    "name": "Wood-Fired Oven",
+    "description": "Dishes cooked in a charcoal oven.",
+    "section": "Main",
+    "slug": "wood-fired-oven"
+  },
+  {
+    "name": "Side Dishes",
+    "description": "Simple and satisfying sides to complement any main dish.",
+    "section": "Main",
+    "slug": "side-dishes"
+  },
+  {
+    "name": "Desserts",
+    "description": "Sweet homemade desserts to finish your meal with pleasure.",
+    "section": "Desserts",
+    "slug": "desserts"
+  },
+  {
+    "name": "Bread Is the Staff of Life",
+    "description": "Fresh bread and baked specialties served as the perfect addition to your table.",
+    "section": "Desserts",
+    "slug": "bread-is-the-staff-of-life"
+  }
+]
