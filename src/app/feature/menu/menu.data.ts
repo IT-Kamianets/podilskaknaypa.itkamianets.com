@@ -1,7 +1,50 @@
-import menuData from '../../../menu.json';
+import categoriesData from '../../../data/categories.json';
+import categoryTranslationsData from '../../../data/categories.translations.json';
+import itemsData from '../../../data/items.json';
+import itemTranslationsData from '../../../data/items.translations.json';
 import type { LanguageCode } from '../language/language.type';
 
 export type LocalizedValue = Partial<Record<LanguageCode, string | null>>;
+
+interface RawCategory {
+	name: string;
+	description: string;
+	section: string;
+	slug: string;
+}
+
+interface RawCategoryTranslation {
+	slug: string;
+	data: {
+		name: LocalizedValue;
+		description: LocalizedValue;
+	};
+}
+
+interface RawItemRecord {
+	slug: string;
+	categorySlug: string;
+	title: string;
+	price: number | null;
+	description: string;
+	labels: string[];
+	fullDescription: string;
+	suggested: string[];
+	cookTimeMinutes: number | null;
+	caloriesKcal: number | null;
+	portion: string | null;
+	allergens: string[];
+}
+
+interface RawItemTranslation {
+	slug: string;
+	data: {
+		title: LocalizedValue;
+		description: LocalizedValue;
+		labels: LocalizedValue[];
+		fullDescription?: LocalizedValue;
+	};
+}
 
 export interface RawMenuItem {
 	slug: string;
@@ -10,12 +53,20 @@ export interface RawMenuItem {
 	description: LocalizedValue;
 	labels: LocalizedValue[];
 	image: string;
+	fullDescription: LocalizedValue;
+	suggested: string[];
+	cookTimeMinutes: number | null;
+	caloriesKcal: number | null;
+	portion: string | null;
+	allergens: string[];
 }
 
 export interface RawMenuSection {
 	name: LocalizedValue;
 	description: LocalizedValue;
 	items: RawMenuItem[];
+	slug: string;
+	section: string;
 }
 
 export interface MenuItem {
@@ -44,7 +95,27 @@ export interface MenuGroup {
 	sections: MenuSection[];
 }
 
-const _menuSections = menuData as RawMenuSection[];
+const _categories = categoriesData as RawCategory[];
+const _categoryTranslations = new Map(
+	(categoryTranslationsData as RawCategoryTranslation[]).map((category) => [category.slug, category.data] as const),
+);
+const _itemTranslations = new Map(
+	(itemTranslationsData as RawItemTranslation[]).map((item) => [item.slug, item.data] as const),
+);
+const _itemsByCategorySlug = new Map<string, RawItemRecord[]>();
+
+for (const item of itemsData as RawItemRecord[]) {
+	const categoryItems = _itemsByCategorySlug.get(item.categorySlug);
+
+	if (categoryItems) {
+		categoryItems.push(item);
+		continue;
+	}
+
+	_itemsByCategorySlug.set(item.categorySlug, [item]);
+}
+
+const _menuSections = _categories.map((category) => _toRawMenuSection(category));
 
 const _groupDefinitions = [
 	{
@@ -53,7 +124,7 @@ const _groupDefinitions = [
 			ua: 'Закуски',
 			en: 'Appetizers',
 		},
-		sectionIds: ['до-нашого-пінного', 'холодні-закуски', 'салати', 'гарячі-закуски'],
+		sectionIds: ['beer-pairings', 'cold-appetizers', 'salads', 'hot-appetizers'],
 	},
 	{
 		id: 'main',
@@ -61,7 +132,14 @@ const _groupDefinitions = [
 			ua: 'Основне',
 			en: 'Main',
 		},
-		sectionIds: ['супи', 'основні-страви', 'тісто', 'бургери', 'піч', 'гарніри'],
+		sectionIds: [
+			'soups',
+			'main-courses',
+			'dough-dishes',
+			'burgers',
+			'wood-fired-oven',
+			'side-dishes',
+		],
 	},
 	{
 		id: 'desserts',
@@ -69,7 +147,7 @@ const _groupDefinitions = [
 			ua: 'Солодке',
 			en: 'Desserts',
 		},
-		sectionIds: ['десерти', 'хліб-усьому-голова'],
+		sectionIds: ['desserts', 'bread-is-the-staff-of-life'],
 	},
 ] as const;
 
@@ -101,12 +179,13 @@ const _priceFallbackByLanguage: Record<LanguageCode, string> = {
 	sv: 'Ask for price',
 };
 
+export const rawMenuSections = _menuSections;
+
 export const menuSections = buildMenuSections('ua');
 
 export const menuGroups = buildMenuGroups('ua');
 
-export const navigationSection =
-	menuSections.find((section) => section.id === 'бургери') ?? menuSections[0];
+export const navigationSection = menuSections.find((section) => section.id === 'burgers') ?? menuSections[0];
 
 export function buildMenuSections(language: LanguageCode) {
 	return _menuSections.map((section) => _toMenuSection(section, language));
@@ -125,16 +204,75 @@ export function buildMenuGroups(language: LanguageCode) {
 	}));
 }
 
-function _toMenuSection(section: RawMenuSection, language: LanguageCode): MenuSection {
-	const sectionName = _translateValue(section.name, language) ?? '';
-	const sectionId = createId(_translateValue(section.name, 'ua') ?? sectionName);
+function _toRawMenuSection(category: RawCategory): RawMenuSection {
+	const categoryTranslations = _categoryTranslations.get(category.slug);
+	const items = (_itemsByCategorySlug.get(category.slug) ?? []).map((item) => _toRawMenuItem(item));
 
 	return {
-		id: sectionId,
+		slug: category.slug,
+		section: category.section,
+		name: {
+			ua: categoryTranslations?.name.ua ?? category.name,
+			en: categoryTranslations?.name.en ?? category.name,
+			...categoryTranslations?.name,
+		},
+		description: {
+			ua: categoryTranslations?.description.ua ?? category.description,
+			en: categoryTranslations?.description.en ?? category.description,
+			...categoryTranslations?.description,
+		},
+		items,
+	};
+}
+
+function _toRawMenuItem(item: RawItemRecord): RawMenuItem {
+	const itemTranslations = _itemTranslations.get(item.slug);
+
+	return {
+		slug: item.slug,
+		title: {
+			ua: itemTranslations?.title.ua ?? item.title,
+			en: itemTranslations?.title.en ?? item.title,
+			...itemTranslations?.title,
+		},
+		price: item.price,
+		description: {
+			ua: itemTranslations?.description.ua ?? item.description,
+			en: itemTranslations?.description.en ?? item.description,
+			...itemTranslations?.description,
+		},
+		labels: item.labels.map((label, index) => {
+			const translatedLabel = itemTranslations?.labels[index];
+
+			return {
+				ua: translatedLabel?.ua ?? label,
+				en: translatedLabel?.en ?? label,
+				...translatedLabel,
+			};
+		}),
+		image: `/item/${item.slug}.webp`,
+		fullDescription: {
+			ua: itemTranslations?.fullDescription?.ua ?? item.fullDescription,
+			en: itemTranslations?.fullDescription?.en ?? item.fullDescription,
+			...itemTranslations?.fullDescription,
+		},
+		suggested: item.suggested,
+		cookTimeMinutes: item.cookTimeMinutes,
+		caloriesKcal: item.caloriesKcal,
+		portion: item.portion,
+		allergens: item.allergens,
+	};
+}
+
+function _toMenuSection(section: RawMenuSection, language: LanguageCode): MenuSection {
+	const sectionName = _translateValue(section.name, language) ?? '';
+
+	return {
+		id: section.slug,
 		name: sectionName,
 		description: cleanText(_translateValue(section.description, language)),
 		items: section.items.map((item) => ({
-			id: `${sectionId}-${createId(item.slug)}`,
+			id: `${section.slug}-${item.slug}`,
 			slug: item.slug,
 			title: _translateValue(item.title, language) ?? item.slug,
 			price: item.price,
@@ -181,19 +319,15 @@ function _translateValue(value: LocalizedValue | null | undefined, language: Lan
 	return Object.values(value).find((entry): entry is string => Boolean(entry)) ?? null;
 }
 
-function cleanText(value: string | null) {
+export function cleanText(value: string | null) {
 	if (!value) {
 		return null;
 	}
 
-	return value
-		.replace(/показати$/i, '')
-		.replace(/\s+/g, ' ')
-		.replace(/\s([,.!?:;])/g, '$1')
-		.trim();
+	return value.replace(/показати$/i, '').replace(/\s+/g, ' ').replace(/\s([,.!?:;])/g, '$1').trim();
 }
 
-function createId(value: string) {
+export function createId(value: string) {
 	return value
 		.toLowerCase()
 		.normalize('NFKD')

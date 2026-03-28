@@ -1,2053 +1,1460 @@
 ﻿[
-  {
-    "slug": "cured-meat-bowl",
-    "categorySlug": "beer-pairings",
-    "title": "Cured Meat Bowl",
-    "description": "An exquisite selection of meat delicacies for beer: cured pork neck, sujuk, makhan, and basturma.",
-    "price": 280,
-    "labels": [
-      "160 g",
-      "Gluten free"
-    ],
-    "fullDescription": "An exquisite selection of meat delicacies for beer: cured pork neck, sujuk, makhan, and basturma. A great choice for sharing with drinks and tasting several flavors at the table.",
-    "suggested": [
-      "basturma",
-      "cured-pork-neck",
-      "sujuk"
-    ],
-    "cookTimeMinutes": 5,
-    "caloriesKcal": 520,
-    "portion": "160 g",
-    "allergens": []
-  },
-  {
-    "slug": "basturma",
-    "categorySlug": "beer-pairings",
-    "title": "Basturma",
-    "description": "Thinly sliced marinated meat with the aroma of paprika and garlic.",
-    "price": 80,
-    "labels": [
-      "40 g",
-      "Gluten free"
-    ],
-    "fullDescription": "Thinly sliced marinated meat with the aroma of paprika and garlic. A great choice for sharing with drinks and tasting several flavors at the table.",
-    "suggested": [
-      "cured-pork-neck",
-      "makhan",
-      "cured-meat-bowl"
-    ],
-    "cookTimeMinutes": 5,
-    "caloriesKcal": 120,
-    "portion": "40 g",
-    "allergens": []
-  },
-  {
-    "slug": "cured-pork-neck",
-    "categorySlug": "beer-pairings",
-    "title": "Cured Pork Neck",
-    "description": "Tender, juicy, and full of spicy notes.",
-    "price": 80,
-    "labels": [
-      "40 g",
-      "Gluten free"
-    ],
-    "fullDescription": "Tender, juicy, and full of spicy notes. A great choice for sharing with drinks and tasting several flavors at the table.",
-    "suggested": [
-      "basturma",
-      "sujuk",
-      "cured-meat-bowl"
-    ],
-    "cookTimeMinutes": 5,
-    "caloriesKcal": 180,
-    "portion": "40 g",
-    "allergens": []
-  },
-  {
-    "slug": "makhan",
-    "categorySlug": "beer-pairings",
-    "title": "Makhan",
-    "description": "A Hutsul delicacy.",
-    "price": 80,
-    "labels": [
-      "60 g",
-      "Gluten free"
-    ],
-    "fullDescription": "A Hutsul delicacy. A great choice for sharing with drinks and tasting several flavors at the table.",
-    "suggested": [
-      "sujuk",
-      "basturma",
-      "cured-meat-bowl"
-    ],
-    "cookTimeMinutes": 5,
-    "caloriesKcal": 210,
-    "portion": "60 g",
-    "allergens": []
-  },
-  {
-    "slug": "sujuk",
-    "categorySlug": "beer-pairings",
-    "title": "Sujuk",
-    "description": "A piquant sausage with a rich aroma of spices.",
-    "price": 80,
-    "labels": [
-      "40 g",
-      "Gluten free"
-    ],
-    "fullDescription": "A piquant sausage with a rich aroma of spices. A great choice for sharing with drinks and tasting several flavors at the table.",
-    "suggested": [
-      "makhan",
-      "cured-pork-neck",
-      "cured-meat-bowl"
-    ],
-    "cookTimeMinutes": 5,
-    "caloriesKcal": 170,
-    "portion": "40 g",
-    "allergens": []
-  },
-  {
-    "slug": "herring-with-potatoes",
-    "categorySlug": "cold-appetizers",
-    "title": "Herring with Potatoes",
-    "description": "Tender Matias herring with baked potatoes and fresh dill in a classic Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers.",
-    "price": 160,
-    "labels": [
-      "280 g",
-      "10 min",
-      "4",
-      "New"
-    ],
-    "fullDescription": "Tender Matias herring with baked potatoes and fresh dill in a classic Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers. Served as a flavorful starter with a focus on local ingredients and regional character.",
-    "suggested": [
-      "lightly-salted-dniester-river-fish",
-      "borscht-in-a-bread-bowl-with-smoked-sausage",
-      "crucian-carp"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 360,
-    "portion": "280 g",
-    "allergens": [
-      "fish"
-    ]
-  },
-  {
-    "slug": "cured-beef-tenderloin",
-    "categorySlug": "cold-appetizers",
-    "title": "Cured Beef Tenderloin",
-    "description": "Tender Podilian cured beef tenderloin, matured and seasoned with traditional spices. Ten percent of the proceeds from this dish go to support army fundraisers.",
-    "price": 180,
-    "labels": [
-      "150 g",
-      "5 min",
-      "New"
-    ],
-    "fullDescription": "Tender Podilian cured beef tenderloin, matured and seasoned with traditional spices. Ten percent of the proceeds from this dish go to support army fundraisers. Served as a flavorful starter with a focus on local ingredients and regional character.",
-    "suggested": [
-      "podilian-meat-board",
-      "beef-cheek-with-mashed-potatoes-and-demi-glace",
-      "beef-kebab-with-homemade-adjika"
-    ],
-    "cookTimeMinutes": 5,
-    "caloriesKcal": 240,
-    "portion": "150 g",
-    "allergens": []
-  },
-  {
-    "slug": "lightly-salted-dniester-river-fish",
-    "categorySlug": "cold-appetizers",
-    "title": "Lightly Salted Dniester River Fish",
-    "description": "Selected fresh fish from the Dniester, lightly cured according to a traditional recipe. We finish it with fragrant oil and serve it with pickled onion. May contain bones.",
-    "price": 220,
-    "labels": [
-      "150 g",
-      "4",
-      "Gluten free",
-      "Recommended"
-    ],
-    "fullDescription": "Selected fresh fish from the Dniester, lightly cured according to a traditional recipe. We finish it with fragrant oil and serve it with pickled onion. May contain bones. Served as a flavorful starter with a focus on local ingredients and regional character.",
-    "suggested": [
-      "herring-with-potatoes",
-      "oven-baked-trout",
-      "crucian-carp"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 230,
-    "portion": "150 g",
-    "allergens": [
-      "fish"
-    ]
-  },
-  {
-    "slug": "podilian-meat-board",
-    "categorySlug": "cold-appetizers",
-    "title": "Podilian Meat Board",
-    "description": "A traditional meat assortment from the heart of Podillia: Zinkiv sausage, smoked pork loin, and shponder. Served with fragrant mustard.",
-    "price": 290,
-    "labels": [
-      "340 g",
-      "10",
-      "Gluten free",
-      "Recommended"
-    ],
-    "fullDescription": "A traditional meat assortment from the heart of Podillia: Zinkiv sausage, smoked pork loin, and shponder. Served with fragrant mustard. Served as a flavorful starter with a focus on local ingredients and regional character.",
-    "suggested": [
-      "cured-beef-tenderloin",
-      "house-made-podilian-sausage",
-      "pork-shashlik-from-the-oven"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 690,
-    "portion": "340 g",
-    "allergens": [
-      "mustard"
-    ]
-  },
-  {
-    "slug": "marinated-lard-that-melts-in-your-mouth",
-    "categorySlug": "cold-appetizers",
-    "title": "Marinated Lard That Melts in Your Mouth",
-    "description": "Tender, aromatic lard cured in a traditional marinade that reveals the full flavor of Podilian cuisine. Served with a piquant sauce and homemade bread.",
-    "price": 140,
-    "labels": [
-      "300 g",
-      "1, 1a",
-      "Recommended"
-    ],
-    "fullDescription": "Tender, aromatic lard cured in a traditional marinade that reveals the full flavor of Podilian cuisine. Served with a piquant sauce and homemade bread. Served as a flavorful starter with a focus on local ingredients and regional character.",
-    "suggested": [
-      "bowl-of-homemade-bread",
-      "borscht-in-a-bread-bowl-with-smoked-sausage",
-      "spread-of-two-types-of-lard"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 820,
-    "portion": "300 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat"
-    ]
-  },
-  {
-    "slug": "spread-of-two-types-of-lard",
-    "categorySlug": "cold-appetizers",
-    "title": "Spread of Two Types of Lard",
-    "description": "A homemade spread of aromatic lard in two flavors: dill and garlic for a gentle, lightly piquant homemade taste, and paprika for a brighter, sharper profile with a pronounced spicy accent. Perfect with crusty bread or alongside a shot.",
-    "price": 120,
-    "labels": [
-      "200 g",
-      "Gluten free",
-      "Medium spicy",
-      "Recommended"
-    ],
-    "fullDescription": "A homemade spread of aromatic lard in two flavors: dill and garlic for a gentle, lightly piquant homemade taste, and paprika for a brighter, sharper profile with a pronounced spicy accent. Perfect with crusty bread or alongside a shot. Served as a flavorful starter with a focus on local ingredients and regional character.",
-    "suggested": [
-      "bowl-of-homemade-bread",
-      "marinated-lard-that-melts-in-your-mouth",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 760,
-    "portion": "200 g",
-    "allergens": []
-  },
-  {
-    "slug": "beef-with-elderberry-capers-and-vitello-sauce",
-    "categorySlug": "cold-appetizers",
-    "title": "Beef with Elderberry Capers and Vitello Sauce",
-    "description": "Thinly sliced beef inspired by classic vitello tonnato, served with a velvety sauce based on tuna, capers, and anchovies. Tender elderberry capers add a delicate tang and aroma.",
-    "price": 290,
-    "labels": [
-      "250 g",
-      "1, 1a, 4, 7"
-    ],
-    "fullDescription": "Thinly sliced beef inspired by classic vitello tonnato, served with a velvety sauce based on tuna, capers, and anchovies. Tender elderberry capers add a delicate tang and aroma. Served as a flavorful starter with a focus on local ingredients and regional character.",
-    "suggested": [
-      "cured-beef-tenderloin",
-      "salad-with-slow-cooked-beef-and-custard-cream",
-      "beef-cheek-with-mashed-potatoes-and-demi-glace"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 430,
-    "portion": "250 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "fish",
-      "milk"
-    ]
-  },
-  {
-    "slug": "celebration-bruschetta",
-    "categorySlug": "cold-appetizers",
-    "title": "Celebration Bruschetta",
-    "description": "A set of crisp bruschettas with local delicacies: Zinkiv sausage cured by a traditional recipe, red caviar on creamy cream cheese, classic Jewish herring forshmak with apples and egg, and cured pork neck with herbs.",
-    "price": 240,
-    "labels": [
-      "250 g",
-      "1, 1a, 3, 4, 7, 10",
-      "Recommended"
-    ],
-    "fullDescription": "A set of crisp bruschettas with local delicacies: Zinkiv sausage cured by a traditional recipe, red caviar on creamy cream cheese, classic Jewish herring forshmak with apples and egg, and cured pork neck with herbs. Served as a flavorful starter with a focus on local ingredients and regional character.",
-    "suggested": [
-      "sheep-bryndza-from-chabanivka",
-      "fire-roasted-peppers-with-soaked-cranberries-and-elderberry",
-      "salad-with-cucumber-tomato-and-bell-pepper"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 510,
-    "portion": "250 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "eggs",
-      "fish",
-      "milk",
-      "mustard"
-    ]
-  },
-  {
-    "slug": "sheep-bryndza-from-chabanivka",
-    "categorySlug": "cold-appetizers",
-    "title": "Sheep Bryndza from Chabanivka",
-    "description": "Priced by weight, with the price shown per 100 g. If you would like it to go, we vacuum-pack the bryndza in portioned pieces weighing 200 to 300 g. Genuine Podilian sheep bryndza made in the village of Chabanivka, natural, lightly salty, with a pronounced milky flavor and a soft texture.",
-    "price": 80,
-    "labels": [
-      "100 g",
-      "7"
-    ],
-    "fullDescription": "Priced by weight, with the price shown per 100 g. If you would like it to go, we vacuum-pack the bryndza in portioned pieces weighing 200 to 300 g. Genuine Podilian sheep bryndza made in the village of Chabanivka, natural, lightly salty, with a pronounced milky flavor and a soft texture. Served as a flavorful starter with a focus on local ingredients and regional character.",
-    "suggested": [
-      "salad-with-sheep-bryndza-tomatoes-and-spinach",
-      "banush-with-porcini-mushrooms-and-young-bryndza",
-      "chebureky-with-suluguni-and-young-bryndza"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 280,
-    "portion": "100 g",
-    "allergens": [
-      "milk"
-    ]
-  },
-  {
-    "slug": "fire-roasted-peppers-with-soaked-cranberries-and-elderberry",
-    "categorySlug": "cold-appetizers",
-    "title": "Fire-Roasted Peppers with Soaked Cranberries and Elderberry 🌱",
-    "description": "Sweet bell peppers roasted over live fire to a lightly charred crust, dressed with olive oil and delicate feta. Finished with a bright citrus sauce, soaked cranberries, hazelnut crumble, fresh dill, and a pinch of sumac.",
-    "price": 195,
-    "labels": [
-      "270 g",
-      "5, 7, 8, 8b, 16",
-      "Vegetarian",
-      "Gluten free"
-    ],
-    "fullDescription": "Sweet bell peppers roasted over live fire to a lightly charred crust, dressed with olive oil and delicate feta. Finished with a bright citrus sauce, soaked cranberries, hazelnut crumble, fresh dill, and a pinch of sumac. Served as a flavorful starter with a focus on local ingredients and regional character.",
-    "suggested": [
-      "assorted-pickled-vegetables",
-      "salad-with-cucumber-tomato-and-bell-pepper",
-      "sheep-bryndza-from-chabanivka"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 240,
-    "portion": "270 g",
-    "allergens": [
-      "peanuts",
-      "milk",
-      "tree nuts",
-      "hazelnuts",
-      "ask staff about allergen code 16"
-    ]
-  },
-  {
-    "slug": "assorted-pickled-vegetables",
-    "categorySlug": "cold-appetizers",
-    "title": "Assorted Pickled Vegetables 🌱🌱🌱",
-    "description": "A plate of assorted pickled vegetables. Please ask your server about today's selection.",
-    "price": 185,
-    "labels": [
-      "220 g",
-      "Vegetarian",
-      "Gluten free",
-      "Medium spicy",
-      "Recommended",
-      "Vegan"
-    ],
-    "fullDescription": "A plate of assorted pickled vegetables. Please ask your server about today's selection. Served as a flavorful starter with a focus on local ingredients and regional character.",
-    "suggested": [
-      "marinated-lard-that-melts-in-your-mouth",
-      "spread-of-two-types-of-lard",
-      "house-made-podilian-sausage"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 90,
-    "portion": "220 g",
-    "allergens": []
-  },
-  {
-    "slug": "salad-with-cured-pork-neck-roasted-peppers-and-peach",
-    "categorySlug": "salads",
-    "title": "Salad with Cured Pork Neck, Roasted Peppers, and Peach",
-    "description": "A juicy salad mix with cured pork neck, roasted bell pepper, fresh cucumber, and tomato. A gentle accent comes from canned peach, which pairs beautifully with a piquant honey-mustard dressing and shaved Parmesan.",
-    "price": 240,
-    "labels": [
-      "290 g",
-      "7, 10, 15",
-      "Gluten free",
-      "Medium spicy"
-    ],
-    "fullDescription": "A juicy salad mix with cured pork neck, roasted bell pepper, fresh cucumber, and tomato. A gentle accent comes from canned peach, which pairs beautifully with a piquant honey-mustard dressing and shaved Parmesan. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
-    "suggested": [
-      "salad-with-roasted-chicken",
-      "salad-with-slow-cooked-beef-and-custard-cream",
-      "bowl-of-baked-flatbreads"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 410,
-    "portion": "290 g",
-    "allergens": [
-      "milk",
-      "mustard",
-      "ask staff about allergen code 15"
-    ]
-  },
-  {
-    "slug": "salad-with-roasted-chicken",
-    "categorySlug": "salads",
-    "title": "Salad with Roasted Chicken",
-    "description": "A genre classic in our Podilian interpretation. A mix of crisp greens, sweet cherry tomatoes, quail eggs, and crunchy bacon. Chicken fillet cooked sous-vide until tender is coated with anchovy sauce and finished with a light Parmesan espuma. A familiar flavor in a refined new reading.",
-    "price": 260,
-    "labels": [
-      "350 g",
-      "3, 4, 7, 10",
-      "Recommended"
-    ],
-    "fullDescription": "A genre classic in our Podilian interpretation. A mix of crisp greens, sweet cherry tomatoes, quail eggs, and crunchy bacon. Chicken fillet cooked sous-vide until tender is coated with anchovy sauce and finished with a light Parmesan espuma. A familiar flavor in a refined new reading. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
-    "suggested": [
-      "salad-with-cured-pork-neck-roasted-peppers-and-peach",
-      "salad-with-slow-cooked-beef-and-custard-cream",
-      "bowl-of-baked-flatbreads"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 470,
-    "portion": "350 g",
-    "allergens": [
-      "eggs",
-      "fish",
-      "milk",
-      "mustard"
-    ]
-  },
-  {
-    "slug": "salad-with-slow-cooked-beef-and-custard-cream",
-    "categorySlug": "salads",
-    "title": "Salad with Slow-Cooked Beef and Custard Cream",
-    "description": "Tender slow-cooked beef served on a mix of greens. We add fresh cucumbers, sweet cherry tomatoes, and a light mustard sauce made with homemade mustard. A mint custard cream adds an unexpectedly refreshing note inspired by Podilian herbs.",
-    "price": 230,
-    "labels": [
-      "190 g",
-      "1, 1a, 3, 7, 10, 15",
-      "Medium spicy"
-    ],
-    "fullDescription": "Tender slow-cooked beef served on a mix of greens. We add fresh cucumbers, sweet cherry tomatoes, and a light mustard sauce made with homemade mustard. A mint custard cream adds an unexpectedly refreshing note inspired by Podilian herbs. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
-    "suggested": [
-      "salad-with-cured-pork-neck-roasted-peppers-and-peach",
-      "salad-with-roasted-chicken",
-      "bowl-of-baked-flatbreads"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 390,
-    "portion": "190 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "eggs",
-      "milk",
-      "mustard",
-      "ask staff about allergen code 15"
-    ]
-  },
-  {
-    "slug": "salad-with-duck-liver-and-caramelized-pear",
-    "categorySlug": "salads",
-    "title": "Salad with Duck Liver and Caramelized Pear",
-    "description": "Crunchy duck liver paired with caramelized pear creates an elegant sweet-and-savory accent. We add fresh cucumber, tomatoes, bell pepper, and mixed greens.",
-    "price": 220,
-    "labels": [
-      "450 g",
-      "3, 7",
-      "Gluten free",
-      "Medium spicy",
-      "Recommended"
-    ],
-    "fullDescription": "Crunchy duck liver paired with caramelized pear creates an elegant sweet-and-savory accent. We add fresh cucumber, tomatoes, bell pepper, and mixed greens. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
-    "suggested": [
-      "salad-with-cured-pork-neck-roasted-peppers-and-peach",
-      "salad-with-roasted-chicken",
-      "bowl-of-baked-flatbreads"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 520,
-    "portion": "450 g",
-    "allergens": [
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "salad-with-shrimp-avocado-and-aged-parmino-cheese",
-    "categorySlug": "salads",
-    "title": "Salad with Shrimp, Avocado, and Aged Parmino Cheese",
-    "description": "A light salad mix with cucumber, tomatoes, and creamy avocado, dressed with a delicate yogurt dressing. We finish it with juicy shrimp and aged sheep's Parmino cheese from the village of Chabanivka, a true Podilian delicacy with character.",
-    "price": 290,
-    "labels": [
-      "400 g",
-      "2, 7",
-      "Recommended"
-    ],
-    "fullDescription": "A light salad mix with cucumber, tomatoes, and creamy avocado, dressed with a delicate yogurt dressing. We finish it with juicy shrimp and aged sheep's Parmino cheese from the village of Chabanivka, a true Podilian delicacy with character. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
-    "suggested": [
-      "salad-with-cured-pork-neck-roasted-peppers-and-peach",
-      "salad-with-roasted-chicken",
-      "bowl-of-baked-flatbreads"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 430,
-    "portion": "400 g",
-    "allergens": [
-      "crustaceans",
-      "milk"
-    ]
-  },
-  {
-    "slug": "salad-with-cucumber-tomato-and-bell-pepper",
-    "categorySlug": "salads",
-    "title": "Salad with Cucumber, Tomato, and Bell Pepper 🌱",
-    "description": "Juicy Podilian cucumbers, tomatoes, and bell pepper, fresh, crisp, and straight from the garden. We dress them with fragrant homemade oil and a light sour cream espuma that adds tenderness to the familiar flavor.",
-    "price": 150,
-    "labels": [
-      "330 g",
-      "7",
-      "Gluten free",
-      "Recommended"
-    ],
-    "fullDescription": "Juicy Podilian cucumbers, tomatoes, and bell pepper, fresh, crisp, and straight from the garden. We dress them with fragrant homemade oil and a light sour cream espuma that adds tenderness to the familiar flavor. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
-    "suggested": [
-      "salad-with-cured-pork-neck-roasted-peppers-and-peach",
-      "salad-with-roasted-chicken",
-      "bowl-of-baked-flatbreads"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 180,
-    "portion": "330 g",
-    "allergens": [
-      "milk"
-    ]
-  },
-  {
-    "slug": "salad-with-sheep-bryndza-tomatoes-and-spinach",
-    "categorySlug": "salads",
-    "title": "Salad with Sheep Bryndza, Tomatoes, and Spinach",
-    "description": "Juicy tomatoes, spinach, and red onion are tossed with fragrant homemade oil. We finish the dish with a generous portion of farm-made sheep bryndza from the village of Chabanivka, spicy, delicate, and authentic. A salad focused on local produce and simple but expressive Podilian gastronomy.",
-    "price": 170,
-    "labels": [
-      "300 g",
-      "7",
-      "Vegetarian"
-    ],
-    "fullDescription": "Juicy tomatoes, spinach, and red onion are tossed with fragrant homemade oil. We finish the dish with a generous portion of farm-made sheep bryndza from the village of Chabanivka, spicy, delicate, and authentic. A salad focused on local produce and simple but expressive Podilian gastronomy. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
-    "suggested": [
-      "salad-with-cured-pork-neck-roasted-peppers-and-peach",
-      "salad-with-roasted-chicken",
-      "bowl-of-baked-flatbreads"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 260,
-    "portion": "300 g",
-    "allergens": [
-      "milk"
-    ]
-  },
-  {
-    "slug": "beer-snack-fry-platter",
-    "categorySlug": "hot-appetizers",
-    "title": "Beer Snack Fry Platter",
-    "description": "Fried calamari rings in crisp batter, fried mozzarella, nuggets, cheddar habanero, cheddar sweet chili, French fries, and golden potato balls make the perfect set for an evening in good company. Served with three sauces of your choice: homemade adjika, tomato ketchup, and a delicate ryazhanka sauce.",
-    "price": 990,
-    "labels": [
-      "1, 1a, 2, 7, 14",
-      "Medium spicy",
-      "Recommended"
-    ],
-    "fullDescription": "Fried calamari rings in crisp batter, fried mozzarella, nuggets, cheddar habanero, cheddar sweet chili, French fries, and golden potato balls make the perfect set for an evening in good company. Served with three sauces of your choice: homemade adjika, tomato ketchup, and a delicate ryazhanka sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
-    "suggested": [
-      "chicken-hearts-in-spicy-sauce",
-      "chicken-nuggets",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 1850,
-    "portion": "1 serving",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "crustaceans",
-      "milk",
-      "molluscs"
-    ]
-  },
-  {
-    "slug": "chicken-hearts-in-spicy-sauce",
-    "categorySlug": "hot-appetizers",
-    "title": "Chicken Hearts in Spicy Sauce 🌶️",
-    "description": "Chicken hearts stewed in a piquant sauce. We cook them until tender so every bite melts in your mouth. They are well seasoned and properly spicy.",
-    "price": 190,
-    "labels": [
-      "Spicy",
-      "Recommended"
-    ],
-    "fullDescription": "Chicken hearts stewed in a piquant sauce. We cook them until tender so every bite melts in your mouth. They are well seasoned and properly spicy. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
-    "suggested": [
-      "beer-snack-fry-platter",
-      "chicken-nuggets",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 320,
-    "portion": "1 serving",
-    "allergens": []
-  },
-  {
-    "slug": "chicken-nuggets",
-    "categorySlug": "hot-appetizers",
-    "title": "Chicken Nuggets",
-    "description": "Served with barbecue sauce.",
-    "price": 160,
-    "labels": [
-      "250 g",
-      "1, 1a, 4, 7, 10"
-    ],
-    "fullDescription": "Served with barbecue sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
-    "suggested": [
-      "beer-snack-fry-platter",
-      "chicken-hearts-in-spicy-sauce",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 470,
-    "portion": "250 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "fish",
-      "milk",
-      "mustard"
-    ]
-  },
-  {
-    "slug": "fried-dumplings-with-pork",
-    "categorySlug": "hot-appetizers",
-    "title": "Fried Dumplings with Pork",
-    "description": "Homemade dumplings filled with juicy pork and fried until golden brown. Served with piquant Podilian adjika for a fuller flavor.",
-    "price": 175,
-    "labels": [
-      "190 g",
-      "1, 1a"
-    ],
-    "fullDescription": "Homemade dumplings filled with juicy pork and fried until golden brown. Served with piquant Podilian adjika for a fuller flavor. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
-    "suggested": [
-      "beer-snack-fry-platter",
-      "chicken-hearts-in-spicy-sauce",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 430,
-    "portion": "190 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat"
-    ]
-  },
-  {
-    "slug": "shrimp-fried-in-beer-batter",
-    "categorySlug": "hot-appetizers",
-    "title": "Shrimp Fried in Beer Batter",
-    "description": "Juicy shrimp in crisp batter made with our own craft beer. Served with a piquant anchovy sauce that highlights the seafood flavor and adds depth to every bite.",
-    "price": 290,
-    "labels": [
-      "200 g",
-      "2, 4, 7, 10",
-      "Gluten free",
-      "Recommended"
-    ],
-    "fullDescription": "Juicy shrimp in crisp batter made with our own craft beer. Served with a piquant anchovy sauce that highlights the seafood flavor and adds depth to every bite. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
-    "suggested": [
-      "beer-snack-fry-platter",
-      "chicken-hearts-in-spicy-sauce",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 410,
-    "portion": "200 g",
-    "allergens": [
-      "crustaceans",
-      "fish",
-      "milk",
-      "mustard"
-    ]
-  },
-  {
-    "slug": "fried-calamari-rings",
-    "categorySlug": "hot-appetizers",
-    "title": "Fried Calamari Rings",
-    "description": "Tender calamari rings fried until crisp and served with a creamy ryazhanka-based sauce.",
-    "price": 210,
-    "labels": [
-      "200 g",
-      "1, 7, 14"
-    ],
-    "fullDescription": "Tender calamari rings fried until crisp and served with a creamy ryazhanka-based sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
-    "suggested": [
-      "beer-snack-fry-platter",
-      "chicken-hearts-in-spicy-sauce",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 360,
-    "portion": "200 g",
-    "allergens": [
-      "cereals containing gluten",
-      "milk",
-      "molluscs"
-    ]
-  },
-  {
-    "slug": "house-made-cheese-balls",
-    "categorySlug": "hot-appetizers",
-    "title": "House-Made Cheese Balls",
-    "description": "Golden balls made from selected Ukrainian cheeses, fried until crisp on the outside and melty within. Served with our signature ryazhanka-based sauce flavored with herbs and spices.",
-    "price": 160,
-    "labels": [
-      "150 g",
-      "1, 1a, 3, 7"
-    ],
-    "fullDescription": "Golden balls made from selected Ukrainian cheeses, fried until crisp on the outside and melty within. Served with our signature ryazhanka-based sauce flavored with herbs and spices. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
-    "suggested": [
-      "beer-snack-fry-platter",
-      "chicken-hearts-in-spicy-sauce",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 420,
-    "portion": "150 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "fried-onion-rings",
-    "categorySlug": "hot-appetizers",
-    "title": "Fried Onion Rings 🌱",
-    "description": "Crunchy sweet onion rings in batter, fried until golden brown. Served with our signature ryazhanka-based sauce with aromatic spices and herbs.",
-    "price": 160,
-    "labels": [
-      "190 g",
-      "1, 1a, 4, 7, 10",
-      "Vegetarian"
-    ],
-    "fullDescription": "Crunchy sweet onion rings in batter, fried until golden brown. Served with our signature ryazhanka-based sauce with aromatic spices and herbs. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
-    "suggested": [
-      "beer-snack-fry-platter",
-      "chicken-hearts-in-spicy-sauce",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 390,
-    "portion": "190 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "fish",
-      "milk",
-      "mustard"
-    ]
-  },
-  {
-    "slug": "potato-balls",
-    "categorySlug": "hot-appetizers",
-    "title": "Potato Balls 🌱",
-    "description": "Golden potato puree balls fried until crisp. Served with garlic sauce.",
-    "price": 140,
-    "labels": [
-      "190 g",
-      "1, 1a, 4, 7, 10"
-    ],
-    "fullDescription": "Golden potato puree balls fried until crisp. Served with garlic sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
-    "suggested": [
-      "beer-snack-fry-platter",
-      "chicken-hearts-in-spicy-sauce",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 340,
-    "portion": "190 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "fish",
-      "milk",
-      "mustard"
-    ]
-  },
-  {
-    "slug": "borscht-in-a-bread-bowl-with-smoked-sausage",
-    "categorySlug": "soups",
-    "title": "Borscht in a Bread Bowl with Smoked Sausage",
-    "description": "Our signature Podilian borscht is simmered over fire for more than four hours together with smoked Hungarian-style sausage, which gives the dish a deep smoky aroma. Served in a fragrant bread bowl and finished with a spoonful of sour cream, fresh green onion, and a piece of our house-made roasted shponder. A hearty, aromatic, soulful dish and a true taste of Podillia.",
-    "price": 220,
-    "labels": [
-      "350 g",
-      "1, 1a, 7, 16",
-      "Recommended"
-    ],
-    "fullDescription": "Our signature Podilian borscht is simmered over fire for more than four hours together with smoked Hungarian-style sausage, which gives the dish a deep smoky aroma. Served in a fragrant bread bowl and finished with a spoonful of sour cream, fresh green onion, and a piece of our house-made roasted shponder. A hearty, aromatic, soulful dish and a true taste of Podillia. Comforting, aromatic, and deeply rooted in local home-style cooking traditions.",
-    "suggested": [
-      "bograch-1978-recipe",
-      "broth-from-free-range-rooster",
-      "bowl-of-homemade-bread"
-    ],
-    "cookTimeMinutes": 18,
-    "caloriesKcal": 540,
-    "portion": "350 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "milk",
-      "ask staff about allergen code 16"
-    ]
-  },
-  {
-    "slug": "bograch-1978-recipe",
-    "categorySlug": "soups",
-    "title": "Bograch, 1978 Recipe 🌶️🌶️🌶️",
-    "description": "An authentic soup-goulash from the Carpathians prepared according to a traditional 1978 recipe. Cooked on rich pork broth with plenty of bell pepper and the hot Hungarian seasoning Eros Pista. Rich, spicy, and full of true Carpathian character. An ideal remedy for a rough morning after. A dish for the bold with heat level 🌶️🌶️🌶️.",
-    "price": 210,
-    "labels": [
-      "300 g",
-      "Gluten free",
-      "Spicy",
-      "Recommended"
-    ],
-    "fullDescription": "An authentic soup-goulash from the Carpathians prepared according to a traditional 1978 recipe. Cooked on rich pork broth with plenty of bell pepper and the hot Hungarian seasoning Eros Pista. Rich, spicy, and full of true Carpathian character. An ideal remedy for a rough morning after. A dish for the bold with heat level 🌶️🌶️🌶️. Comforting, aromatic, and deeply rooted in local home-style cooking traditions.",
-    "suggested": [
-      "borscht-in-a-bread-bowl-with-smoked-sausage",
-      "broth-from-free-range-rooster",
-      "bowl-of-homemade-bread"
-    ],
-    "cookTimeMinutes": 18,
-    "caloriesKcal": 330,
-    "portion": "300 g",
-    "allergens": []
-  },
-  {
-    "slug": "broth-from-free-range-rooster",
-    "categorySlug": "soups",
-    "title": "Broth from Free-Range Rooster",
-    "description": "Прозорий, духмяний бульйон, зварений із домашнього півня за традиційним рецептом. Подається з ніжними галушками, шматочками курячого м’яса, вареним перепелиним яйцем та солодкою морквою. Страва з дитинства — щира, поживна й лікувальна, як у бабусі на селі.показати",
-    "price": 150,
-    "labels": [
-      "300 g",
-      "1, 1a, 3",
-      "Recommended"
-    ],
-    "fullDescription": "A clear, духмяний бульйон, зварений із домашнього півня за традиційним рецептом. Подається з ніжними галушками, шматочками курячого м’яса, вареним перепелиним яйцем та солодкою морквою. Страва з дитинства — щира, поживна й лікувальна, як у бабусі на селі. Comforting, aromatic, and deeply rooted in local home-style cooking traditions.",
-    "suggested": [
-      "borscht-in-a-bread-bowl-with-smoked-sausage",
-      "bograch-1978-recipe",
-      "bowl-of-homemade-bread"
-    ],
-    "cookTimeMinutes": 18,
-    "caloriesKcal": 210,
-    "portion": "300 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "eggs"
-    ]
-  },
-  {
-    "slug": "grandma-s-deruny-with-mushroom-sauce",
-    "categorySlug": "main-courses",
-    "title": "Grandma's Deruny with Mushroom Sauce 🌱",
-    "description": "Golden hand-grated potato pancakes just like grandma made in the village. Served with a thick creamy forest mushroom sauce. A dish that warms the soul, simple, sincere, and comfortingly homemade.",
-    "price": 195,
-    "labels": [
-      "350 g",
-      "7",
-      "Recommended"
-    ],
-    "fullDescription": "Golden hand-grated potato pancakes just like grandma made in the village. Served with a thick creamy forest mushroom sauce. A dish that warms the soul, simple, sincere, and comfortingly homemade. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
-    "suggested": [
-      "podilian-deruny",
-      "deruny-with-caviar-and-feta-mousse",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 25,
-    "caloriesKcal": 480,
-    "portion": "350 g",
-    "allergens": [
-      "milk"
-    ]
-  },
-  {
-    "slug": "podilian-deruny",
-    "categorySlug": "main-courses",
-    "title": "Podilian Deruny",
-    "description": "Картопляні деруни під грибним соусом, із соковитою щокою в соусі деміглас. 10% виторгу з цієї страви буде йти на підтримку зборів для війська.",
-    "price": 220,
-    "labels": [
-      "400 g",
-      "10 min",
-      "1a, 7",
-      "New"
-    ],
-    "fullDescription": "Potato деруни під грибним соусом, із соковитою щокою в соусі деміглас. 10% виторгу з цієї страви буде йти на підтримку зборів для війська. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
-    "suggested": [
-      "grandma-s-deruny-with-mushroom-sauce",
-      "deruny-with-caviar-and-feta-mousse",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 560,
-    "portion": "400 g",
-    "allergens": [
-      "wheat",
-      "milk"
-    ]
-  },
-  {
-    "slug": "deruny-with-caviar-and-feta-mousse",
-    "categorySlug": "main-courses",
-    "title": "Deruny with Caviar and Feta Mousse",
-    "description": "Golden deruny with delicate feta mousse and caviar in Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers.",
-    "price": 250,
-    "labels": [
-      "350 g",
-      "10 min",
-      "1a, 3, 7",
-      "New"
-    ],
-    "fullDescription": "Golden deruny with delicate feta mousse and caviar in Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
-    "suggested": [
-      "grandma-s-deruny-with-mushroom-sauce",
-      "podilian-deruny",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 490,
-    "portion": "350 g",
-    "allergens": [
-      "wheat",
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "zinkiv-sausage-the-pearl-of-podillia",
-    "categorySlug": "main-courses",
-    "title": "Zinkiv Sausage, the Pearl of Podillia",
-    "description": "Справжня візитівка Поділля — чорна зіньківська ковбаса, виготовлена за старовинною технологією з добірного м’яса та крові, зі спеціями та димом, як готували ще наші прадіди. Подається з ніжним трюфельним пюре, моченою журавлиною та глибоким соусом демігляс. Страва з характером — для тих, хто цінує автентичність і сміливий смак.показати",
-    "price": 270,
-    "labels": [
-      "300 g",
-      "3, 7",
-      "Gluten free",
-      "Recommended"
-    ],
-    "fullDescription": "Справжня візитівка Поділля — чорна зіньківська ковбаса, виготовлена за старовинною технологією з добірного м’яса та крові, зі спеціями та димом, як готували ще наші прадіди. Подається з ніжним трюфельним пюре, моченою журавлиною та глибоким соусом демігляс. Страва з характером — для тих, хто цінує автентичність і сміливий смак. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
-    "suggested": [
-      "grandma-s-deruny-with-mushroom-sauce",
-      "podilian-deruny",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 25,
-    "caloriesKcal": 610,
-    "portion": "300 g",
-    "allergens": [
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "buckwheat-stuffed-cabbage-rolls-from-the-oven",
-    "categorySlug": "main-courses",
-    "title": "Buckwheat Stuffed Cabbage Rolls from the Oven",
-    "description": "Запечені в печі голубці з начинкою з гречки та соковитого свинного фаршу — страва, в якій поєднуються ситність і домашній затишок. Подаються з густим грибним соусом на вершках і моченою журавлиною, що додає легку кислинку та баланс смаків. Подільська класика з акцентом на глибину і тепло родинної кухні.показати",
-    "price": 205,
-    "labels": [
-      "380 g",
-      "30 min",
-      "7",
-      "Gluten free",
-      "Recommended"
-    ],
-    "fullDescription": "Запечені в печі голубці з начинкою з гречки та соковитого свинного фаршу — страва, в якій поєднуються ситність і House-madeй затишок. Подаються з густим грибним соусом на вершках і моченою журавлиною, що додає легку кислинку та баланс смаків. Подільська класика з акцентом на глибину і тепло родинної кухні. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
-    "suggested": [
-      "grandma-s-deruny-with-mushroom-sauce",
-      "podilian-deruny",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 30,
-    "caloriesKcal": 520,
-    "portion": "380 g",
-    "allergens": [
-      "milk"
-    ]
-  },
-  {
-    "slug": "rabbit-cutlet-with-carrot-puree",
-    "categorySlug": "main-courses",
-    "title": "Rabbit Cutlet with Carrot Puree",
-    "description": "A tender rabbit cutlet prepared from a homemade recipe. Served with velvety carrot puree and classic demi-glace sauce that highlights the delicate flavor of the meat.",
-    "price": 370,
-    "labels": [
-      "350 g",
-      "3, 7",
-      "Recommended"
-    ],
-    "fullDescription": "A tender rabbit cutlet prepared from a homemade recipe. Served with velvety carrot puree and classic demi-glace sauce that highlights the delicate flavor of the meat. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
-    "suggested": [
-      "grandma-s-deruny-with-mushroom-sauce",
-      "podilian-deruny",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 25,
-    "caloriesKcal": 430,
-    "portion": "350 g",
-    "allergens": [
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "beef-cheek-with-mashed-potatoes-and-demi-glace",
-    "categorySlug": "main-courses",
-    "title": "Beef Cheek with Mashed Potatoes and Demi-Glace",
-    "description": "Tender beef cheek slowly braised until soft in a deep demi-glace made from meat broth, vegetables, and fragrant herbs. Served with fluffy mashed potatoes seasoned with butter. A dish that combines rustic simplicity with refined technique, a modern classic in a Podilian style.",
-    "price": 235,
-    "labels": [
-      "330 g",
-      "7",
-      "Gluten free"
-    ],
-    "fullDescription": "Tender beef cheek slowly braised until soft in a deep demi-glace made from meat broth, vegetables, and fragrant herbs. Served with fluffy mashed potatoes seasoned with butter. A dish that combines rustic simplicity with refined technique, a modern classic in a Podilian style. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
-    "suggested": [
-      "grandma-s-deruny-with-mushroom-sauce",
-      "podilian-deruny",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 25,
-    "caloriesKcal": 560,
-    "portion": "330 g",
-    "allergens": [
-      "milk"
-    ]
-  },
-  {
-    "slug": "catfish-with-creamy-millet-and-fish-demi-glace",
-    "categorySlug": "main-courses",
-    "title": "Catfish with Creamy Millet and Fish Demi-Glace",
-    "description": "Tender catfish fillet fried to a golden crust and served with millet cooked in cream to a silky consistency. Finished with a deep fish demi-glace.",
-    "price": 280,
-    "labels": [
-      "320 g",
-      "4, 7, 16",
-      "Vegetarian",
-      "Gluten free"
-    ],
-    "fullDescription": "Tender catfish fillet fried to a golden crust and served with millet cooked in cream to a silky consistency. Finished with a deep fish demi-glace. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
-    "suggested": [
-      "grandma-s-deruny-with-mushroom-sauce",
-      "podilian-deruny",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 25,
-    "caloriesKcal": 470,
-    "portion": "320 g",
-    "allergens": [
-      "fish",
-      "milk",
-      "ask staff about allergen code 16"
-    ]
-  },
-  {
-    "slug": "crucian-carp",
-    "categorySlug": "main-courses",
-    "title": "Crucian Carp",
-    "description": "We salt and pepper the crucian carp generously, coat them in flour, and fry them in a very hot pan to a deep reddish crispness. Served with lemon. Perfect with beer or our barley moonshine.",
-    "price": 180,
-    "labels": [
-      "350 g",
-      "1, 1a, 4, 7, 16",
-      "New"
-    ],
-    "fullDescription": "We salt and pepper the crucian carp generously, coat them in flour, and fry them in a very hot pan to a deep reddish crispness. Served with lemon. Perfect with beer or our barley moonshine. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
-    "suggested": [
-      "grandma-s-deruny-with-mushroom-sauce",
-      "podilian-deruny",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 25,
-    "caloriesKcal": 410,
-    "portion": "350 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "fish",
-      "milk",
-      "ask staff about allergen code 16"
-    ]
-  },
-  {
-    "slug": "banush-with-porcini-mushrooms-and-young-bryndza",
-    "categorySlug": "main-courses",
-    "title": "Banush with Porcini Mushrooms and Young Bryndza",
-    "description": "Traditional Hutsul banush made with sour cream, creamy, rich, and fragrant. Served with mushroom sauce and a generous portion of young bryndza that melts delicately over the hot corn porridge. A dish with Carpathian character that suits a Podilian table perfectly.",
-    "price": 210,
-    "labels": [
-      "350 g",
-      "7",
-      "Gluten free",
-      "Recommended"
-    ],
-    "fullDescription": "Traditional Hutsul banush made with sour cream, creamy, rich, and fragrant. Served with mushroom sauce and a generous portion of young bryndza that melts delicately over the hot corn porridge. A dish with Carpathian character that suits a Podilian table perfectly. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
-    "suggested": [
-      "grandma-s-deruny-with-mushroom-sauce",
-      "podilian-deruny",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 25,
-    "caloriesKcal": 530,
-    "portion": "350 g",
-    "allergens": [
-      "milk"
-    ]
-  },
-  {
-    "slug": "lezhni-the-strength-of-podillia",
-    "categorySlug": "main-courses",
-    "title": "Lezhni, the Strength of Podillia",
-    "description": "Традиційні подільські лежні — пиріжечки з кукурудзяної крупи, сметани та картоплі, ніжні всередині й рум’яні ззовні. Начиняємо їх вареним яйцем, зеленою цибулею та духмяною овечою бринзою з села Чабанівка. Подаємо зі сметанкою.показати",
-    "price": 200,
-    "labels": [
-      "400 g",
-      "3, 7"
-    ],
-    "fullDescription": "Традиційні подільські лежні — пиріжечки з кукурудзяної крупи, сметани та картоплі, ніжні всередині й рум’яні ззовні. Начиняємо їх вареним яйцем, зеленою цибулею та духмяною овечою бринзою з села Чабанівка. Подаємо зі сметанкою. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
-    "suggested": [
-      "grandma-s-deruny-with-mushroom-sauce",
-      "podilian-deruny",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 25,
-    "caloriesKcal": 450,
-    "portion": "400 g",
-    "allergens": [
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "varenyky-with-smoked-mackerel-and-potatoes",
-    "categorySlug": "dough-dishes",
-    "title": "Varenyky with Smoked Mackerel and Potatoes",
-    "description": "Традиційні подільські вареники з картоплею, ніжною копченою скумбрією та рибною підливою. 10% виторгу з цієї страви буде йти на підтримку зборів для війська.",
-    "price": 210,
-    "labels": [
-      "450 g",
-      "15 min",
-      "1a, 4",
-      "New"
-    ],
-    "fullDescription": "Традиційні подільські вареники з картоплею, ніжною копченою скумбрією та рибною підливою. 10% виторгу з цієї страви буде йти на підтримку зборів для війська. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
-    "suggested": [
-      "varenyky-with-braised-cabbage",
-      "varenyky-with-cheese",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 540,
-    "portion": "450 g",
-    "allergens": [
-      "wheat",
-      "fish"
-    ]
-  },
-  {
-    "slug": "varenyky-with-braised-cabbage",
-    "categorySlug": "dough-dishes",
-    "title": "Varenyky with Braised Cabbage",
-    "description": "Traditional Podilian varenyky with a delicate filling of braised cabbage and caramelized onion. Ten percent of the proceeds from this dish go to support army fundraisers.",
-    "price": 160,
-    "labels": [
-      "450 g",
-      "15 min",
-      "1a, 7",
-      "New"
-    ],
-    "fullDescription": "Traditional Podilian varenyky with a delicate filling of braised cabbage and caramelized onion. Ten percent of the proceeds from this dish go to support army fundraisers. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
-    "suggested": [
-      "varenyky-with-smoked-mackerel-and-potatoes",
-      "varenyky-with-cheese",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 420,
-    "portion": "450 g",
-    "allergens": [
-      "wheat",
-      "milk"
-    ]
-  },
-  {
-    "slug": "varenyky-with-cheese",
-    "categorySlug": "dough-dishes",
-    "title": "Varenyky with Cheese",
-    "description": "Homemade Podilian varenyky with a filling of salted farmer's cheese and bryndza, served with sour cream. Ten percent of the proceeds from this dish go to support army fundraisers.",
-    "price": 180,
-    "labels": [
-      "400 g",
-      "15 min",
-      "1a, 3, 15",
-      "New"
-    ],
-    "fullDescription": "Homemade Podilian varenyky with a filling of salted farmer's cheese and bryndza, served with sour cream. Ten percent of the proceeds from this dish go to support army fundraisers. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
-    "suggested": [
-      "varenyky-with-smoked-mackerel-and-potatoes",
-      "varenyky-with-braised-cabbage",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 15,
-    "caloriesKcal": 490,
-    "portion": "400 g",
-    "allergens": [
-      "wheat",
-      "eggs",
-      "ask staff about allergen code 15"
-    ]
-  },
-  {
-    "slug": "little-varenyky-with-meat-and-herbs",
-    "categorySlug": "dough-dishes",
-    "title": "Little Varenyky with Meat and Herbs",
-    "description": "Homemade little varenyky with delicate minced meat, hand-shaped just like grandma made them. Served with fresh herbs and a generous spoonful of sour cream. A Podilian classic that needs no extra words.",
-    "price": 180,
-    "labels": [
-      "1, 1a, 7"
-    ],
-    "fullDescription": "Homemade little varenyky with delicate minced meat, hand-shaped just like grandma made them. Served with fresh herbs and a generous spoonful of sour cream. A Podilian classic that needs no extra words. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
-    "suggested": [
-      "varenyky-with-smoked-mackerel-and-potatoes",
-      "varenyky-with-braised-cabbage",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 20,
-    "caloriesKcal": 460,
-    "portion": "1 plate",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "milk"
-    ]
-  },
-  {
-    "slug": "varenyky-with-potatoes-and-cracklings",
-    "categorySlug": "dough-dishes",
-    "title": "Varenyky with Potatoes and Cracklings",
-    "description": "Homemade varenyky with fluffy dough and a potato filling, served with golden fried onion, crispy cracklings, and elderflower capers that add a gentle tang. Finished with a generous spoonful of sour cream. A Podilian classic with an unexpected touch, a familiar flavor in a new sound.",
-    "price": 160,
-    "labels": [
-      "1, 1a, 7"
-    ],
-    "fullDescription": "Homemade varenyky with fluffy dough and a potato filling, served with golden fried onion, crispy cracklings, and elderflower capers that add a gentle tang. Finished with a generous spoonful of sour cream. A Podilian classic with an unexpected touch, a familiar flavor in a new sound. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
-    "suggested": [
-      "varenyky-with-smoked-mackerel-and-potatoes",
-      "varenyky-with-braised-cabbage",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 20,
-    "caloriesKcal": 520,
-    "portion": "1 plate",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "milk"
-    ]
-  },
-  {
-    "slug": "varenyky-with-cherry-and-condensed-milk-sauce",
-    "categorySlug": "dough-dishes",
-    "title": "Varenyky with Cherry and Condensed Milk Sauce 🌱",
-    "description": "House-made varenyky with juicy cherry, tender dough, a generous filling, and a real summer mood. Served with an aromatic sauce based on condensed milk, sour cream, and cinnamon. Sprinkled with crushed hazelnuts and fresh mint. A light sweet dish that especially delights children. May contain pits.",
-    "price": 195,
-    "labels": [
-      "210 g",
-      "1, 1a, 3, 7",
-      "Recommended"
-    ],
-    "fullDescription": "House-made varenyky with juicy cherry, tender dough, a generous filling, and a real summer mood. Served with an aromatic sauce based on condensed milk, sour cream, and cinnamon. Sprinkled with crushed hazelnuts and fresh mint. A light sweet dish that especially delights children. May contain pits. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
-    "suggested": [
-      "varenyky-with-smoked-mackerel-and-potatoes",
-      "varenyky-with-braised-cabbage",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 20,
-    "caloriesKcal": 480,
-    "portion": "210 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "galushky-with-bacon",
-    "categorySlug": "dough-dishes",
-    "title": "Galushky with Bacon",
-    "description": "Ніжні галушки власного виробництва — м’які, пухкі й справжні, як у дитинстві. Подаються з обсмаженим беконом та вершковим соусом на основі пармезану і яєць, що огортає страву шовковистою текстурою. Посипаємо свіжотертим пармезаном. Подільська інтерпретація класики — смачно, ситно й по-домашньому тепло.показати",
-    "price": 240,
-    "labels": [
-      "350 g",
-      "1, 1a, 3, 7"
-    ],
-    "fullDescription": "Tender галушки власного виробництва — м’які, пухкі й справжні, як у дитинстві. Подаються з обсмаженим беконом та вершковим соусом на основі пармезану і яєць, що огортає страву шовковистою текстурою. Посипаємо свіжотертим пармезаном. Подільська інтерпретація класики — смачно, ситно й по-домашньому тепло. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
-    "suggested": [
-      "varenyky-with-smoked-mackerel-and-potatoes",
-      "varenyky-with-braised-cabbage",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 20,
-    "caloriesKcal": 620,
-    "portion": "350 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "galushky-with-chicken-and-mushrooms",
-    "categorySlug": "dough-dishes",
-    "title": "Galushky with Chicken and Mushrooms",
-    "description": "домашні галушки власного виробництва подаємо з соковитою куркою та шампіньйонами. Поливаємо ніжним вершковим соусом із пармезаном. Завершуємо страву цибулькою та тертим пармезаном. Затишна й водночас елегантна подільська страва з сучасним акцентом.показати",
-    "price": 240,
-    "labels": [
-      "350 g",
-      "1, 1a, 3, 7",
-      "Recommended"
-    ],
-    "fullDescription": "House-made галушки власного виробництва подаємо з соковитою куркою та шампіньйонами. Поливаємо ніжним вершковим соусом із пармезаном. Завершуємо страву цибулькою та тертим пармезаном. Затишна й водночас елегантна подільська страва з сучасним акцентом. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
-    "suggested": [
-      "varenyky-with-smoked-mackerel-and-potatoes",
-      "varenyky-with-braised-cabbage",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 20,
-    "caloriesKcal": 590,
-    "portion": "350 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "galushky-with-cherry",
-    "categorySlug": "dough-dishes",
-    "title": "Galushky with Cherry 🌱",
-    "description": "Tender sweet galushky with cherry, covered with a sauce of cream, sour cream, and condensed milk, gentle and creamy like childhood. Sprinkled with cocoa crumble and crushed hazelnuts for balance of flavor and texture. A favorite dessert for children and not only. Cherry pits may occur.",
-    "price": 225,
-    "labels": [
-      "350 g",
-      "1, 1a, 3, 5, 7, 8, 8b",
-      "Vegetarian",
-      "Recommended"
-    ],
-    "fullDescription": "Tender sweet galushky with cherry, covered with a sauce of cream, sour cream, and condensed milk, gentle and creamy like childhood. Sprinkled with cocoa crumble and crushed hazelnuts for balance of flavor and texture. A favorite dessert for children and not only. Cherry pits may occur. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
-    "suggested": [
-      "varenyky-with-smoked-mackerel-and-potatoes",
-      "varenyky-with-braised-cabbage",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 20,
-    "caloriesKcal": 540,
-    "portion": "350 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "eggs",
-      "peanuts",
-      "milk",
-      "tree nuts",
-      "hazelnuts"
-    ]
-  },
-  {
-    "slug": "chebureky-with-pork-and-barberry",
-    "categorySlug": "dough-dishes",
-    "title": "Chebureky with Pork and Barberry",
-    "description": "Two juicy chebureky made with thin dough and filled with minced pork, fragrant onion, and a touch of barberry for balance and character. Served with homemade adjika, fresh herbs, and pickled red onion.",
-    "price": 210,
-    "labels": [
-      "350 g",
-      "1, 1a",
-      "Recommended"
-    ],
-    "fullDescription": "Two juicy chebureky made with thin dough and filled with minced pork, fragrant onion, and a touch of barberry for balance and character. Served with homemade adjika, fresh herbs, and pickled red onion. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
-    "suggested": [
-      "varenyky-with-smoked-mackerel-and-potatoes",
-      "varenyky-with-braised-cabbage",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 20,
-    "caloriesKcal": 690,
-    "portion": "350 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat"
-    ]
-  },
-  {
-    "slug": "chebureky-with-suluguni-and-young-bryndza",
-    "categorySlug": "dough-dishes",
-    "title": "Chebureky with Suluguni and Young Bryndza 🌱",
-    "description": "Two crisp chebureky with a delicate filling of stretchy suluguni, piquant sheep bryndza, and fresh wild garlic greens. Aromatic greens add a springlike note and balance the saltiness of the cheeses. Served with homemade adjika, herbs, and pickled red onion.",
-    "price": 210,
-    "labels": [
-      "350 g",
-      "1, 1a, 7",
-      "Vegetarian"
-    ],
-    "fullDescription": "Two crisp chebureky with a delicate filling of stretchy suluguni, piquant sheep bryndza, and fresh wild garlic greens. Aromatic greens add a springlike note and balance the saltiness of the cheeses. Served with homemade adjika, herbs, and pickled red onion. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
-    "suggested": [
-      "varenyky-with-smoked-mackerel-and-potatoes",
-      "varenyky-with-braised-cabbage",
-      "assorted-pickled-vegetables"
-    ],
-    "cookTimeMinutes": 20,
-    "caloriesKcal": 650,
-    "portion": "350 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "milk"
-    ]
-  },
-  {
-    "slug": "spicy-beef-burger",
-    "categorySlug": "burgers",
-    "title": "Spicy Beef Burger",
-    "description": "Яловича котлета, мікс салату, квашений огірок, томати, сир чеддер, трюфельний соус, гостий соус на основі Ерош Пішти, булочка бріош власного виробництва. Подається з картопляними діпами і аджикою.",
-    "price": 325,
-    "labels": [
-      "400 g",
-      "1, 1a, 3, 7",
-      "Spicy"
-    ],
-    "fullDescription": "Яловича котлета, мікс салату, квашений огірок, томати, сир чеддер, трюфельний соус, гостий соус на основі Ерош Пішти, булочка бріош власного виробництва. Подається з картопляними діпами і аджикою. A substantial plate with a rich flavor profile and a familiar format elevated by house details.",
-    "suggested": [
-      "beef-burger-with-truffle-sauce",
-      "classic-chicken-burger-with-fresh-vegetables",
-      "french-fries"
-    ],
-    "cookTimeMinutes": 18,
-    "caloriesKcal": 860,
-    "portion": "400 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "beef-burger-with-truffle-sauce",
-    "categorySlug": "burgers",
-    "title": "Beef Burger with Truffle Sauce",
-    "description": "Яловича котлета, мікс салату, квашений огірок, томати, сир чеддер, трюфельний соус, булочка бріош власного виробництва. Подається з картопляними діпами і аджикою.",
-    "price": 320,
-    "labels": [
-      "400 g",
-      "1, 1a, 3, 7",
-      "Recommended"
-    ],
-    "fullDescription": "Яловича котлета, мікс салату, квашений огірок, томати, сир чеддер, трюфельний соус, булочка бріош власного виробництва. Подається з картопляними діпами і аджикою. A substantial plate with a rich flavor profile and a familiar format elevated by house details.",
-    "suggested": [
-      "spicy-beef-burger",
-      "classic-chicken-burger-with-fresh-vegetables",
-      "french-fries"
-    ],
-    "cookTimeMinutes": 18,
-    "caloriesKcal": 820,
-    "portion": "400 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "classic-chicken-burger-with-fresh-vegetables",
-    "categorySlug": "burgers",
-    "title": "Classic Chicken Burger with Fresh Vegetables",
-    "description": "Куряча котлета, мікс салату, свіжий огірок, томати, сир чеддер, соус анчоусний, соус з діжонською гірчицею , булочка бріош власного виробництва. Подається з картопляними діпами і аджикою.",
-    "price": 315,
-    "labels": [
-      "400 g",
-      "1, 1a, 3, 7",
-      "Recommended"
-    ],
-    "fullDescription": "Куряча котлета, мікс салату, свіжий огірок, томати, сир чеддер, соус анчоусний, соус з діжонською гірчицею , булочка бріош власного виробництва. Подається з картопляними діпами і аджикою. A substantial plate with a rich flavor profile and a familiar format elevated by house details.",
-    "suggested": [
-      "spicy-beef-burger",
-      "beef-burger-with-truffle-sauce",
-      "french-fries"
-    ],
-    "cookTimeMinutes": 18,
-    "caloriesKcal": 760,
-    "portion": "400 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "large-podilian-meat-platter-from-the-oven",
-    "categorySlug": "wood-fired-oven",
-    "title": "Large Podilian Meat Platter from the Oven",
-    "description": "A generous meat assortment from the oven: juicy pork shashlik, tender chicken shashlik, fragrant pork rib, and Podilian house-made sausage. Served with cabbage salad in a vinegar-mustard dressing, two freshly baked flatbreads, homemade adjika, a ryazhanka-based sauce, pickled onion, and herbs. A dish for sharing, generous, aromatic, and truly Podilian.",
-    "price": null,
-    "labels": [
-      "1.1 kg",
-      "1, 1a, 7, 10",
-      "Medium spicy",
-      "Recommended"
-    ],
-    "fullDescription": "A generous meat assortment from the oven: juicy pork shashlik, tender chicken shashlik, fragrant pork rib, and Podilian house-made sausage. Served with cabbage salad in a vinegar-mustard dressing, two freshly baked flatbreads, homemade adjika, a ryazhanka-based sauce, pickled onion, and herbs. A dish for sharing, generous, aromatic, and truly Podilian. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
-    "suggested": [
-      "very-large-podilian-meat-platter-from-the-oven",
-      "duck-leg-with-pepper-sauce-and-young-carrot-puree",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 30,
-    "caloriesKcal": 1900,
-    "portion": "1.1 kg",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "milk",
-      "mustard"
-    ]
-  },
-  {
-    "slug": "very-large-podilian-meat-platter-from-the-oven",
-    "categorySlug": "wood-fired-oven",
-    "title": "Very Large Podilian Meat Platter from the Oven",
-    "description": "A generous meat assortment from the oven: juicy pork shashlik, tender chicken shashlik, beef kebab, fragrant pork rib, and Podilian house-made sausage. Served with cabbage salad in a vinegar-mustard dressing, two freshly baked flatbreads, homemade adjika, a ryazhanka-based sauce, pickled onion, and herbs. A dish for sharing, generous, aromatic, and truly Podilian.",
-    "price": null,
-    "labels": [
-      "1.4 kg",
-      "1, 1a, 7, 10",
-      "Medium spicy",
-      "Recommended"
-    ],
-    "fullDescription": "A generous meat assortment from the oven: juicy pork shashlik, tender chicken shashlik, beef kebab, fragrant pork rib, and Podilian house-made sausage. Served with cabbage salad in a vinegar-mustard dressing, two freshly baked flatbreads, homemade adjika, a ryazhanka-based sauce, pickled onion, and herbs. A dish for sharing, generous, aromatic, and truly Podilian. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
-    "suggested": [
-      "large-podilian-meat-platter-from-the-oven",
-      "duck-leg-with-pepper-sauce-and-young-carrot-puree",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 30,
-    "caloriesKcal": 2450,
-    "portion": "1.4 kg",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "milk",
-      "mustard"
-    ]
-  },
-  {
-    "slug": "duck-leg-with-pepper-sauce-and-young-carrot-puree",
-    "categorySlug": "wood-fired-oven",
-    "title": "Duck Leg with Pepper Sauce and Young Carrot Puree",
-    "description": "Duck leg slowly cooked at low temperature to ideal tenderness, with a crisp golden skin. Served with delicate carrot puree and a spicy mixed-pepper sauce that highlights the rich flavor of the meat. An elegant dish with Podilian charm and a modern presentation.",
-    "price": 310,
-    "labels": [
-      "270 g",
-      "5, 7, 8, 8b, 10",
-      "Gluten free"
-    ],
-    "fullDescription": "Duck leg slowly cooked at low temperature to ideal tenderness, with a crisp golden skin. Served with delicate carrot puree and a spicy mixed-pepper sauce that highlights the rich flavor of the meat. An elegant dish with Podilian charm and a modern presentation. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
-    "suggested": [
-      "large-podilian-meat-platter-from-the-oven",
-      "very-large-podilian-meat-platter-from-the-oven",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 30,
-    "caloriesKcal": 590,
-    "portion": "270 g",
-    "allergens": [
-      "peanuts",
-      "milk",
-      "tree nuts",
-      "hazelnuts",
-      "mustard"
-    ]
-  },
-  {
-    "slug": "beef-kebab-with-homemade-adjika",
-    "categorySlug": "wood-fired-oven",
-    "title": "Beef Kebab with Homemade Adjika",
-    "description": "Juicy beef kebab roasted over charcoal, with a rich aroma of smoke and spices. Served on freshly baked rye flatbread with our own homemade adjika and pickled red onion.",
-    "price": 240,
-    "labels": [
-      "200 g",
-      "1, 1a",
-      "Medium spicy"
-    ],
-    "fullDescription": "Juicy beef kebab roasted over charcoal, with a rich aroma of smoke and spices. Served on freshly baked rye flatbread with our own homemade adjika and pickled red onion. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
-    "suggested": [
-      "large-podilian-meat-platter-from-the-oven",
-      "very-large-podilian-meat-platter-from-the-oven",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 30,
-    "caloriesKcal": 430,
-    "portion": "200 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat"
-    ]
-  },
-  {
-    "slug": "house-made-podilian-sausage",
-    "categorySlug": "wood-fired-oven",
-    "title": "House-Made Podilian Sausage",
-    "description": "Priced by weight, with the price shown per 100 g. House-made sausage baked in the oven until browned and richly aromatic. Served on freshly baked rye flatbread with homemade adjika, fragrant herbs, and pickled onion. A hearty, flavorful dish with true Podilian character.",
-    "price": 85,
-    "labels": [
-      "1, 1a"
-    ],
-    "fullDescription": "Priced by weight, with the price shown per 100 g. House-made sausage baked in the oven until browned and richly aromatic. Served on freshly baked rye flatbread with homemade adjika, fragrant herbs, and pickled onion. A hearty, flavorful dish with true Podilian character. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
-    "suggested": [
-      "large-podilian-meat-platter-from-the-oven",
-      "very-large-podilian-meat-platter-from-the-oven",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 30,
-    "caloriesKcal": 310,
-    "portion": "1 plate",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat"
-    ]
-  },
-  {
-    "slug": "overnight-oven-braised-rib",
-    "categorySlug": "wood-fired-oven",
-    "title": "Overnight Oven-Braised Rib",
-    "description": "Priced by weight, with the price shown per 100 g. Juicy pork ribs slowly braised in the oven until tender, then generously glazed with aromatic barbecue sauce for a rich sweet-and-spicy flavor. Served with homemade adjika, fresh herbs, and freshly baked rye flatbread. A dish for true meat lovers.",
-    "price": 120,
-    "labels": [
-      "1, 1a",
-      "Recommended"
-    ],
-    "fullDescription": "Priced by weight, with the price shown per 100 g. Juicy pork ribs slowly braised in the oven until tender, then generously glazed with aromatic barbecue sauce for a rich sweet-and-spicy flavor. Served with homemade adjika, fresh herbs, and freshly baked rye flatbread. A dish for true meat lovers. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
-    "suggested": [
-      "large-podilian-meat-platter-from-the-oven",
-      "very-large-podilian-meat-platter-from-the-oven",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 30,
-    "caloriesKcal": 540,
-    "portion": "1 plate",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat"
-    ]
-  },
-  {
-    "slug": "chicken-shashlik-from-the-oven",
-    "categorySlug": "wood-fired-oven",
-    "title": "Chicken Shashlik from the Oven",
-    "description": "Juicy chicken thigh meat marinated in spices and roasted over charcoal to a golden crust and a light smoky aroma. Served with soft wheat flatbread, a delicate ryazhanka-based sauce, and fresh herbs.",
-    "price": 280,
-    "labels": [
-      "300 g",
-      "1, 1a, 7",
-      "Recommended"
-    ],
-    "fullDescription": "Juicy chicken thigh meat marinated in spices and roasted over charcoal to a golden crust and a light smoky aroma. Served with soft wheat flatbread, a delicate ryazhanka-based sauce, and fresh herbs. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
-    "suggested": [
-      "large-podilian-meat-platter-from-the-oven",
-      "very-large-podilian-meat-platter-from-the-oven",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 30,
-    "caloriesKcal": 470,
-    "portion": "300 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat",
-      "milk"
-    ]
-  },
-  {
-    "slug": "pork-shashlik-from-the-oven",
-    "categorySlug": "wood-fired-oven",
-    "title": "Pork Shashlik from the Oven",
-    "description": "Juicy pork neck roasted over charcoal to a browned crust and tender center. Served on freshly baked rye flatbread with homemade adjika, fragrant herbs, and pickled onion.",
-    "price": 320,
-    "labels": [
-      "300 g",
-      "1, 1a",
-      "Recommended"
-    ],
-    "fullDescription": "Juicy pork neck roasted over charcoal to a browned crust and tender center. Served on freshly baked rye flatbread with homemade adjika, fragrant herbs, and pickled onion. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
-    "suggested": [
-      "large-podilian-meat-platter-from-the-oven",
-      "very-large-podilian-meat-platter-from-the-oven",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 30,
-    "caloriesKcal": 620,
-    "portion": "300 g",
-    "allergens": [
-      "cereals containing gluten",
-      "wheat"
-    ]
-  },
-  {
-    "slug": "chunk-of-pork-neck-with-anna-potatoes",
-    "categorySlug": "wood-fired-oven",
-    "title": "Chunk of Pork Neck with Anna Potatoes",
-    "description": "Juicy pork neck roasted over charcoal to a golden crust and a rich smoky aroma. Served with delicate Anna potatoes baked in buttery layers and pickled onion. Finished with an elegant smoked plum sauce that adds a sweet-and-sour accent and highlights the flavor of the meat.",
-    "price": 280,
-    "labels": [
-      "210 g",
-      "16",
-      "Gluten free"
-    ],
-    "fullDescription": "Juicy pork neck roasted over charcoal to a golden crust and a rich smoky aroma. Served with delicate Anna potatoes baked in buttery layers and pickled onion. Finished with an elegant smoked plum sauce that adds a sweet-and-sour accent and highlights the flavor of the meat. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
-    "suggested": [
-      "large-podilian-meat-platter-from-the-oven",
-      "very-large-podilian-meat-platter-from-the-oven",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 30,
-    "caloriesKcal": 640,
-    "portion": "210 g",
-    "allergens": [
-      "ask staff about allergen code 16"
-    ]
-  },
-  {
-    "slug": "oven-baked-trout",
-    "categorySlug": "wood-fired-oven",
-    "title": "Oven-Baked Trout",
-    "description": "Rainbow trout baked with local spices in a Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers.",
-    "price": 320,
-    "labels": [
-      "300 g",
-      "20 min",
-      "4",
-      "New"
-    ],
-    "fullDescription": "Rainbow trout baked with local spices in a Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
-    "suggested": [
-      "large-podilian-meat-platter-from-the-oven",
-      "very-large-podilian-meat-platter-from-the-oven",
-      "pyzhivska-potatoes-with-garlic-and-dill"
-    ],
-    "cookTimeMinutes": 20,
-    "caloriesKcal": 410,
-    "portion": "300 g",
-    "allergens": [
-      "fish"
-    ]
-  },
-  {
-    "slug": "french-fries",
-    "categorySlug": "side-dishes",
-    "title": "French Fries 🌱🌱🌱",
-    "description": null,
-    "price": 130,
-    "labels": [
-      "Vegetarian",
-      "Gluten free",
-      "Vegan"
-    ],
-    "fullDescription": "A signature french fries 🌱🌱🌱 prepared in our kitchen. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties.",
-    "suggested": [
-      "mashed-potatoes",
-      "oven-baked-vegetables",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 360,
-    "portion": "1 serving",
-    "allergens": []
-  },
-  {
-    "slug": "mashed-potatoes",
-    "categorySlug": "side-dishes",
-    "title": "Mashed Potatoes 🌱",
-    "description": "Potato puree, butter, milk.",
-    "price": 110,
-    "labels": [
-      "220 g",
-      "7",
-      "Vegetarian",
-      "Gluten free"
-    ],
-    "fullDescription": "Potato puree, butter, milk. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties.",
-    "suggested": [
-      "french-fries",
-      "oven-baked-vegetables",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 210,
-    "portion": "220 g",
-    "allergens": [
-      "milk"
-    ]
-  },
-  {
-    "slug": "oven-baked-vegetables",
-    "categorySlug": "side-dishes",
-    "title": "Oven-Baked Vegetables 🌱🌱🌱",
-    "description": "Eggplant, zucchini, champignons, bell pepper, and red onion baked in the oven until tender and naturally sweet. Served hot and sprinkled with fresh chives.",
-    "price": 210,
-    "labels": [
-      "220 g",
-      "Vegetarian",
-      "Gluten free",
-      "Vegan"
-    ],
-    "fullDescription": "Eggplant, zucchini, champignons, bell pepper, and red onion baked in the oven until tender and naturally sweet. Served hot and sprinkled with fresh chives. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties.",
-    "suggested": [
-      "french-fries",
-      "mashed-potatoes",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 170,
-    "portion": "220 g",
-    "allergens": []
-  },
-  {
-    "slug": "pyzhivska-potatoes-with-garlic-and-dill",
-    "categorySlug": "side-dishes",
-    "title": "Pyzhivska Potatoes with Garlic and Dill",
-    "description": "Baked potatoes generously dressed with fragrant garlic oil and fresh dill.",
-    "price": 130,
-    "labels": [
-      "370 g",
-      "7",
-      "Vegetarian",
-      "Gluten free",
-      "Recommended"
-    ],
-    "fullDescription": "Baked potatoes generously dressed with fragrant garlic oil and fresh dill. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties.",
-    "suggested": [
-      "french-fries",
-      "mashed-potatoes",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 290,
-    "portion": "370 g",
-    "allergens": [
-      "milk"
-    ]
-  },
-  {
-    "slug": "fried-potatoes-with-mushrooms",
-    "categorySlug": "side-dishes",
-    "title": "Fried Potatoes with Mushrooms 🌱🌱🌱",
-    "description": "Golden fried potatoes with mushrooms and onion cooked to a golden crust. A true Podilian classic, simple, generous, and aromatic.",
-    "price": 120,
-    "labels": [
-      "220 g",
-      "Vegetarian",
-      "Gluten free",
-      "Recommended",
-      "Vegan"
-    ],
-    "fullDescription": "Golden fried potatoes with mushrooms and onion cooked to a golden crust. A true Podilian classic, simple, generous, and aromatic. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties.",
-    "suggested": [
-      "french-fries",
-      "mashed-potatoes",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 12,
-    "caloriesKcal": 310,
-    "portion": "220 g",
-    "allergens": []
-  },
-  {
-    "slug": "prunes-with-walnuts-and-sour-cream",
-    "categorySlug": "desserts",
-    "title": "Prunes with Walnuts and Sour Cream",
-    "description": "Sweet prunes stuffed with toasted walnuts under a delicate vanilla sour cream. A classic Ukrainian dessert with a homemade character.",
-    "price": 180,
-    "labels": [
-      "7, 8c",
-      "Vegetarian",
-      "New"
-    ],
-    "fullDescription": "Sweet prunes stuffed with toasted walnuts under a delicate vanilla sour cream. A classic Ukrainian dessert with a homemade character. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation.",
-    "suggested": [
-      "little-nalisnyky",
-      "burnt-cheesecake",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 360,
-    "portion": "1 dessert",
-    "allergens": [
-      "milk",
-      "walnuts"
-    ]
-  },
-  {
-    "slug": "little-nalisnyky",
-    "categorySlug": "desserts",
-    "title": "Little Nalisnyky",
-    "description": "Homemade crepes with a delicate cheese and poppy seed filling, baked in the charcoal oven until golden. Served with a scoop of cream ice cream and aromatic strawberry jam.",
-    "price": 180,
-    "labels": [
-      "1a, 3, 5, 7",
-      "Recommended"
-    ],
-    "fullDescription": "Homemade crepes with a delicate cheese and poppy seed filling, baked in the charcoal oven until golden. Served with a scoop of cream ice cream and aromatic strawberry jam. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation.",
-    "suggested": [
-      "prunes-with-walnuts-and-sour-cream",
-      "burnt-cheesecake",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 430,
-    "portion": "1 dessert",
-    "allergens": [
-      "wheat",
-      "eggs",
-      "peanuts",
-      "milk"
-    ]
-  },
-  {
-    "slug": "burnt-cheesecake",
-    "categorySlug": "desserts",
-    "title": "Burnt Cheesecake 🌱",
-    "description": "A delicate Basque-style cheesecake with a lightly caramelized crust, baked to a golden burnt finish. Served with strawberry jam and crisp dessert crumble.",
-    "price": 210,
-    "labels": [
-      "120 g",
-      "1a, 5, 7, 8a, 16",
-      "Recommended"
-    ],
-    "fullDescription": "A delicate Basque-style cheesecake with a lightly caramelized crust, baked to a golden burnt finish. Served with strawberry jam and crisp dessert crumble. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation.",
-    "suggested": [
-      "prunes-with-walnuts-and-sour-cream",
-      "little-nalisnyky",
-      "borscht-in-a-bread-bowl-with-smoked-sausage"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 420,
-    "portion": "120 g",
-    "allergens": [
-      "wheat",
-      "peanuts",
-      "milk",
-      "almonds",
-      "ask staff about allergen code 16"
-    ]
-  },
-  {
-    "slug": "dark-night",
-    "categorySlug": "desserts",
-    "title": "Dark Night",
-    "description": "A delicate dark chocolate mousse paired with chewy brownie and bright raspberry confit. A harmony of deep chocolate and refreshing raspberry acidity in every spoonful.",
-    "price": 195,
-    "labels": [
-      "3, 7",
-      "Vegetarian",
-      "Gluten free"
-    ],
-    "fullDescription": "A delicate dark chocolate mousse paired with chewy brownie and bright raspberry confit. A harmony of deep chocolate and refreshing raspberry acidity in every spoonful. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation.",
-    "suggested": [
-      "prunes-with-walnuts-and-sour-cream",
-      "little-nalisnyky",
-      "burnt-cheesecake"
-    ],
-    "cookTimeMinutes": 10,
-    "caloriesKcal": 340,
-    "portion": "1 dessert",
-    "allergens": [
-      "eggs",
-      "milk"
-    ]
-  },
-  {
-    "slug": "bowl-of-homemade-bread",
-    "categorySlug": "bread-is-the-staff-of-life",
-    "title": "Bowl of Homemade Bread",
-    "description": null,
-    "price": 60,
-    "labels": [
-      "200 g",
-      "1a"
-    ],
-    "fullDescription": "A signature bowl of homemade bread prepared in our kitchen. Freshly baked in-house, it is ideal for sharing and pairing with the rest of the menu.",
-    "suggested": [
-      "bowl-of-baked-flatbreads",
-      "borscht-in-a-bread-bowl-with-smoked-sausage",
-      "beef-burger-with-truffle-sauce"
-    ],
-    "cookTimeMinutes": 5,
-    "caloriesKcal": 440,
-    "portion": "200 g",
-    "allergens": [
-      "wheat"
-    ]
-  },
-  {
-    "slug": "bowl-of-baked-flatbreads",
-    "categorySlug": "bread-is-the-staff-of-life",
-    "title": "Bowl of Baked Flatbreads",
-    "description": null,
-    "price": 60,
-    "labels": [
-      "300 g"
-    ],
-    "fullDescription": "A signature bowl of baked flatbreads prepared in our kitchen. Freshly baked in-house, it is ideal for sharing and pairing with the rest of the menu.",
-    "suggested": [
-      "bowl-of-homemade-bread",
-      "borscht-in-a-bread-bowl-with-smoked-sausage",
-      "beef-burger-with-truffle-sauce"
-    ],
-    "cookTimeMinutes": 5,
-    "caloriesKcal": 510,
-    "portion": "300 g",
-    "allergens": []
-  }
+	{
+		"slug": "cured-meat-bowl",
+		"categorySlug": "beer-pairings",
+		"title": "Cured Meat Bowl",
+		"description": "An exquisite selection of meat delicacies for beer: cured pork neck, sujuk, makhan, and basturma.",
+		"price": 280,
+		"labels": ["160 g", "Gluten free"],
+		"fullDescription": "An exquisite selection of meat delicacies for beer: cured pork neck, sujuk, makhan, and basturma. A great choice for sharing with drinks and tasting several flavors at the table.",
+		"suggested": ["basturma", "cured-pork-neck", "sujuk"],
+		"cookTimeMinutes": 5,
+		"caloriesKcal": 520,
+		"portion": "160 g",
+		"allergens": []
+	},
+	{
+		"slug": "basturma",
+		"categorySlug": "beer-pairings",
+		"title": "Basturma",
+		"description": "Thinly sliced marinated meat with the aroma of paprika and garlic.",
+		"price": 80,
+		"labels": ["40 g", "Gluten free"],
+		"fullDescription": "Thinly sliced marinated meat with the aroma of paprika and garlic. A great choice for sharing with drinks and tasting several flavors at the table.",
+		"suggested": ["cured-pork-neck", "makhan", "cured-meat-bowl"],
+		"cookTimeMinutes": 5,
+		"caloriesKcal": 120,
+		"portion": "40 g",
+		"allergens": []
+	},
+	{
+		"slug": "cured-pork-neck",
+		"categorySlug": "beer-pairings",
+		"title": "Cured Pork Neck",
+		"description": "Tender, juicy, and full of spicy notes.",
+		"price": 80,
+		"labels": ["40 g", "Gluten free"],
+		"fullDescription": "Tender, juicy, and full of spicy notes. A great choice for sharing with drinks and tasting several flavors at the table.",
+		"suggested": ["basturma", "sujuk", "cured-meat-bowl"],
+		"cookTimeMinutes": 5,
+		"caloriesKcal": 180,
+		"portion": "40 g",
+		"allergens": []
+	},
+	{
+		"slug": "makhan",
+		"categorySlug": "beer-pairings",
+		"title": "Makhan",
+		"description": "A Hutsul delicacy.",
+		"price": 80,
+		"labels": ["60 g", "Gluten free"],
+		"fullDescription": "A Hutsul delicacy. A great choice for sharing with drinks and tasting several flavors at the table.",
+		"suggested": ["sujuk", "basturma", "cured-meat-bowl"],
+		"cookTimeMinutes": 5,
+		"caloriesKcal": 210,
+		"portion": "60 g",
+		"allergens": []
+	},
+	{
+		"slug": "sujuk",
+		"categorySlug": "beer-pairings",
+		"title": "Sujuk",
+		"description": "A piquant sausage with a rich aroma of spices.",
+		"price": 80,
+		"labels": ["40 g", "Gluten free"],
+		"fullDescription": "A piquant sausage with a rich aroma of spices. A great choice for sharing with drinks and tasting several flavors at the table.",
+		"suggested": ["makhan", "cured-pork-neck", "cured-meat-bowl"],
+		"cookTimeMinutes": 5,
+		"caloriesKcal": 170,
+		"portion": "40 g",
+		"allergens": []
+	},
+	{
+		"slug": "herring-with-potatoes",
+		"categorySlug": "cold-appetizers",
+		"title": "Herring with Potatoes",
+		"description": "Tender Matias herring with baked potatoes and fresh dill in a classic Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers.",
+		"price": 160,
+		"labels": ["280 g", "10 min", "4", "New"],
+		"fullDescription": "Tender Matias herring with baked potatoes and fresh dill in a classic Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers. Served as a flavorful starter with a focus on local ingredients and regional character.",
+		"suggested": [
+			"lightly-salted-dniester-river-fish",
+			"borscht-in-a-bread-bowl-with-smoked-sausage",
+			"crucian-carp"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 360,
+		"portion": "280 g",
+		"allergens": ["fish"]
+	},
+	{
+		"slug": "cured-beef-tenderloin",
+		"categorySlug": "cold-appetizers",
+		"title": "Cured Beef Tenderloin",
+		"description": "Tender Podilian cured beef tenderloin, matured and seasoned with traditional spices. Ten percent of the proceeds from this dish go to support army fundraisers.",
+		"price": 180,
+		"labels": ["150 g", "5 min", "New"],
+		"fullDescription": "Tender Podilian cured beef tenderloin, matured and seasoned with traditional spices. Ten percent of the proceeds from this dish go to support army fundraisers. Served as a flavorful starter with a focus on local ingredients and regional character.",
+		"suggested": [
+			"podilian-meat-board",
+			"beef-cheek-with-mashed-potatoes-and-demi-glace",
+			"beef-kebab-with-homemade-adjika"
+		],
+		"cookTimeMinutes": 5,
+		"caloriesKcal": 240,
+		"portion": "150 g",
+		"allergens": []
+	},
+	{
+		"slug": "lightly-salted-dniester-river-fish",
+		"categorySlug": "cold-appetizers",
+		"title": "Lightly Salted Dniester River Fish",
+		"description": "Selected fresh fish from the Dniester, lightly cured according to a traditional recipe. We finish it with fragrant oil and serve it with pickled onion. May contain bones.",
+		"price": 220,
+		"labels": ["150 g", "4", "Gluten free", "Recommended"],
+		"fullDescription": "Selected fresh fish from the Dniester, lightly cured according to a traditional recipe. We finish it with fragrant oil and serve it with pickled onion. May contain bones. Served as a flavorful starter with a focus on local ingredients and regional character.",
+		"suggested": ["herring-with-potatoes", "oven-baked-trout", "crucian-carp"],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 230,
+		"portion": "150 g",
+		"allergens": ["fish"]
+	},
+	{
+		"slug": "podilian-meat-board",
+		"categorySlug": "cold-appetizers",
+		"title": "Podilian Meat Board",
+		"description": "A traditional meat assortment from the heart of Podillia: Zinkiv sausage, smoked pork loin, and shponder. Served with fragrant mustard.",
+		"price": 290,
+		"labels": ["340 g", "10", "Gluten free", "Recommended"],
+		"fullDescription": "A traditional meat assortment from the heart of Podillia: Zinkiv sausage, smoked pork loin, and shponder. Served with fragrant mustard. Served as a flavorful starter with a focus on local ingredients and regional character.",
+		"suggested": [
+			"cured-beef-tenderloin",
+			"house-made-podilian-sausage",
+			"pork-shashlik-from-the-oven"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 690,
+		"portion": "340 g",
+		"allergens": ["mustard"]
+	},
+	{
+		"slug": "marinated-lard-that-melts-in-your-mouth",
+		"categorySlug": "cold-appetizers",
+		"title": "Marinated Lard That Melts in Your Mouth",
+		"description": "Tender, aromatic lard cured in a traditional marinade that reveals the full flavor of Podilian cuisine. Served with a piquant sauce and homemade bread.",
+		"price": 140,
+		"labels": ["300 g", "1, 1a", "Recommended"],
+		"fullDescription": "Tender, aromatic lard cured in a traditional marinade that reveals the full flavor of Podilian cuisine. Served with a piquant sauce and homemade bread. Served as a flavorful starter with a focus on local ingredients and regional character.",
+		"suggested": [
+			"bowl-of-homemade-bread",
+			"borscht-in-a-bread-bowl-with-smoked-sausage",
+			"spread-of-two-types-of-lard"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 820,
+		"portion": "300 g",
+		"allergens": ["cereals containing gluten", "wheat"]
+	},
+	{
+		"slug": "spread-of-two-types-of-lard",
+		"categorySlug": "cold-appetizers",
+		"title": "Spread of Two Types of Lard",
+		"description": "A homemade spread of aromatic lard in two flavors: dill and garlic for a gentle, lightly piquant homemade taste, and paprika for a brighter, sharper profile with a pronounced spicy accent. Perfect with crusty bread or alongside a shot.",
+		"price": 120,
+		"labels": ["200 g", "Gluten free", "Medium spicy", "Recommended"],
+		"fullDescription": "A homemade spread of aromatic lard in two flavors: dill and garlic for a gentle, lightly piquant homemade taste, and paprika for a brighter, sharper profile with a pronounced spicy accent. Perfect with crusty bread or alongside a shot. Served as a flavorful starter with a focus on local ingredients and regional character.",
+		"suggested": [
+			"bowl-of-homemade-bread",
+			"marinated-lard-that-melts-in-your-mouth",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 760,
+		"portion": "200 g",
+		"allergens": []
+	},
+	{
+		"slug": "beef-with-elderberry-capers-and-vitello-sauce",
+		"categorySlug": "cold-appetizers",
+		"title": "Beef with Elderberry Capers and Vitello Sauce",
+		"description": "Thinly sliced beef inspired by classic vitello tonnato, served with a velvety sauce based on tuna, capers, and anchovies. Tender elderberry capers add a delicate tang and aroma.",
+		"price": 290,
+		"labels": ["250 g", "1, 1a, 4, 7"],
+		"fullDescription": "Thinly sliced beef inspired by classic vitello tonnato, served with a velvety sauce based on tuna, capers, and anchovies. Tender elderberry capers add a delicate tang and aroma. Served as a flavorful starter with a focus on local ingredients and regional character.",
+		"suggested": [
+			"cured-beef-tenderloin",
+			"salad-with-slow-cooked-beef-and-custard-cream",
+			"beef-cheek-with-mashed-potatoes-and-demi-glace"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 430,
+		"portion": "250 g",
+		"allergens": ["cereals containing gluten", "wheat", "fish", "milk"]
+	},
+	{
+		"slug": "celebration-bruschetta",
+		"categorySlug": "cold-appetizers",
+		"title": "Celebration Bruschetta",
+		"description": "A set of crisp bruschettas with local delicacies: Zinkiv sausage cured by a traditional recipe, red caviar on creamy cream cheese, classic Jewish herring forshmak with apples and egg, and cured pork neck with herbs.",
+		"price": 240,
+		"labels": ["250 g", "1, 1a, 3, 4, 7, 10", "Recommended"],
+		"fullDescription": "A set of crisp bruschettas with local delicacies: Zinkiv sausage cured by a traditional recipe, red caviar on creamy cream cheese, classic Jewish herring forshmak with apples and egg, and cured pork neck with herbs. Served as a flavorful starter with a focus on local ingredients and regional character.",
+		"suggested": [
+			"sheep-bryndza-from-chabanivka",
+			"fire-roasted-peppers-with-soaked-cranberries-and-elderberry",
+			"salad-with-cucumber-tomato-and-bell-pepper"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 510,
+		"portion": "250 g",
+		"allergens": ["cereals containing gluten", "wheat", "eggs", "fish", "milk", "mustard"]
+	},
+	{
+		"slug": "sheep-bryndza-from-chabanivka",
+		"categorySlug": "cold-appetizers",
+		"title": "Sheep Bryndza from Chabanivka",
+		"description": "Priced by weight, with the price shown per 100 g. If you would like it to go, we vacuum-pack the bryndza in portioned pieces weighing 200 to 300 g. Genuine Podilian sheep bryndza made in the village of Chabanivka, natural, lightly salty, with a pronounced milky flavor and a soft texture.",
+		"price": 80,
+		"labels": ["100 g", "7"],
+		"fullDescription": "Priced by weight, with the price shown per 100 g. If you would like it to go, we vacuum-pack the bryndza in portioned pieces weighing 200 to 300 g. Genuine Podilian sheep bryndza made in the village of Chabanivka, natural, lightly salty, with a pronounced milky flavor and a soft texture. Served as a flavorful starter with a focus on local ingredients and regional character.",
+		"suggested": [
+			"salad-with-sheep-bryndza-tomatoes-and-spinach",
+			"banush-with-porcini-mushrooms-and-young-bryndza",
+			"chebureky-with-suluguni-and-young-bryndza"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 280,
+		"portion": "100 g",
+		"allergens": ["milk"]
+	},
+	{
+		"slug": "fire-roasted-peppers-with-soaked-cranberries-and-elderberry",
+		"categorySlug": "cold-appetizers",
+		"title": "Fire-Roasted Peppers with Soaked Cranberries and Elderberry 🌱",
+		"description": "Sweet bell peppers roasted over live fire to a lightly charred crust, dressed with olive oil and delicate feta. Finished with a bright citrus sauce, soaked cranberries, hazelnut crumble, fresh dill, and a pinch of sumac.",
+		"price": 195,
+		"labels": ["270 g", "5, 7, 8, 8b, 16", "Vegetarian", "Gluten free"],
+		"fullDescription": "Sweet bell peppers roasted over live fire to a lightly charred crust, dressed with olive oil and delicate feta. Finished with a bright citrus sauce, soaked cranberries, hazelnut crumble, fresh dill, and a pinch of sumac. Served as a flavorful starter with a focus on local ingredients and regional character.",
+		"suggested": [
+			"assorted-pickled-vegetables",
+			"salad-with-cucumber-tomato-and-bell-pepper",
+			"sheep-bryndza-from-chabanivka"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 240,
+		"portion": "270 g",
+		"allergens": [
+			"peanuts",
+			"milk",
+			"tree nuts",
+			"hazelnuts",
+			"ask staff about allergen code 16"
+		]
+	},
+	{
+		"slug": "assorted-pickled-vegetables",
+		"categorySlug": "cold-appetizers",
+		"title": "Assorted Pickled Vegetables 🌱🌱🌱",
+		"description": "A plate of assorted pickled vegetables. Please ask your server about today's selection.",
+		"price": 185,
+		"labels": ["220 g", "Vegetarian", "Gluten free", "Medium spicy", "Recommended", "Vegan"],
+		"fullDescription": "A plate of assorted pickled vegetables. Please ask your server about today's selection. Served as a flavorful starter with a focus on local ingredients and regional character.",
+		"suggested": [
+			"marinated-lard-that-melts-in-your-mouth",
+			"spread-of-two-types-of-lard",
+			"house-made-podilian-sausage"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 90,
+		"portion": "220 g",
+		"allergens": []
+	},
+	{
+		"slug": "salad-with-cured-pork-neck-roasted-peppers-and-peach",
+		"categorySlug": "salads",
+		"title": "Salad with Cured Pork Neck, Roasted Peppers, and Peach",
+		"description": "A juicy salad mix with cured pork neck, roasted bell pepper, fresh cucumber, and tomato. A gentle accent comes from canned peach, which pairs beautifully with a piquant honey-mustard dressing and shaved Parmesan.",
+		"price": 240,
+		"labels": ["290 g", "7, 10, 15", "Gluten free", "Medium spicy"],
+		"fullDescription": "A juicy salad mix with cured pork neck, roasted bell pepper, fresh cucumber, and tomato. A gentle accent comes from canned peach, which pairs beautifully with a piquant honey-mustard dressing and shaved Parmesan. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
+		"suggested": [
+			"salad-with-roasted-chicken",
+			"salad-with-slow-cooked-beef-and-custard-cream",
+			"bowl-of-baked-flatbreads"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 410,
+		"portion": "290 g",
+		"allergens": ["milk", "mustard", "ask staff about allergen code 15"]
+	},
+	{
+		"slug": "salad-with-roasted-chicken",
+		"categorySlug": "salads",
+		"title": "Salad with Roasted Chicken",
+		"description": "A genre classic in our Podilian interpretation. A mix of crisp greens, sweet cherry tomatoes, quail eggs, and crunchy bacon. Chicken fillet cooked sous-vide until tender is coated with anchovy sauce and finished with a light Parmesan espuma. A familiar flavor in a refined new reading.",
+		"price": 260,
+		"labels": ["350 g", "3, 4, 7, 10", "Recommended"],
+		"fullDescription": "A genre classic in our Podilian interpretation. A mix of crisp greens, sweet cherry tomatoes, quail eggs, and crunchy bacon. Chicken fillet cooked sous-vide until tender is coated with anchovy sauce and finished with a light Parmesan espuma. A familiar flavor in a refined new reading. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
+		"suggested": [
+			"salad-with-cured-pork-neck-roasted-peppers-and-peach",
+			"salad-with-slow-cooked-beef-and-custard-cream",
+			"bowl-of-baked-flatbreads"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 470,
+		"portion": "350 g",
+		"allergens": ["eggs", "fish", "milk", "mustard"]
+	},
+	{
+		"slug": "salad-with-slow-cooked-beef-and-custard-cream",
+		"categorySlug": "salads",
+		"title": "Salad with Slow-Cooked Beef and Custard Cream",
+		"description": "Tender slow-cooked beef served on a mix of greens. We add fresh cucumbers, sweet cherry tomatoes, and a light mustard sauce made with homemade mustard. A mint custard cream adds an unexpectedly refreshing note inspired by Podilian herbs.",
+		"price": 230,
+		"labels": ["190 g", "1, 1a, 3, 7, 10, 15", "Medium spicy"],
+		"fullDescription": "Tender slow-cooked beef served on a mix of greens. We add fresh cucumbers, sweet cherry tomatoes, and a light mustard sauce made with homemade mustard. A mint custard cream adds an unexpectedly refreshing note inspired by Podilian herbs. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
+		"suggested": [
+			"salad-with-cured-pork-neck-roasted-peppers-and-peach",
+			"salad-with-roasted-chicken",
+			"bowl-of-baked-flatbreads"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 390,
+		"portion": "190 g",
+		"allergens": [
+			"cereals containing gluten",
+			"wheat",
+			"eggs",
+			"milk",
+			"mustard",
+			"ask staff about allergen code 15"
+		]
+	},
+	{
+		"slug": "salad-with-duck-liver-and-caramelized-pear",
+		"categorySlug": "salads",
+		"title": "Salad with Duck Liver and Caramelized Pear",
+		"description": "Crunchy duck liver paired with caramelized pear creates an elegant sweet-and-savory accent. We add fresh cucumber, tomatoes, bell pepper, and mixed greens.",
+		"price": 220,
+		"labels": ["450 g", "3, 7", "Gluten free", "Medium spicy", "Recommended"],
+		"fullDescription": "Crunchy duck liver paired with caramelized pear creates an elegant sweet-and-savory accent. We add fresh cucumber, tomatoes, bell pepper, and mixed greens. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
+		"suggested": [
+			"salad-with-cured-pork-neck-roasted-peppers-and-peach",
+			"salad-with-roasted-chicken",
+			"bowl-of-baked-flatbreads"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 520,
+		"portion": "450 g",
+		"allergens": ["eggs", "milk"]
+	},
+	{
+		"slug": "salad-with-shrimp-avocado-and-aged-parmino-cheese",
+		"categorySlug": "salads",
+		"title": "Salad with Shrimp, Avocado, and Aged Parmino Cheese",
+		"description": "A light salad mix with cucumber, tomatoes, and creamy avocado, dressed with a delicate yogurt dressing. We finish it with juicy shrimp and aged sheep's Parmino cheese from the village of Chabanivka, a true Podilian delicacy with character.",
+		"price": 290,
+		"labels": ["400 g", "2, 7", "Recommended"],
+		"fullDescription": "A light salad mix with cucumber, tomatoes, and creamy avocado, dressed with a delicate yogurt dressing. We finish it with juicy shrimp and aged sheep's Parmino cheese from the village of Chabanivka, a true Podilian delicacy with character. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
+		"suggested": [
+			"salad-with-cured-pork-neck-roasted-peppers-and-peach",
+			"salad-with-roasted-chicken",
+			"bowl-of-baked-flatbreads"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 430,
+		"portion": "400 g",
+		"allergens": ["crustaceans", "milk"]
+	},
+	{
+		"slug": "salad-with-cucumber-tomato-and-bell-pepper",
+		"categorySlug": "salads",
+		"title": "Salad with Cucumber, Tomato, and Bell Pepper 🌱",
+		"description": "Juicy Podilian cucumbers, tomatoes, and bell pepper, fresh, crisp, and straight from the garden. We dress them with fragrant homemade oil and a light sour cream espuma that adds tenderness to the familiar flavor.",
+		"price": 150,
+		"labels": ["330 g", "7", "Gluten free", "Recommended"],
+		"fullDescription": "Juicy Podilian cucumbers, tomatoes, and bell pepper, fresh, crisp, and straight from the garden. We dress them with fragrant homemade oil and a light sour cream espuma that adds tenderness to the familiar flavor. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
+		"suggested": [
+			"salad-with-cured-pork-neck-roasted-peppers-and-peach",
+			"salad-with-roasted-chicken",
+			"bowl-of-baked-flatbreads"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 180,
+		"portion": "330 g",
+		"allergens": ["milk"]
+	},
+	{
+		"slug": "salad-with-sheep-bryndza-tomatoes-and-spinach",
+		"categorySlug": "salads",
+		"title": "Salad with Sheep Bryndza, Tomatoes, and Spinach",
+		"description": "Juicy tomatoes, spinach, and red onion are tossed with fragrant homemade oil. We finish the dish with a generous portion of farm-made sheep bryndza from the village of Chabanivka, spicy, delicate, and authentic. A salad focused on local produce and simple but expressive Podilian gastronomy.",
+		"price": 170,
+		"labels": ["300 g", "7", "Vegetarian"],
+		"fullDescription": "Juicy tomatoes, spinach, and red onion are tossed with fragrant homemade oil. We finish the dish with a generous portion of farm-made sheep bryndza from the village of Chabanivka, spicy, delicate, and authentic. A salad focused on local produce and simple but expressive Podilian gastronomy. Balanced in texture and freshness, it works well as a lighter main course or a starter to share.",
+		"suggested": [
+			"salad-with-cured-pork-neck-roasted-peppers-and-peach",
+			"salad-with-roasted-chicken",
+			"bowl-of-baked-flatbreads"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 260,
+		"portion": "300 g",
+		"allergens": ["milk"]
+	},
+	{
+		"slug": "beer-snack-fry-platter",
+		"categorySlug": "hot-appetizers",
+		"title": "Beer Snack Fry Platter",
+		"description": "Fried calamari rings in crisp batter, fried mozzarella, nuggets, cheddar habanero, cheddar sweet chili, French fries, and golden potato balls make the perfect set for an evening in good company. Served with three sauces of your choice: homemade adjika, tomato ketchup, and a delicate ryazhanka sauce.",
+		"price": 990,
+		"labels": ["1, 1a, 2, 7, 14", "Medium spicy", "Recommended"],
+		"fullDescription": "Fried calamari rings in crisp batter, fried mozzarella, nuggets, cheddar habanero, cheddar sweet chili, French fries, and golden potato balls make the perfect set for an evening in good company. Served with three sauces of your choice: homemade adjika, tomato ketchup, and a delicate ryazhanka sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
+		"suggested": [
+			"chicken-hearts-in-spicy-sauce",
+			"chicken-nuggets",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 1850,
+		"portion": "1 serving",
+		"allergens": ["cereals containing gluten", "wheat", "crustaceans", "milk", "molluscs"]
+	},
+	{
+		"slug": "chicken-hearts-in-spicy-sauce",
+		"categorySlug": "hot-appetizers",
+		"title": "Chicken Hearts in Spicy Sauce 🌶️",
+		"description": "Chicken hearts stewed in a piquant sauce. We cook them until tender so every bite melts in your mouth. They are well seasoned and properly spicy.",
+		"price": 190,
+		"labels": ["Spicy", "Recommended"],
+		"fullDescription": "Chicken hearts stewed in a piquant sauce. We cook them until tender so every bite melts in your mouth. They are well seasoned and properly spicy. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
+		"suggested": [
+			"beer-snack-fry-platter",
+			"chicken-nuggets",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 320,
+		"portion": "1 serving",
+		"allergens": []
+	},
+	{
+		"slug": "chicken-nuggets",
+		"categorySlug": "hot-appetizers",
+		"title": "Chicken Nuggets",
+		"description": "Served with barbecue sauce.",
+		"price": 160,
+		"labels": ["250 g", "1, 1a, 4, 7, 10"],
+		"fullDescription": "Served with barbecue sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
+		"suggested": [
+			"beer-snack-fry-platter",
+			"chicken-hearts-in-spicy-sauce",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 470,
+		"portion": "250 g",
+		"allergens": ["cereals containing gluten", "wheat", "fish", "milk", "mustard"]
+	},
+	{
+		"slug": "fried-dumplings-with-pork",
+		"categorySlug": "hot-appetizers",
+		"title": "Fried Dumplings with Pork",
+		"description": "Homemade dumplings filled with juicy pork and fried until golden brown. Served with piquant Podilian adjika for a fuller flavor.",
+		"price": 175,
+		"labels": ["190 g", "1, 1a"],
+		"fullDescription": "Homemade dumplings filled with juicy pork and fried until golden brown. Served with piquant Podilian adjika for a fuller flavor. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
+		"suggested": [
+			"beer-snack-fry-platter",
+			"chicken-hearts-in-spicy-sauce",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 430,
+		"portion": "190 g",
+		"allergens": ["cereals containing gluten", "wheat"]
+	},
+	{
+		"slug": "shrimp-fried-in-beer-batter",
+		"categorySlug": "hot-appetizers",
+		"title": "Shrimp Fried in Beer Batter",
+		"description": "Juicy shrimp in crisp batter made with our own craft beer. Served with a piquant anchovy sauce that highlights the seafood flavor and adds depth to every bite.",
+		"price": 290,
+		"labels": ["200 g", "2, 4, 7, 10", "Gluten free", "Recommended"],
+		"fullDescription": "Juicy shrimp in crisp batter made with our own craft beer. Served with a piquant anchovy sauce that highlights the seafood flavor and adds depth to every bite. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
+		"suggested": [
+			"beer-snack-fry-platter",
+			"chicken-hearts-in-spicy-sauce",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 410,
+		"portion": "200 g",
+		"allergens": ["crustaceans", "fish", "milk", "mustard"]
+	},
+	{
+		"slug": "fried-calamari-rings",
+		"categorySlug": "hot-appetizers",
+		"title": "Fried Calamari Rings",
+		"description": "Tender calamari rings fried until crisp and served with a creamy ryazhanka-based sauce.",
+		"price": 210,
+		"labels": ["200 g", "1, 7, 14"],
+		"fullDescription": "Tender calamari rings fried until crisp and served with a creamy ryazhanka-based sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
+		"suggested": [
+			"beer-snack-fry-platter",
+			"chicken-hearts-in-spicy-sauce",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 360,
+		"portion": "200 g",
+		"allergens": ["cereals containing gluten", "milk", "molluscs"]
+	},
+	{
+		"slug": "house-made-cheese-balls",
+		"categorySlug": "hot-appetizers",
+		"title": "House-Made Cheese Balls",
+		"description": "Golden balls made from selected Ukrainian cheeses, fried until crisp on the outside and melty within. Served with our signature ryazhanka-based sauce flavored with herbs and spices.",
+		"price": 160,
+		"labels": ["150 g", "1, 1a, 3, 7"],
+		"fullDescription": "Golden balls made from selected Ukrainian cheeses, fried until crisp on the outside and melty within. Served with our signature ryazhanka-based sauce flavored with herbs and spices. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
+		"suggested": [
+			"beer-snack-fry-platter",
+			"chicken-hearts-in-spicy-sauce",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 420,
+		"portion": "150 g",
+		"allergens": ["cereals containing gluten", "wheat", "eggs", "milk"]
+	},
+	{
+		"slug": "fried-onion-rings",
+		"categorySlug": "hot-appetizers",
+		"title": "Fried Onion Rings 🌱",
+		"description": "Crunchy sweet onion rings in batter, fried until golden brown. Served with our signature ryazhanka-based sauce with aromatic spices and herbs.",
+		"price": 160,
+		"labels": ["190 g", "1, 1a, 4, 7, 10", "Vegetarian"],
+		"fullDescription": "Crunchy sweet onion rings in batter, fried until golden brown. Served with our signature ryazhanka-based sauce with aromatic spices and herbs. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
+		"suggested": [
+			"beer-snack-fry-platter",
+			"chicken-hearts-in-spicy-sauce",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 390,
+		"portion": "190 g",
+		"allergens": ["cereals containing gluten", "wheat", "fish", "milk", "mustard"]
+	},
+	{
+		"slug": "potato-balls",
+		"categorySlug": "hot-appetizers",
+		"title": "Potato Balls 🌱",
+		"description": "Golden potato puree balls fried until crisp. Served with garlic sauce.",
+		"price": 140,
+		"labels": ["190 g", "1, 1a, 4, 7, 10"],
+		"fullDescription": "Golden potato puree balls fried until crisp. Served with garlic sauce. Best enjoyed hot, with sauces and sides chosen to highlight the main ingredient.",
+		"suggested": [
+			"beer-snack-fry-platter",
+			"chicken-hearts-in-spicy-sauce",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 340,
+		"portion": "190 g",
+		"allergens": ["cereals containing gluten", "wheat", "fish", "milk", "mustard"]
+	},
+	{
+		"slug": "borscht-in-a-bread-bowl-with-smoked-sausage",
+		"categorySlug": "soups",
+		"title": "Borscht in a Bread Bowl with Smoked Sausage",
+		"description": "Our signature Podilian borscht is simmered over fire for more than four hours together with smoked Hungarian-style sausage, which gives the dish a deep smoky aroma. Served in a fragrant bread bowl and finished with a spoonful of sour cream, fresh green onion, and a piece of our house-made roasted shponder. A hearty, aromatic, soulful dish and a true taste of Podillia.",
+		"price": 220,
+		"labels": ["350 g", "1, 1a, 7, 16", "Recommended"],
+		"fullDescription": "Our signature Podilian borscht is simmered over fire for more than four hours together with smoked Hungarian-style sausage, which gives the dish a deep smoky aroma. Served in a fragrant bread bowl and finished with a spoonful of sour cream, fresh green onion, and a piece of our house-made roasted shponder. A hearty, aromatic, soulful dish and a true taste of Podillia. Comforting, aromatic, and deeply rooted in local home-style cooking traditions.",
+		"suggested": [
+			"bograch-1978-recipe",
+			"broth-from-free-range-rooster",
+			"bowl-of-homemade-bread"
+		],
+		"cookTimeMinutes": 18,
+		"caloriesKcal": 540,
+		"portion": "350 g",
+		"allergens": [
+			"cereals containing gluten",
+			"wheat",
+			"milk",
+			"ask staff about allergen code 16"
+		]
+	},
+	{
+		"slug": "bograch-1978-recipe",
+		"categorySlug": "soups",
+		"title": "Bograch, 1978 Recipe 🌶️🌶️🌶️",
+		"description": "An authentic soup-goulash from the Carpathians prepared according to a traditional 1978 recipe. Cooked on rich pork broth with plenty of bell pepper and the hot Hungarian seasoning Eros Pista. Rich, spicy, and full of true Carpathian character. An ideal remedy for a rough morning after. A dish for the bold with heat level 🌶️🌶️🌶️.",
+		"price": 210,
+		"labels": ["300 g", "Gluten free", "Spicy", "Recommended"],
+		"fullDescription": "An authentic soup-goulash from the Carpathians prepared according to a traditional 1978 recipe. Cooked on rich pork broth with plenty of bell pepper and the hot Hungarian seasoning Eros Pista. Rich, spicy, and full of true Carpathian character. An ideal remedy for a rough morning after. A dish for the bold with heat level 🌶️🌶️🌶️. Comforting, aromatic, and deeply rooted in local home-style cooking traditions.",
+		"suggested": [
+			"borscht-in-a-bread-bowl-with-smoked-sausage",
+			"broth-from-free-range-rooster",
+			"bowl-of-homemade-bread"
+		],
+		"cookTimeMinutes": 18,
+		"caloriesKcal": 330,
+		"portion": "300 g",
+		"allergens": []
+	},
+	{
+		"slug": "broth-from-free-range-rooster",
+		"categorySlug": "soups",
+		"title": "Broth from Free-Range Rooster",
+		"description": "Прозорий, духмяний бульйон, зварений із домашнього півня за традиційним рецептом. Подається з ніжними галушками, шматочками курячого м’яса, вареним перепелиним яйцем та солодкою морквою. Страва з дитинства — щира, поживна й лікувальна, як у бабусі на селі.показати",
+		"price": 150,
+		"labels": ["300 g", "1, 1a, 3", "Recommended"],
+		"fullDescription": "A clear, духмяний бульйон, зварений із домашнього півня за традиційним рецептом. Подається з ніжними галушками, шматочками курячого м’яса, вареним перепелиним яйцем та солодкою морквою. Страва з дитинства — щира, поживна й лікувальна, як у бабусі на селі. Comforting, aromatic, and deeply rooted in local home-style cooking traditions.",
+		"suggested": [
+			"borscht-in-a-bread-bowl-with-smoked-sausage",
+			"bograch-1978-recipe",
+			"bowl-of-homemade-bread"
+		],
+		"cookTimeMinutes": 18,
+		"caloriesKcal": 210,
+		"portion": "300 g",
+		"allergens": ["cereals containing gluten", "wheat", "eggs"]
+	},
+	{
+		"slug": "grandma-s-deruny-with-mushroom-sauce",
+		"categorySlug": "main-courses",
+		"title": "Grandma's Deruny with Mushroom Sauce 🌱",
+		"description": "Golden hand-grated potato pancakes just like grandma made in the village. Served with a thick creamy forest mushroom sauce. A dish that warms the soul, simple, sincere, and comfortingly homemade.",
+		"price": 195,
+		"labels": ["350 g", "7", "Recommended"],
+		"fullDescription": "Golden hand-grated potato pancakes just like grandma made in the village. Served with a thick creamy forest mushroom sauce. A dish that warms the soul, simple, sincere, and comfortingly homemade. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
+		"suggested": [
+			"podilian-deruny",
+			"deruny-with-caviar-and-feta-mousse",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 25,
+		"caloriesKcal": 480,
+		"portion": "350 g",
+		"allergens": ["milk"]
+	},
+	{
+		"slug": "podilian-deruny",
+		"categorySlug": "main-courses",
+		"title": "Podilian Deruny",
+		"description": "Картопляні деруни під грибним соусом, із соковитою щокою в соусі деміглас. 10% виторгу з цієї страви буде йти на підтримку зборів для війська.",
+		"price": 220,
+		"labels": ["400 g", "10 min", "1a, 7", "New"],
+		"fullDescription": "Potato деруни під грибним соусом, із соковитою щокою в соусі деміглас. 10% виторгу з цієї страви буде йти на підтримку зборів для війська. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
+		"suggested": [
+			"grandma-s-deruny-with-mushroom-sauce",
+			"deruny-with-caviar-and-feta-mousse",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 560,
+		"portion": "400 g",
+		"allergens": ["wheat", "milk"]
+	},
+	{
+		"slug": "deruny-with-caviar-and-feta-mousse",
+		"categorySlug": "main-courses",
+		"title": "Deruny with Caviar and Feta Mousse",
+		"description": "Golden deruny with delicate feta mousse and caviar in Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers.",
+		"price": 250,
+		"labels": ["350 g", "10 min", "1a, 3, 7", "New"],
+		"fullDescription": "Golden deruny with delicate feta mousse and caviar in Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
+		"suggested": [
+			"grandma-s-deruny-with-mushroom-sauce",
+			"podilian-deruny",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 490,
+		"portion": "350 g",
+		"allergens": ["wheat", "eggs", "milk"]
+	},
+	{
+		"slug": "zinkiv-sausage-the-pearl-of-podillia",
+		"categorySlug": "main-courses",
+		"title": "Zinkiv Sausage, the Pearl of Podillia",
+		"description": "Справжня візитівка Поділля — чорна зіньківська ковбаса, виготовлена за старовинною технологією з добірного м’яса та крові, зі спеціями та димом, як готували ще наші прадіди. Подається з ніжним трюфельним пюре, моченою журавлиною та глибоким соусом демігляс. Страва з характером — для тих, хто цінує автентичність і сміливий смак.показати",
+		"price": 270,
+		"labels": ["300 g", "3, 7", "Gluten free", "Recommended"],
+		"fullDescription": "Справжня візитівка Поділля — чорна зіньківська ковбаса, виготовлена за старовинною технологією з добірного м’яса та крові, зі спеціями та димом, як готували ще наші прадіди. Подається з ніжним трюфельним пюре, моченою журавлиною та глибоким соусом демігляс. Страва з характером — для тих, хто цінує автентичність і сміливий смак. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
+		"suggested": [
+			"grandma-s-deruny-with-mushroom-sauce",
+			"podilian-deruny",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 25,
+		"caloriesKcal": 610,
+		"portion": "300 g",
+		"allergens": ["eggs", "milk"]
+	},
+	{
+		"slug": "buckwheat-stuffed-cabbage-rolls-from-the-oven",
+		"categorySlug": "main-courses",
+		"title": "Buckwheat Stuffed Cabbage Rolls from the Oven",
+		"description": "Запечені в печі голубці з начинкою з гречки та соковитого свинного фаршу — страва, в якій поєднуються ситність і домашній затишок. Подаються з густим грибним соусом на вершках і моченою журавлиною, що додає легку кислинку та баланс смаків. Подільська класика з акцентом на глибину і тепло родинної кухні.показати",
+		"price": 205,
+		"labels": ["380 g", "30 min", "7", "Gluten free", "Recommended"],
+		"fullDescription": "Запечені в печі голубці з начинкою з гречки та соковитого свинного фаршу — страва, в якій поєднуються ситність і House-madeй затишок. Подаються з густим грибним соусом на вершках і моченою журавлиною, що додає легку кислинку та баланс смаків. Подільська класика з акцентом на глибину і тепло родинної кухні. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
+		"suggested": [
+			"grandma-s-deruny-with-mushroom-sauce",
+			"podilian-deruny",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 30,
+		"caloriesKcal": 520,
+		"portion": "380 g",
+		"allergens": ["milk"]
+	},
+	{
+		"slug": "rabbit-cutlet-with-carrot-puree",
+		"categorySlug": "main-courses",
+		"title": "Rabbit Cutlet with Carrot Puree",
+		"description": "A tender rabbit cutlet prepared from a homemade recipe. Served with velvety carrot puree and classic demi-glace sauce that highlights the delicate flavor of the meat.",
+		"price": 370,
+		"labels": ["350 g", "3, 7", "Recommended"],
+		"fullDescription": "A tender rabbit cutlet prepared from a homemade recipe. Served with velvety carrot puree and classic demi-glace sauce that highlights the delicate flavor of the meat. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
+		"suggested": [
+			"grandma-s-deruny-with-mushroom-sauce",
+			"podilian-deruny",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 25,
+		"caloriesKcal": 430,
+		"portion": "350 g",
+		"allergens": ["eggs", "milk"]
+	},
+	{
+		"slug": "beef-cheek-with-mashed-potatoes-and-demi-glace",
+		"categorySlug": "main-courses",
+		"title": "Beef Cheek with Mashed Potatoes and Demi-Glace",
+		"description": "Tender beef cheek slowly braised until soft in a deep demi-glace made from meat broth, vegetables, and fragrant herbs. Served with fluffy mashed potatoes seasoned with butter. A dish that combines rustic simplicity with refined technique, a modern classic in a Podilian style.",
+		"price": 235,
+		"labels": ["330 g", "7", "Gluten free"],
+		"fullDescription": "Tender beef cheek slowly braised until soft in a deep demi-glace made from meat broth, vegetables, and fragrant herbs. Served with fluffy mashed potatoes seasoned with butter. A dish that combines rustic simplicity with refined technique, a modern classic in a Podilian style. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
+		"suggested": [
+			"grandma-s-deruny-with-mushroom-sauce",
+			"podilian-deruny",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 25,
+		"caloriesKcal": 560,
+		"portion": "330 g",
+		"allergens": ["milk"]
+	},
+	{
+		"slug": "catfish-with-creamy-millet-and-fish-demi-glace",
+		"categorySlug": "main-courses",
+		"title": "Catfish with Creamy Millet and Fish Demi-Glace",
+		"description": "Tender catfish fillet fried to a golden crust and served with millet cooked in cream to a silky consistency. Finished with a deep fish demi-glace.",
+		"price": 280,
+		"labels": ["320 g", "4, 7, 16", "Vegetarian", "Gluten free"],
+		"fullDescription": "Tender catfish fillet fried to a golden crust and served with millet cooked in cream to a silky consistency. Finished with a deep fish demi-glace. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
+		"suggested": [
+			"grandma-s-deruny-with-mushroom-sauce",
+			"podilian-deruny",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 25,
+		"caloriesKcal": 470,
+		"portion": "320 g",
+		"allergens": ["fish", "milk", "ask staff about allergen code 16"]
+	},
+	{
+		"slug": "crucian-carp",
+		"categorySlug": "main-courses",
+		"title": "Crucian Carp",
+		"description": "We salt and pepper the crucian carp generously, coat them in flour, and fry them in a very hot pan to a deep reddish crispness. Served with lemon. Perfect with beer or our barley moonshine.",
+		"price": 180,
+		"labels": ["350 g", "1, 1a, 4, 7, 16", "New"],
+		"fullDescription": "We salt and pepper the crucian carp generously, coat them in flour, and fry them in a very hot pan to a deep reddish crispness. Served with lemon. Perfect with beer or our barley moonshine. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
+		"suggested": [
+			"grandma-s-deruny-with-mushroom-sauce",
+			"podilian-deruny",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 25,
+		"caloriesKcal": 410,
+		"portion": "350 g",
+		"allergens": [
+			"cereals containing gluten",
+			"wheat",
+			"fish",
+			"milk",
+			"ask staff about allergen code 16"
+		]
+	},
+	{
+		"slug": "banush-with-porcini-mushrooms-and-young-bryndza",
+		"categorySlug": "main-courses",
+		"title": "Banush with Porcini Mushrooms and Young Bryndza",
+		"description": "Traditional Hutsul banush made with sour cream, creamy, rich, and fragrant. Served with mushroom sauce and a generous portion of young bryndza that melts delicately over the hot corn porridge. A dish with Carpathian character that suits a Podilian table perfectly.",
+		"price": 210,
+		"labels": ["350 g", "7", "Gluten free", "Recommended"],
+		"fullDescription": "Traditional Hutsul banush made with sour cream, creamy, rich, and fragrant. Served with mushroom sauce and a generous portion of young bryndza that melts delicately over the hot corn porridge. A dish with Carpathian character that suits a Podilian table perfectly. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
+		"suggested": [
+			"grandma-s-deruny-with-mushroom-sauce",
+			"podilian-deruny",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 25,
+		"caloriesKcal": 530,
+		"portion": "350 g",
+		"allergens": ["milk"]
+	},
+	{
+		"slug": "lezhni-the-strength-of-podillia",
+		"categorySlug": "main-courses",
+		"title": "Lezhni, the Strength of Podillia",
+		"description": "Традиційні подільські лежні — пиріжечки з кукурудзяної крупи, сметани та картоплі, ніжні всередині й рум’яні ззовні. Начиняємо їх вареним яйцем, зеленою цибулею та духмяною овечою бринзою з села Чабанівка. Подаємо зі сметанкою.показати",
+		"price": 200,
+		"labels": ["400 g", "3, 7"],
+		"fullDescription": "Традиційні подільські лежні — пиріжечки з кукурудзяної крупи, сметани та картоплі, ніжні всередині й рум’яні ззовні. Начиняємо їх вареним яйцем, зеленою цибулею та духмяною овечою бринзою з села Чабанівка. Подаємо зі сметанкою. A hearty main dish designed to showcase Podilian flavors in a more complete plate.",
+		"suggested": [
+			"grandma-s-deruny-with-mushroom-sauce",
+			"podilian-deruny",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 25,
+		"caloriesKcal": 450,
+		"portion": "400 g",
+		"allergens": ["eggs", "milk"]
+	},
+	{
+		"slug": "varenyky-with-smoked-mackerel-and-potatoes",
+		"categorySlug": "dough-dishes",
+		"title": "Varenyky with Smoked Mackerel and Potatoes",
+		"description": "Традиційні подільські вареники з картоплею, ніжною копченою скумбрією та рибною підливою. 10% виторгу з цієї страви буде йти на підтримку зборів для війська.",
+		"price": 210,
+		"labels": ["450 g", "15 min", "1a, 4", "New"],
+		"fullDescription": "Традиційні подільські вареники з картоплею, ніжною копченою скумбрією та рибною підливою. 10% виторгу з цієї страви буде йти на підтримку зборів для війська. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
+		"suggested": [
+			"varenyky-with-braised-cabbage",
+			"varenyky-with-cheese",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 540,
+		"portion": "450 g",
+		"allergens": ["wheat", "fish"]
+	},
+	{
+		"slug": "varenyky-with-braised-cabbage",
+		"categorySlug": "dough-dishes",
+		"title": "Varenyky with Braised Cabbage",
+		"description": "Traditional Podilian varenyky with a delicate filling of braised cabbage and caramelized onion. Ten percent of the proceeds from this dish go to support army fundraisers.",
+		"price": 160,
+		"labels": ["450 g", "15 min", "1a, 7", "New"],
+		"fullDescription": "Traditional Podilian varenyky with a delicate filling of braised cabbage and caramelized onion. Ten percent of the proceeds from this dish go to support army fundraisers. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
+		"suggested": [
+			"varenyky-with-smoked-mackerel-and-potatoes",
+			"varenyky-with-cheese",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 420,
+		"portion": "450 g",
+		"allergens": ["wheat", "milk"]
+	},
+	{
+		"slug": "varenyky-with-cheese",
+		"categorySlug": "dough-dishes",
+		"title": "Varenyky with Cheese",
+		"description": "Homemade Podilian varenyky with a filling of salted farmer's cheese and bryndza, served with sour cream. Ten percent of the proceeds from this dish go to support army fundraisers.",
+		"price": 180,
+		"labels": ["400 g", "15 min", "1a, 3, 15", "New"],
+		"fullDescription": "Homemade Podilian varenyky with a filling of salted farmer's cheese and bryndza, served with sour cream. Ten percent of the proceeds from this dish go to support army fundraisers. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
+		"suggested": [
+			"varenyky-with-smoked-mackerel-and-potatoes",
+			"varenyky-with-braised-cabbage",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 15,
+		"caloriesKcal": 490,
+		"portion": "400 g",
+		"allergens": ["wheat", "eggs", "ask staff about allergen code 15"]
+	},
+	{
+		"slug": "little-varenyky-with-meat-and-herbs",
+		"categorySlug": "dough-dishes",
+		"title": "Little Varenyky with Meat and Herbs",
+		"description": "Homemade little varenyky with delicate minced meat, hand-shaped just like grandma made them. Served with fresh herbs and a generous spoonful of sour cream. A Podilian classic that needs no extra words.",
+		"price": 180,
+		"labels": ["1, 1a, 7"],
+		"fullDescription": "Homemade little varenyky with delicate minced meat, hand-shaped just like grandma made them. Served with fresh herbs and a generous spoonful of sour cream. A Podilian classic that needs no extra words. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
+		"suggested": [
+			"varenyky-with-smoked-mackerel-and-potatoes",
+			"varenyky-with-braised-cabbage",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 460,
+		"portion": "1 plate",
+		"allergens": ["cereals containing gluten", "wheat", "milk"]
+	},
+	{
+		"slug": "varenyky-with-potatoes-and-cracklings",
+		"categorySlug": "dough-dishes",
+		"title": "Varenyky with Potatoes and Cracklings",
+		"description": "Homemade varenyky with fluffy dough and a potato filling, served with golden fried onion, crispy cracklings, and elderflower capers that add a gentle tang. Finished with a generous spoonful of sour cream. A Podilian classic with an unexpected touch, a familiar flavor in a new sound.",
+		"price": 160,
+		"labels": ["1, 1a, 7"],
+		"fullDescription": "Homemade varenyky with fluffy dough and a potato filling, served with golden fried onion, crispy cracklings, and elderflower capers that add a gentle tang. Finished with a generous spoonful of sour cream. A Podilian classic with an unexpected touch, a familiar flavor in a new sound. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
+		"suggested": [
+			"varenyky-with-smoked-mackerel-and-potatoes",
+			"varenyky-with-braised-cabbage",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 520,
+		"portion": "1 plate",
+		"allergens": ["cereals containing gluten", "wheat", "milk"]
+	},
+	{
+		"slug": "varenyky-with-cherry-and-condensed-milk-sauce",
+		"categorySlug": "dough-dishes",
+		"title": "Varenyky with Cherry and Condensed Milk Sauce 🌱",
+		"description": "House-made varenyky with juicy cherry, tender dough, a generous filling, and a real summer mood. Served with an aromatic sauce based on condensed milk, sour cream, and cinnamon. Sprinkled with crushed hazelnuts and fresh mint. A light sweet dish that especially delights children. May contain pits.",
+		"price": 195,
+		"labels": ["210 g", "1, 1a, 3, 7", "Recommended"],
+		"fullDescription": "House-made varenyky with juicy cherry, tender dough, a generous filling, and a real summer mood. Served with an aromatic sauce based on condensed milk, sour cream, and cinnamon. Sprinkled with crushed hazelnuts and fresh mint. A light sweet dish that especially delights children. May contain pits. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
+		"suggested": [
+			"varenyky-with-smoked-mackerel-and-potatoes",
+			"varenyky-with-braised-cabbage",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 480,
+		"portion": "210 g",
+		"allergens": ["cereals containing gluten", "wheat", "eggs", "milk"]
+	},
+	{
+		"slug": "galushky-with-bacon",
+		"categorySlug": "dough-dishes",
+		"title": "Galushky with Bacon",
+		"description": "Ніжні галушки власного виробництва — м’які, пухкі й справжні, як у дитинстві. Подаються з обсмаженим беконом та вершковим соусом на основі пармезану і яєць, що огортає страву шовковистою текстурою. Посипаємо свіжотертим пармезаном. Подільська інтерпретація класики — смачно, ситно й по-домашньому тепло.показати",
+		"price": 240,
+		"labels": ["350 g", "1, 1a, 3, 7"],
+		"fullDescription": "Tender галушки власного виробництва — м’які, пухкі й справжні, як у дитинстві. Подаються з обсмаженим беконом та вершковим соусом на основі пармезану і яєць, що огортає страву шовковистою текстурою. Посипаємо свіжотертим пармезаном. Подільська інтерпретація класики — смачно, ситно й по-домашньому тепло. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
+		"suggested": [
+			"varenyky-with-smoked-mackerel-and-potatoes",
+			"varenyky-with-braised-cabbage",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 620,
+		"portion": "350 g",
+		"allergens": ["cereals containing gluten", "wheat", "eggs", "milk"]
+	},
+	{
+		"slug": "galushky-with-chicken-and-mushrooms",
+		"categorySlug": "dough-dishes",
+		"title": "Galushky with Chicken and Mushrooms",
+		"description": "домашні галушки власного виробництва подаємо з соковитою куркою та шампіньйонами. Поливаємо ніжним вершковим соусом із пармезаном. Завершуємо страву цибулькою та тертим пармезаном. Затишна й водночас елегантна подільська страва з сучасним акцентом.показати",
+		"price": 240,
+		"labels": ["350 g", "1, 1a, 3, 7", "Recommended"],
+		"fullDescription": "House-made галушки власного виробництва подаємо з соковитою куркою та шампіньйонами. Поливаємо ніжним вершковим соусом із пармезаном. Завершуємо страву цибулькою та тертим пармезаном. Затишна й водночас елегантна подільська страва з сучасним акцентом. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
+		"suggested": [
+			"varenyky-with-smoked-mackerel-and-potatoes",
+			"varenyky-with-braised-cabbage",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 590,
+		"portion": "350 g",
+		"allergens": ["cereals containing gluten", "wheat", "eggs", "milk"]
+	},
+	{
+		"slug": "galushky-with-cherry",
+		"categorySlug": "dough-dishes",
+		"title": "Galushky with Cherry 🌱",
+		"description": "Tender sweet galushky with cherry, covered with a sauce of cream, sour cream, and condensed milk, gentle and creamy like childhood. Sprinkled with cocoa crumble and crushed hazelnuts for balance of flavor and texture. A favorite dessert for children and not only. Cherry pits may occur.",
+		"price": 225,
+		"labels": ["350 g", "1, 1a, 3, 5, 7, 8, 8b", "Vegetarian", "Recommended"],
+		"fullDescription": "Tender sweet galushky with cherry, covered with a sauce of cream, sour cream, and condensed milk, gentle and creamy like childhood. Sprinkled with cocoa crumble and crushed hazelnuts for balance of flavor and texture. A favorite dessert for children and not only. Cherry pits may occur. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
+		"suggested": [
+			"varenyky-with-smoked-mackerel-and-potatoes",
+			"varenyky-with-braised-cabbage",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 540,
+		"portion": "350 g",
+		"allergens": [
+			"cereals containing gluten",
+			"wheat",
+			"eggs",
+			"peanuts",
+			"milk",
+			"tree nuts",
+			"hazelnuts"
+		]
+	},
+	{
+		"slug": "chebureky-with-pork-and-barberry",
+		"categorySlug": "dough-dishes",
+		"title": "Chebureky with Pork and Barberry",
+		"description": "Two juicy chebureky made with thin dough and filled with minced pork, fragrant onion, and a touch of barberry for balance and character. Served with homemade adjika, fresh herbs, and pickled red onion.",
+		"price": 210,
+		"labels": ["350 g", "1, 1a", "Recommended"],
+		"fullDescription": "Two juicy chebureky made with thin dough and filled with minced pork, fragrant onion, and a touch of barberry for balance and character. Served with homemade adjika, fresh herbs, and pickled red onion. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
+		"suggested": [
+			"varenyky-with-smoked-mackerel-and-potatoes",
+			"varenyky-with-braised-cabbage",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 690,
+		"portion": "350 g",
+		"allergens": ["cereals containing gluten", "wheat"]
+	},
+	{
+		"slug": "chebureky-with-suluguni-and-young-bryndza",
+		"categorySlug": "dough-dishes",
+		"title": "Chebureky with Suluguni and Young Bryndza 🌱",
+		"description": "Two crisp chebureky with a delicate filling of stretchy suluguni, piquant sheep bryndza, and fresh wild garlic greens. Aromatic greens add a springlike note and balance the saltiness of the cheeses. Served with homemade adjika, herbs, and pickled red onion.",
+		"price": 210,
+		"labels": ["350 g", "1, 1a, 7", "Vegetarian"],
+		"fullDescription": "Two crisp chebureky with a delicate filling of stretchy suluguni, piquant sheep bryndza, and fresh wild garlic greens. Aromatic greens add a springlike note and balance the saltiness of the cheeses. Served with homemade adjika, herbs, and pickled red onion. Freshly prepared dough and generous filling make it especially comforting and satisfying.",
+		"suggested": [
+			"varenyky-with-smoked-mackerel-and-potatoes",
+			"varenyky-with-braised-cabbage",
+			"assorted-pickled-vegetables"
+		],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 650,
+		"portion": "350 g",
+		"allergens": ["cereals containing gluten", "wheat", "milk"]
+	},
+	{
+		"slug": "spicy-beef-burger",
+		"categorySlug": "burgers",
+		"title": "Spicy Beef Burger",
+		"description": "Яловича котлета, мікс салату, квашений огірок, томати, сир чеддер, трюфельний соус, гостий соус на основі Ерош Пішти, булочка бріош власного виробництва. Подається з картопляними діпами і аджикою.",
+		"price": 325,
+		"labels": ["400 g", "1, 1a, 3, 7", "Spicy"],
+		"fullDescription": "Яловича котлета, мікс салату, квашений огірок, томати, сир чеддер, трюфельний соус, гостий соус на основі Ерош Пішти, булочка бріош власного виробництва. Подається з картопляними діпами і аджикою. A substantial plate with a rich flavor profile and a familiar format elevated by house details.",
+		"suggested": [
+			"beef-burger-with-truffle-sauce",
+			"classic-chicken-burger-with-fresh-vegetables",
+			"french-fries"
+		],
+		"cookTimeMinutes": 18,
+		"caloriesKcal": 860,
+		"portion": "400 g",
+		"allergens": ["cereals containing gluten", "wheat", "eggs", "milk"]
+	},
+	{
+		"slug": "beef-burger-with-truffle-sauce",
+		"categorySlug": "burgers",
+		"title": "Beef Burger with Truffle Sauce",
+		"description": "Яловича котлета, мікс салату, квашений огірок, томати, сир чеддер, трюфельний соус, булочка бріош власного виробництва. Подається з картопляними діпами і аджикою.",
+		"price": 320,
+		"labels": ["400 g", "1, 1a, 3, 7", "Recommended"],
+		"fullDescription": "Яловича котлета, мікс салату, квашений огірок, томати, сир чеддер, трюфельний соус, булочка бріош власного виробництва. Подається з картопляними діпами і аджикою. A substantial plate with a rich flavor profile and a familiar format elevated by house details.",
+		"suggested": [
+			"spicy-beef-burger",
+			"classic-chicken-burger-with-fresh-vegetables",
+			"french-fries"
+		],
+		"cookTimeMinutes": 18,
+		"caloriesKcal": 820,
+		"portion": "400 g",
+		"allergens": ["cereals containing gluten", "wheat", "eggs", "milk"]
+	},
+	{
+		"slug": "classic-chicken-burger-with-fresh-vegetables",
+		"categorySlug": "burgers",
+		"title": "Classic Chicken Burger with Fresh Vegetables",
+		"description": "Куряча котлета, мікс салату, свіжий огірок, томати, сир чеддер, соус анчоусний, соус з діжонською гірчицею , булочка бріош власного виробництва. Подається з картопляними діпами і аджикою.",
+		"price": 315,
+		"labels": ["400 g", "1, 1a, 3, 7", "Recommended"],
+		"fullDescription": "Куряча котлета, мікс салату, свіжий огірок, томати, сир чеддер, соус анчоусний, соус з діжонською гірчицею , булочка бріош власного виробництва. Подається з картопляними діпами і аджикою. A substantial plate with a rich flavor profile and a familiar format elevated by house details.",
+		"suggested": ["spicy-beef-burger", "beef-burger-with-truffle-sauce", "french-fries"],
+		"cookTimeMinutes": 18,
+		"caloriesKcal": 760,
+		"portion": "400 g",
+		"allergens": ["cereals containing gluten", "wheat", "eggs", "milk"]
+	},
+	{
+		"slug": "large-podilian-meat-platter-from-the-oven",
+		"categorySlug": "wood-fired-oven",
+		"title": "Large Podilian Meat Platter from the Oven",
+		"description": "A generous meat assortment from the oven: juicy pork shashlik, tender chicken shashlik, fragrant pork rib, and Podilian house-made sausage. Served with cabbage salad in a vinegar-mustard dressing, two freshly baked flatbreads, homemade adjika, a ryazhanka-based sauce, pickled onion, and herbs. A dish for sharing, generous, aromatic, and truly Podilian.",
+		"price": null,
+		"labels": ["1.1 kg", "1, 1a, 7, 10", "Medium spicy", "Recommended"],
+		"fullDescription": "A generous meat assortment from the oven: juicy pork shashlik, tender chicken shashlik, fragrant pork rib, and Podilian house-made sausage. Served with cabbage salad in a vinegar-mustard dressing, two freshly baked flatbreads, homemade adjika, a ryazhanka-based sauce, pickled onion, and herbs. A dish for sharing, generous, aromatic, and truly Podilian. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
+		"suggested": [
+			"very-large-podilian-meat-platter-from-the-oven",
+			"duck-leg-with-pepper-sauce-and-young-carrot-puree",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 30,
+		"caloriesKcal": 1900,
+		"portion": "1.1 kg",
+		"allergens": ["cereals containing gluten", "wheat", "milk", "mustard"]
+	},
+	{
+		"slug": "very-large-podilian-meat-platter-from-the-oven",
+		"categorySlug": "wood-fired-oven",
+		"title": "Very Large Podilian Meat Platter from the Oven",
+		"description": "A generous meat assortment from the oven: juicy pork shashlik, tender chicken shashlik, beef kebab, fragrant pork rib, and Podilian house-made sausage. Served with cabbage salad in a vinegar-mustard dressing, two freshly baked flatbreads, homemade adjika, a ryazhanka-based sauce, pickled onion, and herbs. A dish for sharing, generous, aromatic, and truly Podilian.",
+		"price": null,
+		"labels": ["1.4 kg", "1, 1a, 7, 10", "Medium spicy", "Recommended"],
+		"fullDescription": "A generous meat assortment from the oven: juicy pork shashlik, tender chicken shashlik, beef kebab, fragrant pork rib, and Podilian house-made sausage. Served with cabbage salad in a vinegar-mustard dressing, two freshly baked flatbreads, homemade adjika, a ryazhanka-based sauce, pickled onion, and herbs. A dish for sharing, generous, aromatic, and truly Podilian. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
+		"suggested": [
+			"large-podilian-meat-platter-from-the-oven",
+			"duck-leg-with-pepper-sauce-and-young-carrot-puree",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 30,
+		"caloriesKcal": 2450,
+		"portion": "1.4 kg",
+		"allergens": ["cereals containing gluten", "wheat", "milk", "mustard"]
+	},
+	{
+		"slug": "duck-leg-with-pepper-sauce-and-young-carrot-puree",
+		"categorySlug": "wood-fired-oven",
+		"title": "Duck Leg with Pepper Sauce and Young Carrot Puree",
+		"description": "Duck leg slowly cooked at low temperature to ideal tenderness, with a crisp golden skin. Served with delicate carrot puree and a spicy mixed-pepper sauce that highlights the rich flavor of the meat. An elegant dish with Podilian charm and a modern presentation.",
+		"price": 310,
+		"labels": ["270 g", "5, 7, 8, 8b, 10", "Gluten free"],
+		"fullDescription": "Duck leg slowly cooked at low temperature to ideal tenderness, with a crisp golden skin. Served with delicate carrot puree and a spicy mixed-pepper sauce that highlights the rich flavor of the meat. An elegant dish with Podilian charm and a modern presentation. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
+		"suggested": [
+			"large-podilian-meat-platter-from-the-oven",
+			"very-large-podilian-meat-platter-from-the-oven",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 30,
+		"caloriesKcal": 590,
+		"portion": "270 g",
+		"allergens": ["peanuts", "milk", "tree nuts", "hazelnuts", "mustard"]
+	},
+	{
+		"slug": "beef-kebab-with-homemade-adjika",
+		"categorySlug": "wood-fired-oven",
+		"title": "Beef Kebab with Homemade Adjika",
+		"description": "Juicy beef kebab roasted over charcoal, with a rich aroma of smoke and spices. Served on freshly baked rye flatbread with our own homemade adjika and pickled red onion.",
+		"price": 240,
+		"labels": ["200 g", "1, 1a", "Medium spicy"],
+		"fullDescription": "Juicy beef kebab roasted over charcoal, with a rich aroma of smoke and spices. Served on freshly baked rye flatbread with our own homemade adjika and pickled red onion. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
+		"suggested": [
+			"large-podilian-meat-platter-from-the-oven",
+			"very-large-podilian-meat-platter-from-the-oven",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 30,
+		"caloriesKcal": 430,
+		"portion": "200 g",
+		"allergens": ["cereals containing gluten", "wheat"]
+	},
+	{
+		"slug": "house-made-podilian-sausage",
+		"categorySlug": "wood-fired-oven",
+		"title": "House-Made Podilian Sausage",
+		"description": "Priced by weight, with the price shown per 100 g. House-made sausage baked in the oven until browned and richly aromatic. Served on freshly baked rye flatbread with homemade adjika, fragrant herbs, and pickled onion. A hearty, flavorful dish with true Podilian character.",
+		"price": 85,
+		"labels": ["1, 1a"],
+		"fullDescription": "Priced by weight, with the price shown per 100 g. House-made sausage baked in the oven until browned and richly aromatic. Served on freshly baked rye flatbread with homemade adjika, fragrant herbs, and pickled onion. A hearty, flavorful dish with true Podilian character. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
+		"suggested": [
+			"large-podilian-meat-platter-from-the-oven",
+			"very-large-podilian-meat-platter-from-the-oven",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 30,
+		"caloriesKcal": 310,
+		"portion": "1 plate",
+		"allergens": ["cereals containing gluten", "wheat"]
+	},
+	{
+		"slug": "overnight-oven-braised-rib",
+		"categorySlug": "wood-fired-oven",
+		"title": "Overnight Oven-Braised Rib",
+		"description": "Priced by weight, with the price shown per 100 g. Juicy pork ribs slowly braised in the oven until tender, then generously glazed with aromatic barbecue sauce for a rich sweet-and-spicy flavor. Served with homemade adjika, fresh herbs, and freshly baked rye flatbread. A dish for true meat lovers.",
+		"price": 120,
+		"labels": ["1, 1a", "Recommended"],
+		"fullDescription": "Priced by weight, with the price shown per 100 g. Juicy pork ribs slowly braised in the oven until tender, then generously glazed with aromatic barbecue sauce for a rich sweet-and-spicy flavor. Served with homemade adjika, fresh herbs, and freshly baked rye flatbread. A dish for true meat lovers. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
+		"suggested": [
+			"large-podilian-meat-platter-from-the-oven",
+			"very-large-podilian-meat-platter-from-the-oven",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 30,
+		"caloriesKcal": 540,
+		"portion": "1 plate",
+		"allergens": ["cereals containing gluten", "wheat"]
+	},
+	{
+		"slug": "chicken-shashlik-from-the-oven",
+		"categorySlug": "wood-fired-oven",
+		"title": "Chicken Shashlik from the Oven",
+		"description": "Juicy chicken thigh meat marinated in spices and roasted over charcoal to a golden crust and a light smoky aroma. Served with soft wheat flatbread, a delicate ryazhanka-based sauce, and fresh herbs.",
+		"price": 280,
+		"labels": ["300 g", "1, 1a, 7", "Recommended"],
+		"fullDescription": "Juicy chicken thigh meat marinated in spices and roasted over charcoal to a golden crust and a light smoky aroma. Served with soft wheat flatbread, a delicate ryazhanka-based sauce, and fresh herbs. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
+		"suggested": [
+			"large-podilian-meat-platter-from-the-oven",
+			"very-large-podilian-meat-platter-from-the-oven",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 30,
+		"caloriesKcal": 470,
+		"portion": "300 g",
+		"allergens": ["cereals containing gluten", "wheat", "milk"]
+	},
+	{
+		"slug": "pork-shashlik-from-the-oven",
+		"categorySlug": "wood-fired-oven",
+		"title": "Pork Shashlik from the Oven",
+		"description": "Juicy pork neck roasted over charcoal to a browned crust and tender center. Served on freshly baked rye flatbread with homemade adjika, fragrant herbs, and pickled onion.",
+		"price": 320,
+		"labels": ["300 g", "1, 1a", "Recommended"],
+		"fullDescription": "Juicy pork neck roasted over charcoal to a browned crust and tender center. Served on freshly baked rye flatbread with homemade adjika, fragrant herbs, and pickled onion. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
+		"suggested": [
+			"large-podilian-meat-platter-from-the-oven",
+			"very-large-podilian-meat-platter-from-the-oven",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 30,
+		"caloriesKcal": 620,
+		"portion": "300 g",
+		"allergens": ["cereals containing gluten", "wheat"]
+	},
+	{
+		"slug": "chunk-of-pork-neck-with-anna-potatoes",
+		"categorySlug": "wood-fired-oven",
+		"title": "Chunk of Pork Neck with Anna Potatoes",
+		"description": "Juicy pork neck roasted over charcoal to a golden crust and a rich smoky aroma. Served with delicate Anna potatoes baked in buttery layers and pickled onion. Finished with an elegant smoked plum sauce that adds a sweet-and-sour accent and highlights the flavor of the meat.",
+		"price": 280,
+		"labels": ["210 g", "16", "Gluten free"],
+		"fullDescription": "Juicy pork neck roasted over charcoal to a golden crust and a rich smoky aroma. Served with delicate Anna potatoes baked in buttery layers and pickled onion. Finished with an elegant smoked plum sauce that adds a sweet-and-sour accent and highlights the flavor of the meat. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
+		"suggested": [
+			"large-podilian-meat-platter-from-the-oven",
+			"very-large-podilian-meat-platter-from-the-oven",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 30,
+		"caloriesKcal": 640,
+		"portion": "210 g",
+		"allergens": ["ask staff about allergen code 16"]
+	},
+	{
+		"slug": "oven-baked-trout",
+		"categorySlug": "wood-fired-oven",
+		"title": "Oven-Baked Trout",
+		"description": "Rainbow trout baked with local spices in a Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers.",
+		"price": 320,
+		"labels": ["300 g", "20 min", "4", "New"],
+		"fullDescription": "Rainbow trout baked with local spices in a Podilian style. Ten percent of the proceeds from this dish go to support army fundraisers. The oven and open-fire character bring extra depth, smokiness, and warmth to the dish.",
+		"suggested": [
+			"large-podilian-meat-platter-from-the-oven",
+			"very-large-podilian-meat-platter-from-the-oven",
+			"pyzhivska-potatoes-with-garlic-and-dill"
+		],
+		"cookTimeMinutes": 20,
+		"caloriesKcal": 410,
+		"portion": "300 g",
+		"allergens": ["fish"]
+	},
+	{
+		"slug": "french-fries",
+		"categorySlug": "side-dishes",
+		"title": "French Fries 🌱🌱🌱",
+		"description": "Crispy golden french fries, freshly fried and served hot.",
+		"price": 130,
+		"labels": ["Vegetarian", "Gluten free", "Vegan"],
+		"fullDescription": "A signature french fries 🌱🌱🌱 prepared in our kitchen. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties.",
+		"suggested": [
+			"mashed-potatoes",
+			"oven-baked-vegetables",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 360,
+		"portion": "1 serving",
+		"allergens": []
+	},
+	{
+		"slug": "mashed-potatoes",
+		"categorySlug": "side-dishes",
+		"title": "Mashed Potatoes 🌱",
+		"description": "Potato puree, butter, milk.",
+		"price": 110,
+		"labels": ["220 g", "7", "Vegetarian", "Gluten free"],
+		"fullDescription": "Potato puree, butter, milk. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties.",
+		"suggested": [
+			"french-fries",
+			"oven-baked-vegetables",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 210,
+		"portion": "220 g",
+		"allergens": ["milk"]
+	},
+	{
+		"slug": "oven-baked-vegetables",
+		"categorySlug": "side-dishes",
+		"title": "Oven-Baked Vegetables 🌱🌱🌱",
+		"description": "Eggplant, zucchini, champignons, bell pepper, and red onion baked in the oven until tender and naturally sweet. Served hot and sprinkled with fresh chives.",
+		"price": 210,
+		"labels": ["220 g", "Vegetarian", "Gluten free", "Vegan"],
+		"fullDescription": "Eggplant, zucchini, champignons, bell pepper, and red onion baked in the oven until tender and naturally sweet. Served hot and sprinkled with fresh chives. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties.",
+		"suggested": [
+			"french-fries",
+			"mashed-potatoes",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 170,
+		"portion": "220 g",
+		"allergens": []
+	},
+	{
+		"slug": "pyzhivska-potatoes-with-garlic-and-dill",
+		"categorySlug": "side-dishes",
+		"title": "Pyzhivska Potatoes with Garlic and Dill",
+		"description": "Baked potatoes generously dressed with fragrant garlic oil and fresh dill.",
+		"price": 130,
+		"labels": ["370 g", "7", "Vegetarian", "Gluten free", "Recommended"],
+		"fullDescription": "Baked potatoes generously dressed with fragrant garlic oil and fresh dill. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties.",
+		"suggested": [
+			"french-fries",
+			"mashed-potatoes",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 290,
+		"portion": "370 g",
+		"allergens": ["milk"]
+	},
+	{
+		"slug": "fried-potatoes-with-mushrooms",
+		"categorySlug": "side-dishes",
+		"title": "Fried Potatoes with Mushrooms 🌱🌱🌱",
+		"description": "Golden fried potatoes with mushrooms and onion cooked to a golden crust. A true Podilian classic, simple, generous, and aromatic.",
+		"price": 120,
+		"labels": ["220 g", "Vegetarian", "Gluten free", "Recommended", "Vegan"],
+		"fullDescription": "Golden fried potatoes with mushrooms and onion cooked to a golden crust. A true Podilian classic, simple, generous, and aromatic. A simple but expressive accompaniment that pairs well with grilled meats, fish, and house specialties.",
+		"suggested": [
+			"french-fries",
+			"mashed-potatoes",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 12,
+		"caloriesKcal": 310,
+		"portion": "220 g",
+		"allergens": []
+	},
+	{
+		"slug": "prunes-with-walnuts-and-sour-cream",
+		"categorySlug": "desserts",
+		"title": "Prunes with Walnuts and Sour Cream",
+		"description": "Sweet prunes stuffed with toasted walnuts under a delicate vanilla sour cream. A classic Ukrainian dessert with a homemade character.",
+		"price": 180,
+		"labels": ["7, 8c", "Vegetarian", "New"],
+		"fullDescription": "Sweet prunes stuffed with toasted walnuts under a delicate vanilla sour cream. A classic Ukrainian dessert with a homemade character. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation.",
+		"suggested": [
+			"little-nalisnyky",
+			"burnt-cheesecake",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 360,
+		"portion": "1 dessert",
+		"allergens": ["milk", "walnuts"]
+	},
+	{
+		"slug": "little-nalisnyky",
+		"categorySlug": "desserts",
+		"title": "Little Nalisnyky",
+		"description": "Homemade crepes with a delicate cheese and poppy seed filling, baked in the charcoal oven until golden. Served with a scoop of cream ice cream and aromatic strawberry jam.",
+		"price": 180,
+		"labels": ["1a, 3, 5, 7", "Recommended"],
+		"fullDescription": "Homemade crepes with a delicate cheese and poppy seed filling, baked in the charcoal oven until golden. Served with a scoop of cream ice cream and aromatic strawberry jam. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation.",
+		"suggested": [
+			"prunes-with-walnuts-and-sour-cream",
+			"burnt-cheesecake",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 430,
+		"portion": "1 dessert",
+		"allergens": ["wheat", "eggs", "peanuts", "milk"]
+	},
+	{
+		"slug": "burnt-cheesecake",
+		"categorySlug": "desserts",
+		"title": "Burnt Cheesecake 🌱",
+		"description": "A delicate Basque-style cheesecake with a lightly caramelized crust, baked to a golden burnt finish. Served with strawberry jam and crisp dessert crumble.",
+		"price": 210,
+		"labels": ["120 g", "1a, 5, 7, 8a, 16", "Recommended"],
+		"fullDescription": "A delicate Basque-style cheesecake with a lightly caramelized crust, baked to a golden burnt finish. Served with strawberry jam and crisp dessert crumble. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation.",
+		"suggested": [
+			"prunes-with-walnuts-and-sour-cream",
+			"little-nalisnyky",
+			"borscht-in-a-bread-bowl-with-smoked-sausage"
+		],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 420,
+		"portion": "120 g",
+		"allergens": ["wheat", "peanuts", "milk", "almonds", "ask staff about allergen code 16"]
+	},
+	{
+		"slug": "dark-night",
+		"categorySlug": "desserts",
+		"title": "Dark Night",
+		"description": "A delicate dark chocolate mousse paired with chewy brownie and bright raspberry confit. A harmony of deep chocolate and refreshing raspberry acidity in every spoonful.",
+		"price": 195,
+		"labels": ["3, 7", "Vegetarian", "Gluten free"],
+		"fullDescription": "A delicate dark chocolate mousse paired with chewy brownie and bright raspberry confit. A harmony of deep chocolate and refreshing raspberry acidity in every spoonful. A sweet finish with a homemade feel, created to balance texture, aroma, and presentation.",
+		"suggested": ["prunes-with-walnuts-and-sour-cream", "little-nalisnyky", "burnt-cheesecake"],
+		"cookTimeMinutes": 10,
+		"caloriesKcal": 340,
+		"portion": "1 dessert",
+		"allergens": ["eggs", "milk"]
+	},
+	{
+		"slug": "bowl-of-homemade-bread",
+		"categorySlug": "bread-is-the-staff-of-life",
+		"title": "Bowl of Homemade Bread",
+		"description": "A bowl of freshly baked homemade bread with a crispy crust and soft interior.",
+		"price": 60,
+		"labels": ["200 g", "1a"],
+		"fullDescription": "A signature bowl of homemade bread prepared in our kitchen. Freshly baked in-house, it is ideal for sharing and pairing with the rest of the menu.",
+		"suggested": [
+			"bowl-of-baked-flatbreads",
+			"borscht-in-a-bread-bowl-with-smoked-sausage",
+			"beef-burger-with-truffle-sauce"
+		],
+		"cookTimeMinutes": 5,
+		"caloriesKcal": 440,
+		"portion": "200 g",
+		"allergens": ["wheat"]
+	},
+	{
+		"slug": "bowl-of-baked-flatbreads",
+		"categorySlug": "bread-is-the-staff-of-life",
+		"title": "Bowl of Baked Flatbreads",
+		"description": "A bowl of baked flatbreads with a soft texture and lightly crisp edges.",
+		"price": 60,
+		"labels": ["300 g"],
+		"fullDescription": "A signature bowl of baked flatbreads prepared in our kitchen. Freshly baked in-house, it is ideal for sharing and pairing with the rest of the menu.",
+		"suggested": [
+			"bowl-of-homemade-bread",
+			"borscht-in-a-bread-bowl-with-smoked-sausage",
+			"beef-burger-with-truffle-sauce"
+		],
+		"cookTimeMinutes": 5,
+		"caloriesKcal": 510,
+		"portion": "300 g",
+		"allergens": []
+	}
 ]

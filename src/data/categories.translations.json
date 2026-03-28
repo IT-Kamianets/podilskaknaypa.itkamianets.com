@@ -391,7 +391,30 @@
                 "mt": "Dough Dishes"
             },
             "description": {
-                "en": "Homestyle dough-based dishes prepared with traditional recipes."
+      "ua": "Домашні страви з тіста, приготовані за традиційними рецептами.",
+      "de": "Hausgemachte Teiggerichte nach traditionellen Rezepten.",
+      "fr": "Plats à base de pâte faits maison selon des recettes traditionnelles.",
+      "pl": "Domowe dania z ciasta przygotowane według tradycyjnych przepisów.",
+      "ro": "Preparate din aluat, gătite după rețete tradiționale.",
+      "hu": "Hagyományos receptek alapján készült házi tésztás ételek.",
+      "bg": "Домашни ястия от тесто по традиционни рецепти.",
+      "el": "Παραδοσιακά πιάτα με ζύμη, φτιαγμένα με σπιτικές συνταγές.",
+      "cs": "Domácí jídla z těsta podle tradičních receptů.",
+      "sk": "Domáce jedlá z cesta podľa tradičných receptov.",
+      "hr": "Domaća jela od tijesta pripremljena po tradicionalnim receptima.",
+      "it": "Piatti a base di impasto fatti in casa secondo ricette tradizionali.",
+      "es": "Platos caseros a base de masa preparados con recetas tradicionales.",
+      "nl": "Huisgemaakte deeggerechten volgens traditionele recepten.",
+      "pt": "Pratos de massa caseiros preparados com receitas tradicionais.",
+      "lt": "Namų gamybos miltiniai patiekalai pagal tradicinius receptus.",
+      "lv": "Mājas mīklas ēdieni pēc tradicionālām receptēm.",
+      "sv": "Hembakade degbaserade rätter enligt traditionella recept.",
+      "da": "Hjemmelavede dejretter efter traditionelle opskrifter.",
+      "fi": "Perinteiset kotitekoiset taikinapohjaiset ruoat.",
+      "et": "Kodused taignaroad traditsiooniliste retseptide järgi.",
+      "sl": "Domače jedi iz testa po tradicionalnih receptih.",
+      "ga": "Miasa bunaithe ar thaos baile de réir oidis thraidisiúnta.",
+      "mt": "Platti tal-għaġina magħmulin id-dar skont riċetti tradizzjonali."
             }
         }
     },
@@ -427,7 +450,30 @@
                 "mt": "Burgers"
             },
             "description": {
-                "en": "Juicy burgers with flavorful fillings and freshly baked buns."
+      "ua": "Соковиті бургери з насиченими начинками та свіжоспеченими булками.",
+      "de": "Saftige Burger mit aromatischen Füllungen und frisch gebackenen Brötchen.",
+      "fr": "Burgers juteux avec garnitures savoureuses et pains fraîchement cuits.",
+      "pl": "Soczyste burgery z wyrazistymi dodatkami i świeżymi bułkami.",
+      "ro": "Burgeri suculenți cu umpluturi gustoase și chifle proaspete.",
+      "hu": "Szaftos hamburgerek ízletes töltelékekkel és friss bucikkal.",
+      "bg": "Сочни бургери с богати плънки и прясно изпечени хлебчета.",
+      "el": "Ζουμερά μπέργκερ με γευστικές γεμίσεις και φρέσκα ψωμάκια.",
+      "cs": "Šťavnaté burgery s chutnými náplněmi a čerstvými houskami.",
+      "sk": "Šťavnaté burgery s chutnými náplňami a čerstvými žemľami.",
+      "hr": "Sočni burgeri s bogatim punjenjem i svježim pecivima.",
+      "it": "Burger succosi con ripieni gustosi e panini appena sfornati.",
+      "es": "Hamburguesas jugosas con rellenos sabrosos y pan recién horneado.",
+      "nl": "Sappige burgers met smaakvolle vullingen en vers gebakken broodjes.",
+      "pt": "Hambúrgueres suculentos com recheios saborosos e pão fresco.",
+      "lt": "Sultingi mėsainiai su gardžiais įdarais ir šviežiomis bandelėmis.",
+      "lv": "Sulīgi burgeri ar bagātīgu pildījumu un svaigām maizītēm.",
+      "sv": "Saftiga burgare med smakrika fyllningar och nybakade bröd.",
+      "da": "Saftige burgere med smagfulde fyld og friskbagte boller.",
+      "fi": "Mehevät burgerit maukkailla täytteillä ja tuoreilla sämpylöillä.",
+      "et": "Mahlased burgerid rikkalike täidiste ja värskete kuklitega.",
+      "sl": "Sočni burgerji z bogatimi nadevi in svežimi žemljicami.",
+      "ga": "Burgairí súmhara le líonadh blasta agus aráin úra.",
+      "mt": "Burgers mmerraq b’ingredjenti tajbin u ħobż frisk."
             }
         }
     },
@@ -523,8 +569,31 @@
                 "mt": "Side Dishes"
             },
             "description": {
-                "en": "Simple and satisfying sides to complement any main dish."
-            }
+				"ua": "Прості та смачні гарніри, що доповнюють будь-яку основну страву.",
+				"de": "Einfache und schmackhafte Beilagen zu jedem Hauptgericht.",
+				"fr": "Accompagnements simples et savoureux pour compléter chaque plat.",
+				"pl": "Proste i smaczne dodatki do każdego dania głównego.",
+				"ro": "Garnituri simple și gustoase pentru orice fel principal.",
+				"hu": "Egyszerű és ízletes köretek minden főételhez.",
+				"bg": "Прости и вкусни гарнитури към всяко основно ястие.",
+				"el": "Απλά και νόστιμα συνοδευτικά για κάθε κυρίως πιάτο.",
+				"cs": "Jednoduché a chutné přílohy ke každému hlavnímu jídlu.",
+				"sk": "Jednoduché a chutné prílohy ku každému hlavnému jedlu.",
+				"hr": "Jednostavni i ukusni prilozi uz svako glavno jelo.",
+				"it": "Contorni semplici e gustosi per accompagnare ogni piatto.",
+				"es": "Guarniciones simples y sabrosas para cualquier plato principal.",
+				"nl": "Eenvoudige en smakelijke bijgerechten voor elk hoofdgerecht.",
+				"pt": "Acompanhamentos simples e saborosos para qualquer prato principal.",
+				"lt": "Paprasti ir skanūs garnyrai prie kiekvieno pagrindinio patiekalo.",
+				"lv": "Vienkāršas un garšīgas piedevas jebkuram pamatēdienam.",
+				"sv": "Enkla och goda tillbehör till varje huvudrätt.",
+				"da": "Enkle og velsmagende tilbehør til enhver hovedret.",
+				"fi": "Yksinkertaiset ja maukkaat lisukkeet kaikkiin pääruokiin.",
+				"et": "Lihtsad ja maitsvad lisandid igale pearoale.",
+				"sl": "Preproste in okusne priloge za vsako glavno jed.",
+				"ga": "Taobh-miasa simplí blasta le gach príomh-mhias.",
+				"mt": "Kontorni sempliċi u tajbin għal kull platt prinċipali."
+			}
         }
     },
     {
@@ -559,8 +628,31 @@
                 "mt": "Desserts"
             },
             "description": {
-                "en": "Sweet homemade desserts to finish your meal with pleasure."
-            }
+				"ua": "Солодкі домашні десерти для приємного завершення трапези.",
+				"de": "Süße hausgemachte Desserts für einen genussvollen Abschluss.",
+				"fr": "Desserts sucrés faits maison pour terminer le repas en beauté.",
+				"pl": "Słodkie domowe desery na przyjemne zakończenie posiłku.",
+				"ro": "Deserturi dulci de casă pentru a încheia masa cu plăcere.",
+				"hu": "Édes házi desszertek a tökéletes befejezéshez.",
+				"bg": "Сладки домашни десерти за приятно завършване на храненето.",
+				"el": "Γλυκά σπιτικά επιδόρπια για τέλειο τέλος στο γεύμα.",
+				"cs": "Sladké domácí dezerty pro příjemné zakončení jídla.",
+				"sk": "Sladké domáce dezerty na príjemné zakončenie jedla.",
+				"hr": "Slatki domaći deserti za savršen završetak obroka.",
+				"it": "Dolci fatti in casa per concludere il pasto con piacere.",
+				"es": "Postres dulces caseros para terminar la comida con placer.",
+				"nl": "Zoete huisgemaakte desserts om de maaltijd af te sluiten.",
+				"pt": "Sobremesas doces caseiras para terminar a refeição com prazer.",
+				"lt": "Saldūs naminiai desertai maloniam valgio užbaigimui.",
+				"lv": "Saldie mājas deserti patīkamam maltītes noslēgumam.",
+				"sv": "Söta hemlagade desserter för att avsluta måltiden.",
+				"da": "Søde hjemmelavede desserter til en god afslutning.",
+				"fi": "Makeat kotitekoiset jälkiruoat aterian päätteeksi.",
+				"et": "Magusad kodused magustoidud meeldivaks lõpetuseks.",
+				"sl": "Sladice iz domače kuhinje za popoln zaključek obroka.",
+				"ga": "Milseoga baile chun deireadh taitneamhach a chur leis an mbéile.",
+				"mt": "Deżerti ħelwin magħmulin id-dar biex tispiċċa l-ikla b’pjaċir."
+			}
         }
     },
     {
@@ -595,8 +687,31 @@
                 "mt": "ħobż Is the Staff of Life"
             },
             "description": {
-                "en": "Fresh bread and baked specialties served as the perfect addition to your table."
-            }
+				"ua": "Свіжий хліб і випічка як ідеальне доповнення до вашого столу.",
+				"de": "Frisches Brot und Backwaren als perfekte Ergänzung zu Ihrem Tisch.",
+				"fr": "Pain frais et spécialités boulangères comme complément parfait à votre table.",
+				"pl": "Świeże pieczywo i wypieki jako idealne uzupełnienie stołu.",
+				"ro": "Pâine proaspătă și produse de panificație ca adaos perfect la masă.",
+				"hu": "Friss kenyér és péksütemények az asztal tökéletes kiegészítőjeként.",
+				"bg": "Пресен хляб и печива като перфектно допълнение към масата.",
+				"el": "Φρέσκο ψωμί και αρτοποιήματα ως τέλεια προσθήκη στο τραπέζι.",
+				"cs": "Čerstvý chléb a pečivo jako dokonalý doplněk ke stolu.",
+				"sk": "Čerstvý chlieb a pečivo ako dokonalý doplnok k stolu.",
+				"hr": "Svježi kruh i pekarski proizvodi kao savršen dodatak stolu.",
+				"it": "Pane fresco e prodotti da forno come complemento perfetto alla tavola.",
+				"es": "Pan fresco y productos horneados como complemento perfecto a la mesa.",
+				"nl": "Vers brood en bakkerijproducten als perfecte aanvulling op de tafel.",
+				"pt": "Pão fresco e produtos de padaria como complemento perfeito à mesa.",
+				"lt": "Šviežia duona ir kepiniai kaip puikus stalo papildymas.",
+				"lv": "Svaiga maize un konditorejas izstrādājumi kā ideāls papildinājums galdam.",
+				"sv": "Färskt bröd och bakverk som perfekt tillbehör till bordet.",
+				"da": "Friskbagt brød og bagværk som perfekt supplement til bordet.",
+				"fi": "Tuore leipä ja leivonnaiset täydellisenä lisänä pöytään.",
+				"et": "Värske leib ja pagaritooted ideaalse lisana lauale.",
+				"sl": "Svež kruh in pekovski izdelki kot popoln dodatek k mizi.",
+				"ga": "Arán úr agus earraí bácáilte mar bhreis foirfe ar an mbord.",
+				"mt": "Ħobż frisk u prodotti tal-forn bħala żieda perfetta għall-mejda."
+			}
         }
     }
 ]
