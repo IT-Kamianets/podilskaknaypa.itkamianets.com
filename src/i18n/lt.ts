@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const lt = {
 	'Go to homepage': 'Eiti į pagrindinį puslapį',
@@ -39,14 +39,31 @@ export const lt = {
 	Reviews: 'Atsiliepimai',
 	Events: 'Renginiai',
 	Jobs: 'Darbai',
-	'This page is currently empty': 'Šis puslapis šiuo metu tuščias',
-	'Check back later for updates.': 'Užsukite vėliau ir pamatysite naujienas.',
+	'No articles yet': 'Straipsnių dar nėra',
+	'New posts are on the way': 'Nauji įrašai jau pakeliui',
+	'No events at the moment': 'Šiuo metu renginių nėra',
+	'New events are on the way': 'Nauji renginiai jau pakeliui',
+	'No active promotions at the moment': 'Šiuo metu nėra aktyvių akcijų',
 	Favorites: 'Mėgstamiausi',
 	'No saved dishes': 'Nėra išsaugotų patiekalų',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Pridėkite patiekalus iš meniu į mėgstamiausius ir jie bus rodomi čia.',
 	'Remove from favorites': 'Pašalinti iš mėgstamiausių',
 	'Add to favorites': 'Pridėti į mėgstamiausius',
+	'Chef picks': 'Šefo pasirinkimai',
+	'Ask restaurant staff': 'Kreipkitės į restorano personalą',
+	'Cooking time': 'Gaminimo laikas',
+	'Pairs well with': 'Tinka su',
+	'Dish details': 'Patiekalo informacija',
+	'Ask restaurant staff for portion details': 'Dėl porcijos informacijos kreipkitės į restorano personalą',
+	'No allergen information available': 'Informacijos apie alergenus nėra',
+	'Ask for price': 'Teiraukitės kainos',
+	'Calories': 'Kalorijos',
+	'About dish': 'Apie patiekalą',
+	'Menu section': 'Meniu skyrius',
+	'Portion': 'Porcija',
+	'Allergens': 'Alergenai',
+	'Browse full menu': 'Peržiūrėti visą meniu',
 	Unavailable: 'Nėra',
 } as const;
 
@@ -56,3 +73,4 @@ export const ltTranslates: Translate[] = Object.entries(lt).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

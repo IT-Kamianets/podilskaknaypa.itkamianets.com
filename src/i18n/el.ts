@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const el = {
 	'Go to homepage': 'Μετάβαση στην αρχική σελίδα',
@@ -39,14 +39,31 @@ export const el = {
 	Reviews: 'Κριτικές',
 	Events: 'Εκδηλώσεις',
 	Jobs: 'Θέσεις εργασίας',
-	'This page is currently empty': 'Αυτή η σελίδα είναι προς το παρόν κενή',
-	'Check back later for updates.': 'Επιστρέψτε αργότερα για ενημερώσεις.',
+	'No articles yet': 'Δεν υπάρχουν άρθρα ακόμη',
+	'New posts are on the way': 'Νέες αναρτήσεις έρχονται σύντομα',
+	'No events at the moment': 'Δεν υπάρχουν εκδηλώσεις αυτή τη στιγμή',
+	'New events are on the way': 'Νέες εκδηλώσεις έρχονται σύντομα',
+	'No active promotions at the moment': 'Δεν υπάρχουν ενεργές προσφορές αυτή τη στιγμή',
 	Favorites: 'Αγαπημένα',
 	'No saved dishes': 'Δεν υπάρχουν αποθηκευμένα πιάτα',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Προσθέστε πιάτα από το μενού στα αγαπημένα και θα εμφανίζονται εδώ.',
 	'Remove from favorites': 'Αφαίρεση από τα αγαπημένα',
 	'Add to favorites': 'Προσθήκη στα αγαπημένα',
+	'Chef picks': 'Επιλογές του σεφ',
+	'Ask restaurant staff': 'Ρωτήστε το προσωπικό του εστιατορίου',
+	'Cooking time': 'Χρόνος προετοιμασίας',
+	'Pairs well with': 'Ταιριάζει με',
+	'Dish details': 'Λεπτομέρειες πιάτου',
+	'Ask restaurant staff for portion details': 'Ρωτήστε το προσωπικό του εστιατορίου για λεπτομέρειες σχετικά με τη μερίδα',
+	'No allergen information available': 'Δεν υπάρχουν διαθέσιμες πληροφορίες για αλλεργιογόνα',
+	'Ask for price': 'Ρωτήστε για την τιμή',
+	'Calories': 'Θερμίδες',
+	'About dish': 'Σχετικά με το πιάτο',
+	'Menu section': 'Ενότητα μενού',
+	'Portion': 'Μερίδα',
+	'Allergens': 'Αλλεργιογόνα',
+	'Browse full menu': 'Δείτε ολόκληρο το μενού',
 	Unavailable: 'Μη διαθέσιμο',
 } as const;
 
@@ -56,3 +73,4 @@ export const elTranslates: Translate[] = Object.entries(el).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

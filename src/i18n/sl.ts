@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const sl = {
 	'Go to homepage': 'Pojdi na domačo stran',
@@ -39,14 +39,31 @@ export const sl = {
 	Reviews: 'Ocene',
 	Events: 'Dogodki',
 	Jobs: 'Zaposlitve',
-	'This page is currently empty': 'Ta stran je trenutno prazna',
-	'Check back later for updates.': 'Vrnite se pozneje za posodobitve.',
+	'No articles yet': 'Člankov še ni',
+	'New posts are on the way': 'Nove objave so na poti',
+	'No events at the moment': 'Trenutno ni dogodkov',
+	'New events are on the way': 'Novi dogodki so na poti',
+	'No active promotions at the moment': 'Trenutno ni aktivnih promocij',
 	Favorites: 'Priljubljene',
 	'No saved dishes': 'Ni shranjenih jedi',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Dodajte jedi iz menija med priljubljene in prikazane bodo tukaj.',
 	'Remove from favorites': 'Odstrani iz priljubljenih',
 	'Add to favorites': 'Dodaj med priljubljene',
+	'Chef picks': 'Izbor chefa',
+	'Ask restaurant staff': 'Vprašajte osebje restavracije',
+	'Cooking time': 'Čas priprave',
+	'Pairs well with': 'Dobro se poda k',
+	'Dish details': 'Podrobnosti o jedi',
+	'Ask restaurant staff for portion details': 'Vprašajte osebje restavracije za podrobnosti o porciji',
+	'No allergen information available': 'Podatki o alergenih niso na voljo',
+	'Ask for price': 'Vprašajte za ceno',
+	'Calories': 'Kalorije',
+	'About dish': 'O jedi',
+	'Menu section': 'Razdelek menija',
+	'Portion': 'Porcija',
+	'Allergens': 'Alergeni',
+	'Browse full menu': 'Oglejte si celoten meni',
 	Unavailable: 'Ni na voljo',
 } as const;
 
@@ -56,3 +73,4 @@ export const slTranslates: Translate[] = Object.entries(sl).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

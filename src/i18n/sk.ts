@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const sk = {
 	'Go to homepage': 'Prejsť na domovskú stránku',
@@ -39,14 +39,31 @@ export const sk = {
 	Reviews: 'Recenzie',
 	Events: 'Podujatia',
 	Jobs: 'Práca',
-	'This page is currently empty': 'Táto stránka je momentálne prázdna',
-	'Check back later for updates.': 'Vráťte sa neskôr pre novinky.',
+	'No articles yet': 'Zatiaľ žiadne články',
+	'New posts are on the way': 'Nové príspevky sú na ceste',
+	'No events at the moment': 'Momentálne nie sú žiadne podujatia',
+	'New events are on the way': 'Nové podujatia sú na ceste',
+	'No active promotions at the moment': 'Momentálne nie sú žiadne aktívne akcie',
 	Favorites: 'Obľúbené',
 	'No saved dishes': 'Žiadne uložené jedlá',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Pridajte jedlá z menu do obľúbených a zobrazia sa tu.',
 	'Remove from favorites': 'Odstrániť z obľúbených',
 	'Add to favorites': 'Pridať do obľúbených',
+	'Chef picks': 'Výber šéfkuchára',
+	'Ask restaurant staff': 'Opýtajte sa personálu reštaurácie',
+	'Cooking time': 'Čas prípravy',
+	'Pairs well with': 'Hodí sa k',
+	'Dish details': 'Detaily jedla',
+	'Ask restaurant staff for portion details': 'Opýtajte sa personálu reštaurácie na podrobnosti o porcii',
+	'No allergen information available': 'Informácie o alergénoch nie sú k dispozícii',
+	'Ask for price': 'Opýtajte sa na cenu',
+	'Calories': 'Kalórie',
+	'About dish': 'O jedle',
+	'Menu section': 'Sekcia menu',
+	'Portion': 'Porcia',
+	'Allergens': 'Alergény',
+	'Browse full menu': 'Zobraziť celé menu',
 	Unavailable: 'Nie je',
 } as const;
 
@@ -56,3 +73,4 @@ export const skTranslates: Translate[] = Object.entries(sk).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

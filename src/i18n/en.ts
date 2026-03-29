@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const en = {
 	'Go to homepage': 'Go to homepage',
@@ -39,14 +39,31 @@ export const en = {
 	Reviews: 'Reviews',
 	Events: 'Events',
 	Jobs: 'Jobs',
-	'This page is currently empty': 'This page is currently empty',
-	'Check back later for updates.': 'Check back later for updates.',
+	'No articles yet': 'No articles yet',
+	'New posts are on the way': 'New posts are on the way',
+	'No events at the moment': 'No events at the moment',
+	'New events are on the way': 'New events are on the way',
+	'No active promotions at the moment': 'No active promotions at the moment',
 	Favorites: 'Favorites',
 	'No saved dishes': 'No saved dishes',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Add items from the menu to favorites, and they will appear here.',
 	'Remove from favorites': 'Remove from favorites',
 	'Add to favorites': 'Add to favorites',
+	'Chef picks': 'Chef picks',
+	'Ask restaurant staff': 'Ask restaurant staff',
+	'Cooking time': 'Cooking time',
+	'Pairs well with': 'Pairs well with',
+	'Dish details': 'Dish details',
+	'Ask restaurant staff for portion details': 'Ask restaurant staff for portion details',
+	'No allergen information available': 'No allergen information available',
+	'Ask for price': 'Ask for price',
+	'Calories': 'Calories',
+	'About dish': 'About dish',
+	'Menu section': 'Menu section',
+	'Portion': 'Portion',
+	'Allergens': 'Allergens',
+	'Browse full menu': 'Browse full menu',
 	Unavailable: 'Unavailable',
 } as const;
 
@@ -56,3 +73,4 @@ export const enTranslates: Translate[] = Object.entries(en).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

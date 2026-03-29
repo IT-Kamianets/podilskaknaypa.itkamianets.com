@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const ro = {
 	'Go to homepage': 'Mergi la pagina principală',
@@ -39,14 +39,31 @@ export const ro = {
 	Reviews: 'Recenzii',
 	Events: 'Evenimente',
 	Jobs: 'Locuri de muncă',
-	'This page is currently empty': 'Această pagină este momentan goală',
-	'Check back later for updates.': 'Reveniți mai târziu pentru actualizări.',
+	'No articles yet': 'Nu există încă articole',
+	'New posts are on the way': 'Postări noi sunt pe drum',
+	'No events at the moment': 'Nu există evenimente în acest moment',
+	'New events are on the way': 'Evenimente noi sunt pe drum',
+	'No active promotions at the moment': 'Nu există promoții active în acest moment',
 	Favorites: 'Favorite',
 	'No saved dishes': 'Nu există preparate salvate',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Adăugați preparate din meniu la favorite și vor apărea aici.',
 	'Remove from favorites': 'Elimină din favorite',
 	'Add to favorites': 'Adaugă la favorite',
+	'Chef picks': 'Alegerile chef-ului',
+	'Ask restaurant staff': 'Întrebați personalul restaurantului',
+	'Cooking time': 'Timp de preparare',
+	'Pairs well with': 'Se potrivește bine cu',
+	'Dish details': 'Detalii despre preparat',
+	'Ask restaurant staff for portion details': 'Întrebați personalul restaurantului despre detaliile porției',
+	'No allergen information available': 'Nu sunt disponibile informații despre alergeni',
+	'Ask for price': 'Întrebați prețul',
+	'Calories': 'Calorii',
+	'About dish': 'Despre preparat',
+	'Menu section': 'Secțiunea meniului',
+	'Portion': 'Porție',
+	'Allergens': 'Alergeni',
+	'Browse full menu': 'Vezi întregul meniu',
 	Unavailable: 'Indisponibil',
 } as const;
 
@@ -56,3 +73,4 @@ export const roTranslates: Translate[] = Object.entries(ro).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

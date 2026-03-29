@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const bg = {
 	'Go to homepage': 'Към началната страница',
@@ -39,14 +39,31 @@ export const bg = {
 	Reviews: 'Отзиви',
 	Events: 'Събития',
 	Jobs: 'Работа',
-	'This page is currently empty': 'Тази страница в момента е празна',
-	'Check back later for updates.': 'Проверете отново по-късно за новини.',
+	'No articles yet': 'Все още няма статии',
+	'New posts are on the way': 'Новите публикации са на път',
+	'No events at the moment': 'В момента няма събития',
+	'New events are on the way': 'Нови събития предстоят',
+	'No active promotions at the moment': 'В момента няма активни промоции',
 	Favorites: 'Любими',
 	'No saved dishes': 'Няма запазени ястия',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Добавете ястия от менюто в любими и те ще се появят тук.',
 	'Remove from favorites': 'Премахни от любими',
 	'Add to favorites': 'Добави в любими',
+	'Chef picks': 'Избор на шефа',
+	'Ask restaurant staff': 'Попитайте персонала на ресторанта',
+	'Cooking time': 'Време за приготвяне',
+	'Pairs well with': 'Подхожда си с',
+	'Dish details': 'Детайли за ястието',
+	'Ask restaurant staff for portion details': 'Попитайте персонала на ресторанта за подробности за порцията',
+	'No allergen information available': 'Няма налична информация за алергени',
+	'Ask for price': 'Попитайте за цена',
+	'Calories': 'Калории',
+	'About dish': 'За ястието',
+	'Menu section': 'Раздел от менюто',
+	'Portion': 'Порция',
+	'Allergens': 'Алергени',
+	'Browse full menu': 'Преглед на цялото меню',
 	Unavailable: 'Няма',
 } as const;
 
@@ -56,3 +73,4 @@ export const bgTranslates: Translate[] = Object.entries(bg).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

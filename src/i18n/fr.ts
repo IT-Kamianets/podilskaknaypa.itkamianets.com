@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const fr = {
 	'Go to homepage': "Aller à la page d'accueil",
@@ -39,14 +39,31 @@ export const fr = {
 	Reviews: 'Avis',
 	Events: 'Événements',
 	Jobs: 'Emplois',
-	'This page is currently empty': 'Cette page est actuellement vide',
-	'Check back later for updates.': 'Revenez plus tard pour les mises à jour.',
+	'No articles yet': 'Pas encore d’articles',
+	'New posts are on the way': 'De nouveaux articles arrivent bientôt',
+	'No events at the moment': 'Il n’y a aucun événement pour le moment',
+	'New events are on the way': 'De nouveaux événements arrivent',
+	'No active promotions at the moment': 'Aucune promotion active pour le moment',
 	Favorites: 'Favoris',
 	'No saved dishes': 'Aucun plat enregistré',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Ajoutez des plats du menu aux favoris et ils apparaîtront ici.',
 	'Remove from favorites': 'Retirer des favoris',
 	'Add to favorites': 'Ajouter aux favoris',
+	'Chef picks': 'Choix du chef',
+	'Ask restaurant staff': 'Demandez au personnel du restaurant',
+	'Cooking time': 'Temps de préparation',
+	'Pairs well with': 'Se marie bien avec',
+	'Dish details': 'Détails du plat',
+	'Ask restaurant staff for portion details': 'Demandez au personnel du restaurant les détails de la portion',
+	'No allergen information available': 'Aucune information sur les allergènes disponible',
+	'Ask for price': 'Demander le prix',
+	'Calories': 'Calories',
+	'About dish': 'À propos du plat',
+	'Menu section': 'Section du menu',
+	'Portion': 'Portion',
+	'Allergens': 'Allergènes',
+	'Browse full menu': 'Voir tout le menu',
 	Unavailable: 'Indisponible',
 } as const;
 
@@ -56,3 +73,4 @@ export const frTranslates: Translate[] = Object.entries(fr).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

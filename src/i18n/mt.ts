@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const mt = {
 	'Go to homepage': 'Mur fil-paġna ewlenija',
@@ -39,14 +39,31 @@ export const mt = {
 	Reviews: 'Reviżjonijiet',
 	Events: 'Avvenimenti',
 	Jobs: 'Impjiegi',
-	'This page is currently empty': 'Din il-paġna bħalissa vojta',
-	'Check back later for updates.': 'Erġa’ lura aktar tard għall-aġġornamenti.',
+	'No articles yet': 'Għad m’hemmx artikli',
+	'New posts are on the way': 'Postijiet ġodda ġejjin',
+	'No events at the moment': 'Bħalissa m’hemmx avvenimenti',
+	'New events are on the way': 'Avvenimenti ġodda dalwaqt jaslu',
+	'No active promotions at the moment': 'Bħalissa m’hemmx promozzjonijiet attivi',
 	Favorites: 'Favoriti',
 	'No saved dishes': 'M’hemmx platti salvati',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Żid platti mill-menu mal-favoriti u jidhru hawnhekk.',
 	'Remove from favorites': 'Neħħi mill-favoriti',
 	'Add to favorites': 'Żid mal-favoriti',
+	'Chef picks': 'L-għażliet taċ-chef',
+	'Ask restaurant staff': 'Staqsi lill-persunal tar-ristorant',
+	'Cooking time': 'Ħin tat-tisjir',
+	'Pairs well with': 'Jaqbel tajjeb ma\'',
+	'Dish details': 'Dettalji tal-platt',
+	'Ask restaurant staff for portion details': 'Staqsi lill-persunal tar-ristorant għad-dettalji tal-porzjon',
+	'No allergen information available': 'M\'hemmx informazzjoni disponibbli dwar l-allerġeni',
+	'Ask for price': 'Staqsi għall-prezz',
+	'Calories': 'Kaloriji',
+	'About dish': 'Dwar il-platt',
+	'Menu section': 'Taqsima tal-menu',
+	'Portion': 'Porzjon',
+	'Allergens': 'Allerġeni',
+	'Browse full menu': 'Ara l-menu kollu',
 	Unavailable: 'Mhux disponibbli',
 } as const;
 
@@ -56,3 +73,4 @@ export const mtTranslates: Translate[] = Object.entries(mt).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

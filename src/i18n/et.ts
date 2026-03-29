@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const et = {
 	'Go to homepage': 'Mine avalehele',
@@ -39,14 +39,31 @@ export const et = {
 	Reviews: 'Arvustused',
 	Events: 'Sündmused',
 	Jobs: 'Töökohad',
-	'This page is currently empty': 'See leht on praegu tühi',
-	'Check back later for updates.': 'Tule hiljem tagasi, et näha uuendusi.',
+	'No articles yet': 'Artikleid veel ei ole',
+	'New posts are on the way': 'Uued postitused on teel',
+	'No events at the moment': 'Praegu üritusi ei ole',
+	'New events are on the way': 'Uued üritused on tulekul',
+	'No active promotions at the moment': 'Praegu pole aktiivseid pakkumisi',
 	Favorites: 'Lemmikud',
 	'No saved dishes': 'Salvestatud roogasid pole',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Lisa menüüst road lemmikutesse ja need ilmuvad siia.',
 	'Remove from favorites': 'Eemalda lemmikutest',
 	'Add to favorites': 'Lisa lemmikutesse',
+	'Chef picks': 'Koka valikud',
+	'Ask restaurant staff': 'Küsige restoranipersonalilt',
+	'Cooking time': 'Valmistamisaeg',
+	'Pairs well with': 'Sobib hästi koos',
+	'Dish details': 'Roa üksikasjad',
+	'Ask restaurant staff for portion details': 'Küsige restoranipersonalilt portsjoni kohta',
+	'No allergen information available': 'Allergeeniteave puudub',
+	'Ask for price': 'Küsi hinda',
+	'Calories': 'Kalorid',
+	'About dish': 'Roa kohta',
+	'Menu section': 'Menüü jaotis',
+	'Portion': 'Portsjon',
+	'Allergens': 'Allergeenid',
+	'Browse full menu': 'Vaata kogu menüüd',
 	Unavailable: 'Pole saadaval',
 } as const;
 
@@ -56,3 +73,4 @@ export const etTranslates: Translate[] = Object.entries(et).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

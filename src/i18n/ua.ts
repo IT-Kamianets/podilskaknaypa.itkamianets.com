@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const ua = {
 	'Go to homepage': 'Перейти на головну сторінку',
@@ -40,14 +40,31 @@ export const ua = {
 	Reviews: 'Відгуки',
 	Events: 'Події',
 	Jobs: 'Вакансії',
-	'This page is currently empty': 'Ця сторінка наразі порожня',
-	'Check back later for updates.': 'Завітайте пізніше, щоб побачити оновлення.',
+	'No articles yet': 'Статей поки немає',
+	'New posts are on the way': 'Нові дописи вже на підході',
+	'No events at the moment': 'Наразі подій немає',
+	'New events are on the way': 'Нові події вже на підході',
+	'No active promotions at the moment': 'Наразі активних акцій немає',
 	Favorites: 'Обране',
 	'No saved dishes': 'Немає збережених страв',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Додавайте позиції з меню в обране, і вони з’являться тут.',
 	'Remove from favorites': 'Видалити з обраного',
 	'Add to favorites': 'Додати в обране',
+	'Chef picks': 'Вибір шефа',
+	'Ask restaurant staff': 'Уточніть у персоналу ресторану',
+	'Cooking time': 'Час приготування',
+	'Pairs well with': 'Смакує з',
+	'Dish details': 'Деталі страви',
+	'Ask restaurant staff for portion details': 'Уточніть порцію у персоналу ресторану',
+	'No allergen information available': 'Немає інформації про алергени',
+	'Ask for price': 'Уточніть ціну',
+	'Calories': 'Калорійність',
+	'About dish': 'Про страву',
+	'Menu section': 'Розділ меню',
+	'Portion': 'Порція',
+	'Allergens': 'Алергени',
+	'Browse full menu': 'Переглянути все меню',
 	Unavailable: 'Немає',
 } as const;
 
@@ -57,3 +74,4 @@ export const uaTranslates: Translate[] = Object.entries(ua).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

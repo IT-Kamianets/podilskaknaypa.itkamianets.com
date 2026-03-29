@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const ga = {
 	'Go to homepage': 'Téigh go dtí an leathanach baile',
@@ -39,14 +39,31 @@ export const ga = {
 	Reviews: 'Léirmheasanna',
 	Events: 'Imeachtaí',
 	Jobs: 'Poist',
-	'This page is currently empty': 'Tá an leathanach seo folamh faoi láthair',
-	'Check back later for updates.': 'Tar ar ais níos déanaí le haghaidh nuashonruithe.',
+	'No articles yet': 'Níl aon alt ann fós',
+	'New posts are on the way': 'Tá poist nua ar an mbealach',
+	'No events at the moment': 'Níl aon imeachtaí ann faoi láthair',
+	'New events are on the way': 'Tá imeachtaí nua ar an mbealach',
+	'No active promotions at the moment': 'Níl aon chur chun cinn gníomhach ann faoi láthair',
 	Favorites: 'Ceanáin',
 	'No saved dishes': 'Níl aon mhiasa sábháilte',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Cuir míreanna ón roghchlár leis na ceanáin agus taispeánfar anseo iad.',
 	'Remove from favorites': 'Bain ó na ceanáin',
 	'Add to favorites': 'Cuir leis na ceanáin',
+	'Chef picks': 'Roghanna an chócaire',
+	'Ask restaurant staff': 'Iarr ar fhoireann na bialainne',
+	'Cooking time': 'Am cócaireachta',
+	'Pairs well with': 'Téann go maith le',
+	'Dish details': 'Sonraí an mhiasa',
+	'Ask restaurant staff for portion details': 'Iarr ar fhoireann na bialainne sonraí faoin chuid',
+	'No allergen information available': 'Níl eolas ar ailléirginí ar fáil',
+	'Ask for price': 'Iarr an praghas',
+	'Calories': 'Calraí',
+	'About dish': 'Maidir leis an mhias',
+	'Menu section': 'Rannóg an roghchláir',
+	'Portion': 'Cuid',
+	'Allergens': 'Ailléirginí',
+	'Browse full menu': 'Féach ar an roghchlár iomlán',
 	Unavailable: 'Níl ar fáil',
 } as const;
 
@@ -56,3 +73,4 @@ export const gaTranslates: Translate[] = Object.entries(ga).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

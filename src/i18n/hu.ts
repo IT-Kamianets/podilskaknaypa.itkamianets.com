@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const hu = {
 	'Go to homepage': 'Ugrás a kezdőlapra',
@@ -39,14 +39,31 @@ export const hu = {
 	Reviews: 'Vélemények',
 	Events: 'Események',
 	Jobs: 'Állások',
-	'This page is currently empty': 'Ez az oldal jelenleg üres',
-	'Check back later for updates.': 'Nézzen vissza később a frissítésekért.',
+	'No articles yet': 'Még nincsenek cikkek',
+	'New posts are on the way': 'Új bejegyzések hamarosan érkeznek',
+	'No events at the moment': 'Jelenleg nincsenek események',
+	'New events are on the way': 'Új események érkeznek hamarosan',
+	'No active promotions at the moment': 'Jelenleg nincsenek aktív akciók',
 	Favorites: 'Kedvencek',
 	'No saved dishes': 'Nincsenek mentett ételek',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Adjon ételeket a menüből a kedvencekhez, és itt jelennek meg.',
 	'Remove from favorites': 'Eltávolítás a kedvencekből',
 	'Add to favorites': 'Hozzáadás a kedvencekhez',
+	'Chef picks': 'A séf ajánlata',
+	'Ask restaurant staff': 'Kérdezze meg az étterem személyzetét',
+	'Cooking time': 'Elkészítési idő',
+	'Pairs well with': 'Jól illik hozzá',
+	'Dish details': 'Az étel részletei',
+	'Ask restaurant staff for portion details': 'Kérdezze meg az étterem személyzetét az adag részleteiről',
+	'No allergen information available': 'Nincs elérhető allergéninformáció',
+	'Ask for price': 'Érdeklődjön az ár felől',
+	'Calories': 'Kalória',
+	'About dish': 'Az ételről',
+	'Menu section': 'Menüszekció',
+	'Portion': 'Adag',
+	'Allergens': 'Allergének',
+	'Browse full menu': 'Teljes étlap megtekintése',
 	Unavailable: 'Nincs',
 } as const;
 
@@ -56,3 +73,4 @@ export const huTranslates: Translate[] = Object.entries(hu).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

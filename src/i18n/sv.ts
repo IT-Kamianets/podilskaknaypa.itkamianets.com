@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const sv = {
 	'Go to homepage': 'Gå till startsidan',
@@ -39,14 +39,31 @@ export const sv = {
 	Reviews: 'Recensioner',
 	Events: 'Evenemang',
 	Jobs: 'Jobb',
-	'This page is currently empty': 'Den här sidan är tom just nu',
-	'Check back later for updates.': 'Kom tillbaka senare för uppdateringar.',
+	'No articles yet': 'Inga artiklar än',
+	'New posts are on the way': 'Nya inlägg är på väg',
+	'No events at the moment': 'Det finns inga evenemang just nu',
+	'New events are on the way': 'Nya evenemang är på väg',
+	'No active promotions at the moment': 'Det finns inga aktiva erbjudanden just nu',
 	Favorites: 'Favoriter',
 	'No saved dishes': 'Inga sparade rätter',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Lägg till rätter från menyn i favoriter så visas de här.',
 	'Remove from favorites': 'Ta bort från favoriter',
 	'Add to favorites': 'Lägg till i favoriter',
+	'Chef picks': 'Kockens val',
+	'Ask restaurant staff': 'Fråga restaurangpersonalen',
+	'Cooking time': 'Tillagningstid',
+	'Pairs well with': 'Passar bra med',
+	'Dish details': 'Detaljer om rätten',
+	'Ask restaurant staff for portion details': 'Fråga restaurangpersonalen om portionsdetaljer',
+	'No allergen information available': 'Ingen allergeninformation tillgänglig',
+	'Ask for price': 'Fråga om priset',
+	'Calories': 'Kalorier',
+	'About dish': 'Om rätten',
+	'Menu section': 'Menysektion',
+	'Portion': 'Portion',
+	'Allergens': 'Allergener',
+	'Browse full menu': 'Se hela menyn',
 	Unavailable: 'Ej tillgänglig',
 } as const;
 
@@ -56,3 +73,4 @@ export const svTranslates: Translate[] = Object.entries(sv).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

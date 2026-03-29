@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const fi = {
 	'Go to homepage': 'Siirry etusivulle',
@@ -39,14 +39,31 @@ export const fi = {
 	Reviews: 'Arvostelut',
 	Events: 'Tapahtumat',
 	Jobs: 'Työpaikat',
-	'This page is currently empty': 'Tämä sivu on tällä hetkellä tyhjä',
-	'Check back later for updates.': 'Palaa myöhemmin katsomaan päivityksiä.',
+	'No articles yet': 'Ei vielä artikkeleita',
+	'New posts are on the way': 'Uusia julkaisuja on tulossa',
+	'No events at the moment': 'Tällä hetkellä ei ole tapahtumia',
+	'New events are on the way': 'Uusia tapahtumia on tulossa',
+	'No active promotions at the moment': 'Tällä hetkellä ei ole aktiivisia tarjouksia',
 	Favorites: 'Suosikit',
 	'No saved dishes': 'Ei tallennettuja annoksia',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Lisää annoksia valikosta suosikkeihin, niin ne näkyvät täällä.',
 	'Remove from favorites': 'Poista suosikeista',
 	'Add to favorites': 'Lisää suosikkeihin',
+	'Chef picks': 'Keittiömestarin valinnat',
+	'Ask restaurant staff': 'Kysy ravintolan henkilökunnalta',
+	'Cooking time': 'Valmistusaika',
+	'Pairs well with': 'Sopii hyvin yhteen',
+	'Dish details': 'Annoksen tiedot',
+	'Ask restaurant staff for portion details': 'Kysy annoskoosta ravintolan henkilökunnalta',
+	'No allergen information available': 'Allergeenitietoja ei ole saatavilla',
+	'Ask for price': 'Kysy hintaa',
+	'Calories': 'Kalorit',
+	'About dish': 'Annoksesta',
+	'Menu section': 'Menun osio',
+	'Portion': 'Annos',
+	'Allergens': 'Allergeenit',
+	'Browse full menu': 'Selaa koko menu',
 	Unavailable: 'Ei saatavilla',
 } as const;
 
@@ -56,3 +73,4 @@ export const fiTranslates: Translate[] = Object.entries(fi).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

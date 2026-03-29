@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const da = {
 	'Go to homepage': 'Gå til forsiden',
@@ -39,14 +39,31 @@ export const da = {
 	Reviews: 'Anmeldelser',
 	Events: 'Begivenheder',
 	Jobs: 'Job',
-	'This page is currently empty': 'Denne side er tom lige nu',
-	'Check back later for updates.': 'Kom tilbage senere for opdateringer.',
+	'No articles yet': 'Ingen artikler endnu',
+	'New posts are on the way': 'Nye indlæg er på vej',
+	'No events at the moment': 'Der er ingen begivenheder i øjeblikket',
+	'New events are on the way': 'Nye begivenheder er på vej',
+	'No active promotions at the moment': 'Der er ingen aktive tilbud i øjeblikket',
 	Favorites: 'Favoritter',
 	'No saved dishes': 'Ingen gemte retter',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Tilføj retter fra menuen til favoritter, så vises de her.',
 	'Remove from favorites': 'Fjern fra favoritter',
 	'Add to favorites': 'Tilføj til favoritter',
+	'Chef picks': 'Kokkens valg',
+	'Ask restaurant staff': 'Spørg restaurantpersonalet',
+	'Cooking time': 'Tilberedningstid',
+	'Pairs well with': 'Passer godt med',
+	'Dish details': 'Detaljer om retten',
+	'Ask restaurant staff for portion details': 'Spørg restaurantpersonalet om portionsdetaljer',
+	'No allergen information available': 'Ingen allergenoplysninger tilgængelige',
+	'Ask for price': 'Spørg om prisen',
+	'Calories': 'Kalorier',
+	'About dish': 'Om retten',
+	'Menu section': 'Menusektion',
+	'Portion': 'Portion',
+	'Allergens': 'Allergener',
+	'Browse full menu': 'Se hele menuen',
 	Unavailable: 'Udsolgt',
 } as const;
 
@@ -56,3 +73,4 @@ export const daTranslates: Translate[] = Object.entries(da).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

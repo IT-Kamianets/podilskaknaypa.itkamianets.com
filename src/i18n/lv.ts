@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const lv = {
 	'Go to homepage': 'Doties uz sākumlapu',
@@ -39,14 +39,31 @@ export const lv = {
 	Reviews: 'Atsauksmes',
 	Events: 'Pasākumi',
 	Jobs: 'Darbs',
-	'This page is currently empty': 'Šī lapa pašlaik ir tukša',
-	'Check back later for updates.': 'Atgriezieties vēlāk, lai redzētu atjauninājumus.',
+	'No articles yet': 'Rakstu vēl nav',
+	'New posts are on the way': 'Jauni ieraksti ir ceļā',
+	'No events at the moment': 'Pašlaik nav pasākumu',
+	'New events are on the way': 'Jauni pasākumi jau ir ceļā',
+	'No active promotions at the moment': 'Šobrīd nav aktīvu akciju',
 	Favorites: 'Izlase',
 	'No saved dishes': 'Nav saglabātu ēdienu',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Pievienojiet ēdienus no ēdienkartes izlasei, un tie parādīsies šeit.',
 	'Remove from favorites': 'Noņemt no izlases',
 	'Add to favorites': 'Pievienot izlasei',
+	'Chef picks': 'Šefpavāra izvēle',
+	'Ask restaurant staff': 'Jautājiet restorāna personālam',
+	'Cooking time': 'Gatavošanas laiks',
+	'Pairs well with': 'Labi sader ar',
+	'Dish details': 'Ēdiena informācija',
+	'Ask restaurant staff for portion details': 'Jautājiet restorāna personālam par porcijas informāciju',
+	'No allergen information available': 'Nav pieejama informācija par alergēniem',
+	'Ask for price': 'Jautājiet cenu',
+	'Calories': 'Kalorijas',
+	'About dish': 'Par ēdienu',
+	'Menu section': 'Ēdienkartes sadaļa',
+	'Portion': 'Porcija',
+	'Allergens': 'Alergēni',
+	'Browse full menu': 'Skatīt visu ēdienkarti',
 	Unavailable: 'Nav pieejams',
 } as const;
 
@@ -56,3 +73,4 @@ export const lvTranslates: Translate[] = Object.entries(lv).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

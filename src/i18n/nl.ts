@@ -1,4 +1,4 @@
-import { Translate } from 'wacom';
+﻿import { Translate } from 'wacom';
 
 export const nl = {
 	'Go to homepage': 'Ga naar de homepage',
@@ -39,14 +39,31 @@ export const nl = {
 	Reviews: 'Beoordelingen',
 	Events: 'Evenementen',
 	Jobs: 'Vacatures',
-	'This page is currently empty': 'Deze pagina is momenteel leeg',
-	'Check back later for updates.': 'Kom later terug voor updates.',
+	'No articles yet': 'Nog geen artikelen',
+	'New posts are on the way': 'Nieuwe berichten zijn onderweg',
+	'No events at the moment': 'Er zijn momenteel geen evenementen',
+	'New events are on the way': 'Nieuwe evenementen zijn onderweg',
+	'No active promotions at the moment': 'Er zijn momenteel geen actieve promoties',
 	Favorites: 'Favorieten',
 	'No saved dishes': 'Geen opgeslagen gerechten',
 	'Add items from the menu to favorites, and they will appear here.':
 		'Voeg gerechten uit het menu toe aan favorieten en ze verschijnen hier.',
 	'Remove from favorites': 'Uit favorieten verwijderen',
 	'Add to favorites': 'Toevoegen aan favorieten',
+	'Chef picks': 'Keuzes van de chef',
+	'Ask restaurant staff': 'Vraag het restaurantpersoneel',
+	'Cooking time': 'Bereidingstijd',
+	'Pairs well with': 'Past goed bij',
+	'Dish details': 'Details van het gerecht',
+	'Ask restaurant staff for portion details': 'Vraag het restaurantpersoneel naar portiedetails',
+	'No allergen information available': 'Geen allergeneninformatie beschikbaar',
+	'Ask for price': 'Vraag naar de prijs',
+	'Calories': 'Calorieën',
+	'About dish': 'Over het gerecht',
+	'Menu section': 'Menusectie',
+	'Portion': 'Portie',
+	'Allergens': 'Allergenen',
+	'Browse full menu': 'Bekijk volledig menu',
 	Unavailable: 'Niet beschikbaar',
 } as const;
 
@@ -56,3 +73,4 @@ export const nlTranslates: Translate[] = Object.entries(nl).map(([sourceText, te
 	sourceText,
 	text,
 }));
+

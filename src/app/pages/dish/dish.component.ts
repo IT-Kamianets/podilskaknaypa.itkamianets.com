@@ -2,8 +2,8 @@ import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/c
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { TranslatePipe, TranslateService } from 'wacom';
-import { FavoritesService } from '../../feature/menu/favorites.service';
 import { LanguageService } from '../../feature/language/language.service';
+import { FavoritesService } from '../../feature/menu/favorites.service';
 import {
 	type RawMenuItem,
 	type RawMenuSection,
@@ -96,7 +96,7 @@ function _buildDishViewModel(
 		title: translateMenuValue(item.title, language) ?? item.slug,
 		description: cleanText(translateMenuValue(item.description, language)),
 		fullDescription: cleanText(translateMenuValue(item.fullDescription, language)),
-		price: _formatPrice(item.price, language, translateService),
+		price: _formatPrice(item.price, translateService),
 		labels: item.labels
 			.map((label) => cleanText(translateMenuValue(label, language)))
 			.filter((label): label is string => Boolean(label)),
@@ -166,20 +166,14 @@ function _buildSuggestions(
 			slug: item.slug,
 			title: translateMenuValue(item.title, language) ?? item.slug,
 			description: cleanText(translateMenuValue(item.description, language)),
-			price: _formatPrice(item.price, language, translateService),
+			price: _formatPrice(item.price, translateService),
 			imageAlt: translateMenuValue(item.title, language) ?? item.slug,
 		}));
 }
 
-function _formatPrice(
-	price: number | null,
-	language: ReturnType<LanguageService['language']>,
-	translateService: TranslateService,
-) {
+function _formatPrice(price: number | null, translateService: TranslateService) {
 	if (price === null) {
-		return language === 'ua'
-			? 'Ціну уточнюйте'
-			: translateService.translate('Ask for price')();
+		return translateService.translate('Ask for price')();
 	}
 
 	return `${price} €`;
